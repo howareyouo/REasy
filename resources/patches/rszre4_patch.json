@@ -5548,6 +5548,143 @@
 		],
 		"name": "via.render.Primitive"
 	},
+	"158808d2": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DevelopDraw",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Shape",
+				"native": true,
+				"original_type": "via.physics.Shape",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FilterInfo",
+				"native": true,
+				"original_type": "via.physics.FilterInfo",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Userdata",
+				"native": true,
+				"original_type": "via.physics.UserData",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.physics.Collidable"
+	},
+	"cc738b45": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Index",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "v2_OBB",
+				"native": true,
+				"original_type": "via.OBB",
+				"size": 80,
+				"type": "OBB"
+			}
+		],
+		"name": "via.octree.OctreeItemOBB"
+	},
+	"aade4e94": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Index",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "v2_AABB",
+				"native": true,
+				"original_type": "via.AABB",
+				"size": 32,
+				"type": "AABB"
+			}
+		],
+		"name": "via.octree.OctreeItemAABB"
+	},
+	"fc4613e": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Index",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.octree.OctreeItem"
+	},
 	"15d3b4ec": {
 		"fields": [
 			{
@@ -5562,11 +5699,11 @@
 			{
 				"align": 1,
 				"array": false,
-				"name": "GameObject",
+				"name": "DevelopDraw",
 				"native": true,
-				"original_type": "via.GameObject",
+				"original_type": "",
 				"size": 1,
-				"type": "U8"
+				"type": "Bool"
 			},
 			{
 				"align": 4,
@@ -5634,6 +5771,52 @@
 		],
 		"name": "via.physics.Collider"
 	},
+	"14f90405": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "Instances",
+				"native": true,
+				"original_type": "via.physics.StaticCompoundShape.Instance",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.physics.StaticCompoundShape"
+	},
+	"9a1ec029": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resource",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.physics.SkinningMeshShape"
+	},
 	"7151a2d1": {
 		"fields": [
 			{
@@ -5647,6 +5830,193 @@
 			}
 		],
 		"name": "via.physics.Shape"
+	},
+	"d5371785": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resource",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": true,
+				"name": "PartEnableds",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SelectedPartIndex",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "TransformMatrix",
+				"native": false,
+				"original_type": "via.mat4",
+				"size": 64,
+				"type": "Mat4"
+			}
+		],
+		"name": "via.physics.MeshShape"
+	},
+	"f25e837": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Cylinder_p0",
+				"native": true,
+				"original_type": "",
+				"size": 16,
+				"type": "Data"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Cylinder_p1",
+				"native": true,
+				"original_type": "",
+				"size": 16,
+				"type": "Data"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Cylinder_r",
+				"native": true,
+				"original_type": "",
+				"size": 16,
+				"type": "F32"
+			}
+		],
+		"name": "via.physics.CylinderShape"
+	},
+	"7979105c": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Triangle_p0",
+				"native": true,
+				"original_type": "",
+				"size": 16,
+				"type": "Data"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Triangle_p1",
+				"native": true,
+				"original_type": "",
+				"size": 16,
+				"type": "Data"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Triangle_p2",
+				"native": true,
+				"original_type": "",
+				"size": 16,
+				"type": "Data"
+			}
+		],
+		"name": "via.physics.TriangleShape"
+	},
+	"64b15747": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			}
+		],
+		"name": "via.physics.DeformableMeshShape"
+	},
+	"c46ba018": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resource",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Position",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Edited",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.physics.HeightFieldShape"
 	},
 	"7af3b809": {
 		"fields": [
@@ -5716,6 +6086,29 @@
 			}
 		],
 		"name": "via.physics.BoxShape"
+	},
+	"35d4232a": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Capsule",
+				"native": false,
+				"original_type": "via.Capsule",
+				"size": 48,
+				"type": "Capsule"
+			}
+		],
+		"name": "via.physics.ContinuousCapsuleShape"
 	},
 	"864a4a8e": {
 		"fields": [
@@ -29341,6 +29734,3205 @@
 		],
 		"name": "chainsaw.EnemyDropKeyItemFlagSet"
 	},
+	"ea8c0a1f": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v4_ServiceLabel",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.network.AchievementsPs5Psn"
+	},
+	"6e817f72": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.AchievementsWeGame"
+	},
+	"95776c66": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Verbose",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Reusable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Type",
+				"native": true,
+				"original_type": "via.os.http_client.Type",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "ReceiveDataMaxSize",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			}
+		],
+		"name": "via.network.HttpClient"
+	},
+	"cbb3d0eb": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextWeGame"
+	},
+	"e7430ffa": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterBase"
+	},
+	"c37711aa": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterGgp"
+	},
+	"78fc5bb5": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterLamm"
+	},
+	"fa835d3a": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterLive"
+	},
+	"a75c4f52": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterPs5Psn"
+	},
+	"2ac1a933": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterPsn"
+	},
+	"7ce48502": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterRebe"
+	},
+	"e3766781": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterSteam"
+	},
+	"26e7b480": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationBase"
+	},
+	"93ee7374": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationLamm"
+	},
+	"1ad0e122": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationLive"
+	},
+	"ea3fb50e": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationPsn"
+	},
+	"b5cf68d4": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationRebe"
+	},
+	"e4123d31": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationSteam"
+	},
+	"2bfb7068": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OodleNetworkRuntimeData",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.network.ProtocolMinimum"
+	},
+	"d29c20ac": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OodleNetworkRuntimeData",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthMax",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.network.ProtocolRPCFastPass"
+	},
+	"a4323c5": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OodleNetworkRuntimeData",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthMax",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.network.ProtocolReliable"
+	},
+	"360de518": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OodleNetworkRuntimeData",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.network.ProtocolBase"
+	},
+	"edf79d0": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OodleNetworkRuntimeData",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Redundancy",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthMin",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthMax",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthStart",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SendIntervalMin",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MaxSendBufferSize",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TurboBoostSendSize",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DefaultProtocol(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HostRelay(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ProtocolRPC"
+	},
+	"bde69a95": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OodleNetworkRuntimeData",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Redundancy",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthMin",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthMax",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BandwidthStart",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SendIntervalMin",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MaxSendBufferSize",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TurboBoostSendSize",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DefaultProtocol(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HostRelay(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.SubsidiarySessionProtocol"
+	},
+	"76b108f7": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OodleNetworkRuntimeData",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SendRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SendRateStart",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ControlSendRate",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "WatchProtocolRPC",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ReliableAsync",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ReliableCompress",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ProtocolBroadcast"
+	},
+	"add4d107": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationWeGame"
+	},
+	"852fad92": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvitationAcceptDisuse",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableContextEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSessionEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableFinalizeOnJoinFail",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptUserIndex",
+				"native": true,
+				"original_type": "via.UserIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevAcceptSessionIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.InvitationPs5Psn"
+	},
+	"38f8f0": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.IdConverterWeGame"
+	},
+	"ffd9eaab": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "v4_DisconnectionDetectionTime",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "S64"
+			}
+		],
+		"name": "via.network.ContextSteam"
+	},
+	"ee775d14": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v4_OverwriteUniqueIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.ContextStar"
+	},
+	"2b1562eb": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextSolstice"
+	},
+	"e1d6f863": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OverwriteUniqueIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AuthorizeOnly",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AuthOnlyAndUniqueId",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Ps4AuthCode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Ps4ShowCommunicationRestrictionDialog",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Ps4ShowSignInDialog",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Ps5AuthCode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Ps5ShowCommunicationRestrictionDialog",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Ps5ShowSignInDialog",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextRebe"
+	},
+	"a4ca2029": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextPsn"
+	},
+	"f3ab354e": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableProgress",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ProgressStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSignInDialog",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableReachabilityCheck",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableNewVersionCheck",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "RequireNewVersion",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextPs5Psn"
+	},
+	"a07bd704": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextPiaLocal"
+	},
+	"1cd79337": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextPiaInet"
+	},
+	"ab877f86": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextNpln"
+	},
+	"6139de52": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextNex"
+	},
+	"3e9f4ddb": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextLive"
+	},
+	"69270916": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OverwriteUniqueIdStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.ContextLamm"
+	},
+	"e33bf73f": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextGgp"
+	},
+	"11c0090": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ContextBase"
+	},
+	"24107e25": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.AchievementsSteam"
+	},
+	"fa0978c8": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v4_ServiceLabel",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.network.AchievementsPsn"
+	},
+	"96b01e8e": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.AchievementsLive"
+	},
+	"e17612c9": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.AchievementsLamm"
+	},
+	"634343df": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.AchievementsGgp"
+	},
+	"36715a62": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.AchievementsAgc"
+	},
+	"7a08562a": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.AchievementsBase"
+	},
+	"248f7b00": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DevDummyScoreEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "DevDummyScoreTotalNum",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "DevDummyScoreGetSec",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			}
+		],
+		"name": "via.network.RankingGgp"
+	},
+	"bece2ee3": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DevDummyScoreEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "DevDummyScoreTotalNum",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "DevDummyScoreGetSec",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			}
+		],
+		"name": "via.network.RankingLamm"
+	},
+	"6a3ca2a": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DevDummyScoreEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "DevDummyScoreTotalNum",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "DevDummyScoreGetSec",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			}
+		],
+		"name": "via.network.RankingBase"
+	},
+	"11666d52": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": false,
+				"original_type": "System.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisuseShowError(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EventEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Fatal(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.network.ServiceBase"
+	},
 	"18f6df9": {
 		"fields": [
 			{
@@ -46724,6 +50316,29 @@
 			}
 		],
 		"name": "chainsaw.LightbarController"
+	},
+	"1560e3ae": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Area",
+				"native": true,
+				"original_type": "via.Area",
+				"size": 48,
+				"type": "Area"
+			}
+		],
+		"name": "via.physics.AreaShape"
 	},
 	"879ac22a": {
 		"fields": [
@@ -188445,6 +192060,1232 @@
 			}
 		],
 		"name": "chainsaw.posteffect.FilterSettingGeometryAO"
+	},
+	"69d8aef4": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "chainsaw.collision.ActionSignUserData"
+	},
+	"dc6105e0": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.physics.Terrain2dUserData"
+	},
+	"2db61346": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.physics.ColliderSetUserData"
+	},
+	"c34a8bea": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "chainsaw.collision.TouchUserData"
+	},
+	"4b03a38": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "chainsaw.collision.SuspensionBridgeSensorUserData"
+	},
+	"7e597ba": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_Compulsion",
+				"native": false,
+				"original_type": "chainsaw.PlayerDefine.CompulsionType",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_Restriction",
+				"native": false,
+				"original_type": "chainsaw.PlayerDefine.RestrictionType",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_ActingZoneType",
+				"native": false,
+				"original_type": "chainsaw.PlayerDefine.ActingZoneType",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "chainsaw.collision.PlayerActorZoneUserData"
+	},
+	"2279eca9": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_DrawShadowDisableWet",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_DisableFootsteps",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_DisableDeathVFX",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.collision.PerformanceOptimizeZoneUserData"
+	},
+	"8bcf6d02": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Test",
+				"native": false,
+				"original_type": "System.Int32",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "chainsaw.collision.PartnerNpcAlertSensorUserData"
+	},
+	"5c638191": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_AutoRecoverySec",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "chainsaw.collision.PartnerAutoRecoveryZoneUserData"
+	},
+	"b1d15428": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_Restriction",
+				"native": false,
+				"original_type": "chainsaw.Npc.RestrictionType",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "chainsaw.collision.PartnerActorZoneUserData"
+	},
+	"5321a44b": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "chainsaw.collision.ParryStartUserData"
+	},
+	"d80b9bc4": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_GroupID",
+				"native": false,
+				"original_type": "chainsaw.collision.PressGroupID",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "chainsaw.collision.PressUserData"
+	},
+	"af9c6f34": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HitGroup",
+				"native": false,
+				"original_type": "chainsaw.HitManager.HitGroup",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Priority",
+				"native": false,
+				"original_type": "chainsaw.HitManager.HitPriority",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Parts",
+				"native": false,
+				"original_type": "chainsaw.character.BodyParts",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PartsSide",
+				"native": false,
+				"original_type": "chainsaw.character.BodyPartsSide",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IsSkipSpaceIDCheck",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ArrowPassThrough",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.collision.PlayerDamageUserData"
+	},
+	"459161bc": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HitGroup",
+				"native": false,
+				"original_type": "chainsaw.HitManager.HitGroup",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Priority",
+				"native": false,
+				"original_type": "chainsaw.HitManager.HitPriority",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Parts",
+				"native": false,
+				"original_type": "chainsaw.character.BodyParts",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PartsSide",
+				"native": false,
+				"original_type": "chainsaw.character.BodyPartsSide",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IsSkipSpaceIDCheck",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ArrowPassThrough",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_IsNotNotifyToAttack",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.collision.GimmickDamageUserData"
+	},
+	"13ef13c3": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HitGroup",
+				"native": false,
+				"original_type": "chainsaw.HitManager.HitGroup",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Priority",
+				"native": false,
+				"original_type": "chainsaw.HitManager.HitPriority",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Parts",
+				"native": false,
+				"original_type": "chainsaw.character.BodyParts",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PartsSide",
+				"native": false,
+				"original_type": "chainsaw.character.BodyPartsSide",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IsSkipSpaceIDCheck",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ArrowPassThrough",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IsArmored",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.collision.EnemyDamageUserData"
+	},
+	"5fbfda4": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_AttackHitDataID",
+				"native": false,
+				"original_type": "chainsaw.collision.AttackDataID",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_KeyNameHash",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_GrapplePriority",
+				"native": false,
+				"original_type": "chainsaw.collision.AttackPriority",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "chainsaw.collision.GrappleUserData"
+	},
+	"d114ae08": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_AttackHitDataID",
+				"native": false,
+				"original_type": "chainsaw.collision.AttackDataID",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_KeyNameHash",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "chainsaw.collision.AttackSignUserData"
+	},
+	"c7eec2b2": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "chainsaw.collision.HitUserDataRoot"
+	},
+	"cb12b0e": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ColliderStartIdx",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ColliderEndIdx",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "chainsaw.collision.GrassZoneSensorUserData"
+	},
+	"29d9c033": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Density",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Height",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IsTree",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Center",
+				"native": false,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			}
+		],
+		"name": "chainsaw.collision.GrassSensorUserData"
+	},
+	"6c5f48b2": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_KeyNameHash",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_AttackType",
+				"native": false,
+				"original_type": "chainsaw.character.AttackType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_AttackPower",
+				"native": false,
+				"original_type": "chainsaw.character.AttackPower",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_LinkTarget",
+				"native": false,
+				"original_type": "chainsaw.collision.EnemyLinkUserData.EnemyLinkTarget",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_ActionWaitTime",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "chainsaw.collision.EnemyLinkUserData"
+	},
+	"9d39bc5": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Targets",
+				"native": false,
+				"original_type": "chainsaw.InteractTrigger.TargetFlag",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "TargetContexts",
+				"native": false,
+				"original_type": "chainsaw.ContextID",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "chainsaw.PhasedWoodBoxAreaTriggerUserData"
+	},
+	"5112be1f": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_Key",
+				"native": false,
+				"original_type": "System.String",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "chainsaw.NpcControlAreaUserData"
+	},
+	"8a0786b8": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_Kind",
+				"native": false,
+				"original_type": "chainsaw.JetSkiColliderUserData.KindType",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "chainsaw.JetSkiColliderUserData"
+	},
+	"c7516ccc": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ParentUserData",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.physics.RequestSetColliderUserData"
+	},
+	"caed38c9": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "AssignMethod",
+				"native": true,
+				"original_type": "via.hid.GamePlayerAssignMethod",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AssignButton",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OverwriteButton",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DeviceSelectionRule",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.DeviceSelectionRule",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayerNumber",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MinPlayerNumber",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AutoDeviceSelectionFlag",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.AutoDeviceSelectionFlag",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AutoStartOnSceneStart",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AutoResetOnSceneStop",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AutoPlayFlag(?)",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.AutoPlayFlag",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AccountPickerShowRule(?)",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.AccountPickerShowRule",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevicePickerShowRule(?)",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.DevicePickerShowRule",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevicePickerDelaySecond(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.GamePlayerAssignor"
+	},
+	"c0c47c76": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayerOtherDeviceHandling",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.PlayerOtherDeviceHandling",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.hid.GamePlayerAssignMethodUserEqualPlayer"
+	},
+	"a41ec15e": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayerOtherDeviceHandling",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.PlayerOtherDeviceHandling",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceAssignInitialUserTo1P",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.GamePlayerAssignMethodSelectUser"
+	},
+	"48519c3a": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayerOtherDeviceHandling",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.PlayerOtherDeviceHandling",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.hid.GamePlayerAssignMethodNone"
+	},
+	"5a24964d": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayerOtherDeviceHandling",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.PlayerOtherDeviceHandling",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.hid.GamePlayerAssignMethodDisregardUser"
+	},
+	"9eb97b53": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayerOtherDeviceHandling",
+				"native": true,
+				"original_type": "via.hid.gamePlayer.PlayerOtherDeviceHandling",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.hid.GamePlayerAssignMethod"
 	},
 	"8b435dc4": {
 		"fields": [
