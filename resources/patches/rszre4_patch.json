@@ -2271,16 +2271,16 @@
 			{
 				"align": 4,
 				"array": false,
-				"name": "NumRigidBodies(?)",
+				"name": "CalculateTypes",
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "Data"
+				"type": "U32"
 			},
 			{
 				"align": 4,
 				"array": true,
-				"name": "Resources",
+				"name": "MeshResources",
 				"native": true,
 				"original_type": "via.resource_handle",
 				"size": 4,
@@ -2288,6 +2288,92 @@
 			}
 		],
 		"name": "via.dynamics.RigidBodyMeshSet"
+	},
+	"7b74e68e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "Trees",
+				"native": true,
+				"original_type": "via.behaviortree.BehaviorTree.CoreHandle",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserVariables",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ExecLine",
+				"native": true,
+				"original_type": "via.behaviortree.ExecLine",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ExecGroup",
+				"native": true,
+				"original_type": "via.behaviortree.ExecGroup",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PuppetMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PuppetKeepActivation",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "unknown",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Data"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "unknown",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Data"
+			}
+		],
+		"name": "via.behaviortree.BehaviorTree"
 	},
 	"9f89d654": {
 		"fields": [
@@ -2357,7 +2443,7 @@
 			{
 				"align": 1,
 				"array": false,
-				"name": "ToolPuppetMode",
+				"name": "unknown",
 				"native": true,
 				"original_type": "",
 				"size": 1,
@@ -2366,7 +2452,7 @@
 			{
 				"align": 4,
 				"array": false,
-				"name": "TotalNodeCount(?)",
+				"name": "unknown",
 				"native": true,
 				"original_type": "",
 				"size": 4,
@@ -2471,7 +2557,6 @@
 		"name": "via.behaviortree.BehaviorTree.CoreHandle"
 	},
 	"91af06d0": {
-		"crc": "cffe6dbc",
 		"fields": [
 			{
 				"align": 8,
@@ -67161,6 +67246,359 @@
 		],
 		"name": "via.dynamics.GpuCloth"
 	},
+	"3cd97aab": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "JointName",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Weight",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.motion.ConstWeightData"
+	},
+	"3d66acb0": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "MemoryArrayLength",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Metadata",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "RawBytes"
+			}
+		],
+		"name": "via.storage.saveService.LoadMetadataFromMemoryParam"
+	},
+	"3cc88084": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveServiceSegment(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveServiceSegmentType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "SaveFileDetailTblEnabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveMountPath",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveDirectoryPath",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TitleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FingerPrint",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveTransferring",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveTransferring",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "SaveDataSize(?)",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ShowSaveDataListMax(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ShowSaveDataSeek(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SystemSaveFileDetail(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveFileDetail",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "SaveFileDetailUpdateRequest(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BufferReserveSize(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveDialogOption(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveDialogOption",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveTimeout(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveServiceMode(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveServiceMode",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ErrorSimulation(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveResult",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ErrorSimulationV2(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.ErrorSimulationV2",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveEncryptionType(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveDataEncryptionType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveEncryptionPlatform(?)",
+				"native": true,
+				"original_type": "via.storage.saveService.SaveDataEncryptionPlatform",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "FakeOwner(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "LastLoadAccountId",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "OverrideSaveAccountId",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "LockGarbageCollection",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserDefineCollectionName",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceWindows",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "CompleteSaveBeforeSuspend",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "SerializeIgnoreDataMember",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "SerializeVolatileDataMember",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.storage.saveService.SaveService"
+	},
+	"2b1634eb": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Title",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SubTitle",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Detail",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Slot",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.storage.saveService.SaveFileDetail"
+	},
 	"f5e07b51": {
 		"fields": [
 			{
@@ -72651,6 +73089,74 @@
 		],
 		"name": "chainsaw.SoundWeaponContainer"
 	},
+	"eba9971a": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "_UserDataList",
+				"native": false,
+				"original_type": "soundlib.SoundContainableUserData",
+				"size": 4,
+				"type": "UserData"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_DynamicLoadData",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_ShotReverbDistance",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_HitDelayTimeSec",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_HitDelayRandomTimeSec",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_MaxHitCnt",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "chainsaw.SoundGunContainer"
+	},
 	"42cafa7": {
 		"fields": [
 			{
@@ -72751,6 +73257,79 @@
 			}
 		],
 		"name": "chainsaw.ShellGeneratorBase`1<chainsaw.ShellThrowingHarpoonGeneratorUserData>"
+	},
+	"66c7b0cc": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AOIntensityRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "AmbientOcclusionGeometryElementTbl",
+				"native": true,
+				"original_type": "via.render.AmbientOcclusionGeometryElement",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.render.AmbientOcclusionGeometry"
+	},
+	"66a6b035": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "DialogueID(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevelopPlayState(?)",
+				"native": true,
+				"original_type": "via.timeline.DialogueTimelinePlayer.DevPlayState",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DevelopFrame(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DevelopLoop(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.timeline.DialogueTimelinePlayer"
 	},
 	"9aa77494": {
 		"fields": [
@@ -99481,6 +100060,461 @@
 			}
 		],
 		"name": "via.motion.IkSpineBend"
+	},
+	"67203bef": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseInstancingDraw(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisableDrawMesh(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisableDrawShadow(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisableDrawOccluder(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "StreamingLoadLodRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LodBias(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LodRate(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LodRate2(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseStreamingDistanceThreshold",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "StreamingDistanceTheshold",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BoundingLengthScale",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseShadowInstancingDraw",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseFrustumCullingOnCPU",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "FrustumCullingInScene",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "FrustumCullingInShadow",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HierachyFrustumCullingEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HierachyBlockCount",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "U8"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseGpuFrustumCulling",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseGpuOcclusionCulling",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseInstancingCount",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "U8"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PartialZPrepassRange",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PartialZPrepass",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceZPrepass",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AlphaTestZPrepassFirst",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ZPrepassDisable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "GpuBasedShadowMeshCulling",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "GpuBasedShadowNoneSkinningMeshCulling",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableShadowLod",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableShadowCacheUseLOD",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ForceUpdateBufferThreshold",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableBlendShapePrecedeAsyncCompute",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableNormalRecalcMeshPrecedeAsyncCompute",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ShadowLodSyncMode",
+				"native": true,
+				"original_type": "via.render.MeshRenderer.ReplaceShadowLodSyncMode",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "TransparentPriorityAdjusting",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "VariableRateShadingLevel",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ShaderLodGlobalValue",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ForceShaderLod",
+				"native": true,
+				"original_type": "via.render.ForceShaderLod",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugDrawShadowLodBias",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableDebugShadowLOD",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugDrawIntensity",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugDrawOpacity",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableDebugLodLevelCharacter",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugDrawFarClipForCharacter(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LodSettings",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AlwaisFlushPipelineResourceTable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableSceneOptimizer",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableProfile",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RenderOutputID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PerMeshRenderOutputIDEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "StaticWaitFrame",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.render.MeshRenderer"
 	},
 	"222b0593": {
 		"fields": [
@@ -170624,6 +171658,192 @@
 		],
 		"name": "chainsaw.GmMCGimmickRandomSet"
 	},
+	"dd2152b4": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.NativeDeviceBase"
+	},
+	"67f66a5a": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "ClearTargetResource",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.render.ClearRenderTarget"
+	},
+	"676e3287": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Data"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ReductionLevel",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Threshold",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Dispersion",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OutputRatio",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Algorithm",
+				"native": true,
+				"original_type": "via.render.SoftBloom.Algorithm",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "LWMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseUserDefinedBlurColor",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BlurColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IsHighPrecision",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DirtMaskBlend",
+				"native": true,
+				"original_type": "via.render.SoftBloom.DirtMaskBlend",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DirtMask",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DirtMaskThreshold",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DirtMaskTintColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DirtMaskIntensity",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SizeRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "SizeScale",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.render.SoftBloom"
+	},
 	"7f4777c7": {
 		"fields": [
 			{
@@ -173051,6 +174271,5200 @@
 			}
 		],
 		"name": "chainsaw.EnemySpawnParam"
+	},
+	"b4a7c80c": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.STADIAGamePadDevice"
+	},
+	"dea3647a": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.WGInputDevice"
+	},
+	"c7f4a810": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.WGInputGamePadDevice"
+	},
+	"f146bf53": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.XB1GamePadDevice"
+	},
+	"3fb3c1cf": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.DummyXB1GamePadDevice"
+	},
+	"afc6761c": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.XInputDevice"
+	},
+	"3317687a": {
+		"fields": [
+			{
+				"align": 16,
+				"array": false,
+				"name": "OwnerMemory",
+				"native": true,
+				"original_type": "via.areamap.AreaMemoryData",
+				"size": 240,
+				"type": "RawBytes"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Unknown_V1",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "RawBytes"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Unknown_V2",
+				"native": true,
+				"original_type": "",
+				"size": 176,
+				"type": "RawBytes"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Unknown_V3",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "RawBytes"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Unknown_V4",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "RawBytes"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Unknown_V5",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "RawBytes"
+			}
+		],
+		"name": "via.areamap.AreaQueryArg"
+	},
+	"c08af84a": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MergedMouseDevice"
+	},
+	"db9ef44f": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.Ps4SoftwareKeyboardDevice"
+	},
+	"4a0dc490": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MacSoftwareKeyboardDevice"
+	},
+	"da179549": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.camera.PlayStationCameraDevice"
+	},
+	"c54531f7": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.IOSSoftwareKeyboardDevice"
+	},
+	"adc8b96b": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.AndroidSoftwareKeyboardDevice"
+	},
+	"b945ce68": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.VirtualKeyboardDeviceNull"
+	},
+	"7e00a1b7": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.detail.MobileSoftwareKeyboardDevice"
+	},
+	"c86497f5": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.Xb1SoftwareKeyboardDevice"
+	},
+	"6087c43f": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.VirtualKeyboardDeviceMac"
+	},
+	"46d1b62c": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.StadiaSoftwareKeyboardDevice"
+	},
+	"3c00084": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.Ps5SoftwareKeyboardDevice"
+	},
+	"8e38e010": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "TextCheckEnabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.NswSoftwareKeyboardDevice"
+	},
+	"193554b2": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.GameCoreSoftwareKeyboardDevice"
+	},
+	"fd8787cd": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DirtyFrom(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DirtyTo(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "KeytopAlpha",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FooterAlpha",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "KeytopScale",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "KeytopTranslate",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "TouchEnabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UsbKeyboardEnabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AutoResumeEnabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.NswInlineSoftwareKeyboardDevice"
+	},
+	"7e3f20ba": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.VirtualKeyboardDevice"
+	},
+	"db90c284": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.NullMouseDevice"
+	},
+	"eb41741d": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDeviceWin64"
+	},
+	"c77a655d": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDeviceUWP"
+	},
+	"b3b58663": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDeviceSTADIA"
+	},
+	"a2caab49": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDevicePS5"
+	},
+	"625cebb4": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDevicePS4"
+	},
+	"78f6de98": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDeviceNSW"
+	},
+	"30887950": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDeviceMac"
+	},
+	"123e312": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDeviceGameCore"
+	},
+	"32a9ca76": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MouseDevice"
+	},
+	"671c0d83": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.MergedKeyboardDevice"
+	},
+	"f218f14b": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDeviceWin64"
+	},
+	"8b3178b2": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDeviceUWP"
+	},
+	"5bda2ee8": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDeviceSTADIA"
+	},
+	"824f5e6f": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDevicePS5"
+	},
+	"5486c04e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDevicePS4"
+	},
+	"b1ac9169": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDeviceNull"
+	},
+	"6a54d7d1": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDeviceNSW"
+	},
+	"218328e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDeviceMac"
+	},
+	"9f700026": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDeviceGameCore"
+	},
+	"689cd94": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.KeyboardDevice"
+	},
+	"5d37001e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.XInputGamePadDevice"
+	},
+	"455b546e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.GamePadDevice"
+	},
+	"ae8aa19f": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.AppleGamePadDevice"
+	},
+	"d37611b1": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.JoypadDevice"
+	},
+	"7df4880b": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MergedGamePadDevice"
+	},
+	"56465a6b": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.MobileGamePadDevice"
+	},
+	"1f32216": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayedLedPattern(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.hid.NpadDevice"
+	},
+	"ed476006": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayedLedPattern(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.hid.DummyNpadDevice"
+	},
+	"f4cde8ba": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.NullGamePadDevice"
+	},
+	"2aa5b13": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.PCVRDevice"
+	},
+	"8fa5f81e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.OculusTouchDevice"
+	},
+	"e1005465": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.ViveControllerDevice"
+	},
+	"ddf25f61": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			}
+		],
+		"name": "via.hid.PSGamePadDevice"
+	},
+	"e1b78f64": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v18_VibrationWaveIndex",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.hid.DualSenseDevice"
+	},
+	"2703cce6": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FOV_tanOut",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FOV_tanIn",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FOV_tanTop",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FOV_tanBottom",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FovType",
+				"native": true,
+				"original_type": "via.hid.hmd.MorpheusDevice.FovType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OutputMinColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ReprojectionType",
+				"native": true,
+				"original_type": "via.hid.hmd.MorpheusDevice.ReprojectionType",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.hid.hmd.MorpheusDevice"
+	},
+	"85e293fd": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v18_VibrationWaveIndex",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.hid.DummyDualSenseDevice"
+	},
+	"be5144b1": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v18_VibrationWaveIndex",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TrackingFollowability",
+				"native": true,
+				"original_type": "via.hid.TrackingFollowability",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TrackingOutOfSightMode",
+				"native": true,
+				"original_type": "via.hid.TrackingOutOfSightMode",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.hid.VendorNativeArielControllerDevice"
+	},
+	"b87bdb": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v18_VibrationWaveIndex",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.hid.VendorNativeDualSenseDevice"
+	},
+	"8271cb89": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			}
+		],
+		"name": "via.hid.DummyDualshock4Device"
+	},
+	"1911dae4": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			}
+		],
+		"name": "via.hid.VendorNativeDualshock4Device"
+	},
+	"aa7bd7ff": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Button",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonDown",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonUp",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonRepeat",
+				"native": true,
+				"original_type": "via.hid.GamePadButton",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RawAxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisL",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AxisR",
+				"native": true,
+				"original_type": "via.vec2",
+				"size": 16,
+				"type": "Vec2"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogL",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AnalogR",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Orientation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Acceleration",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "AngularVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HijackMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdateEnterCancelButton",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ForceFeedbackEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LightBarColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			}
+		],
+		"name": "via.hid.Dualshock4Device"
 	},
 	"85ee3455": {
 		"fields": [
@@ -182031,326 +188445,6 @@
 			}
 		],
 		"name": "chainsaw.posteffect.FilterSettingGeometryAO"
-	},
-	"218328e": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDeviceMac"
-	},
-	"5486c04e": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDevicePS4"
-	},
-	"5bda2ee8": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDeviceSTADIA"
-	},
-	"671c0d83": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.MergedKeyboardDevice"
-	},
-	"6a54d7d1": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDeviceNSW"
-	},
-	"824f5e6f": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDevicePS5"
-	},
-	"8b3178b2": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDeviceUWP"
-	},
-	"9f700026": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDeviceGameCore"
-	},
-	"b1ac9169": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDeviceNull"
-	},
-	"f218f14b": {
-		"fields": [
-			{
-				"align": 1,
-				"array": false,
-				"name": "Enabled",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Bool"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v1",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
-				"align": 4,
-				"array": false,
-				"name": "v2",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			}
-		],
-		"name": "via.hid.KeyboardDeviceWin64"
 	},
 	"8b435dc4": {
 		"fields": [
@@ -229994,70 +236088,70 @@
 			{
 				"align": 4,
 				"array": true,
-				"name": "v1",
+				"name": "Trees",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.behaviortree.BehaviorTree.CoreHandle",
 				"size": 4,
-				"type": "Data"
+				"type": "Object"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v2",
+				"name": "UserVariables",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.resource_handle",
 				"size": 4,
-				"type": "String"
+				"type": "Resource"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v3",
+				"name": "ExecLine",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.behaviortree.ExecLine",
 				"size": 4,
-				"type": "Data"
+				"type": "S32"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v4",
+				"name": "ExecGroup",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.behaviortree.ExecGroup",
 				"size": 4,
-				"type": "Data"
+				"type": "S32"
 			},
 			{
 				"align": 1,
 				"array": false,
-				"name": "v5",
+				"name": "PuppetMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PuppetKeepActivation",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "unknown",
 				"native": true,
 				"original_type": "",
 				"size": 1,
 				"type": "Data"
 			},
 			{
-				"align": 1,
-				"array": false,
-				"name": "v6",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Data"
-			},
-			{
-				"align": 1,
-				"array": false,
-				"name": "v7",
-				"native": true,
-				"original_type": "",
-				"size": 1,
-				"type": "Data"
-			},
-			{
 				"align": 4,
 				"array": false,
-				"name": "v8",
+				"name": "unknown",
 				"native": true,
 				"original_type": "",
 				"size": 4,
@@ -230092,6 +236186,182 @@
 			}
 		],
 		"name": "via.timeline.TimelineFsm2"
+	},
+	"7461cb56": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "Trees",
+				"native": true,
+				"original_type": "via.behaviortree.BehaviorTree.CoreHandle",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "UserVariables",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ExecLine",
+				"native": true,
+				"original_type": "via.behaviortree.ExecLine",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ExecGroup",
+				"native": true,
+				"original_type": "via.behaviortree.ExecGroup",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PuppetMode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PuppetKeepActivation",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "unknown",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Data"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "unknown",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Data"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "v9_AutoCreateMotionLayer",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "v10_StopExeWithMotStopAtEnd",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "v11_Layer",
+				"native": true,
+				"original_type": "via.motion.MotionFsm2Layer",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v12",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Data"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "v13",
+				"native": true,
+				"original_type": "",
+				"size": 16,
+				"type": "Data"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v14",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v15",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v16",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v17",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Data"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "v18",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Data"
+			}
+		],
+		"name": "via.motion.MotionJackFsm2"
 	},
 	"abb285d7": {
 		"fields": [
@@ -230837,7 +237107,7 @@
 			{
 				"align": 1,
 				"array": false,
-				"name": "v7",
+				"name": "unknown",
 				"native": true,
 				"original_type": "",
 				"size": 1,
@@ -230846,7 +237116,7 @@
 			{
 				"align": 4,
 				"array": false,
-				"name": "v8",
+				"name": "unknown",
 				"native": true,
 				"original_type": "",
 				"size": 4,
