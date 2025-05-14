@@ -2525,11 +2525,11 @@
 			{
 				"align": 1,
 				"array": false,
-				"name": "unknown",
+				"name": "ToolPuppetMode(?)",
 				"native": true,
 				"original_type": "",
 				"size": 1,
-				"type": "Data"
+				"type": "Bool"
 			},
 			{
 				"align": 4,
@@ -2538,7 +2538,7 @@
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "Data"
+				"type": "RawBytes"
 			}
 		],
 		"name": "via.behaviortree.BehaviorTree"
@@ -2611,7 +2611,7 @@
 			{
 				"align": 1,
 				"array": false,
-				"name": "unknown",
+				"name": "ToolPuppetMode",
 				"native": true,
 				"original_type": "",
 				"size": 1,
@@ -2624,7 +2624,7 @@
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "U32"
+				"type": "RawBytes"
 			},
 			{
 				"align": 1,
@@ -4736,6 +4736,336 @@
 		],
 		"name": "via.motion.Animation"
 	},
+	"46a20100": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "SkeletonResourceHandle",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AutoApply",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.motion.CustomSkeleton"
+	},
+	"96ad60bf": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "ID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AreaID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RegionMin",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "RegionMax",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RegionHeight",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": true,
+				"name": "Markers",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			}
+		],
+		"name": "via.areamap.AreaRegionShape"
+	},
+	"962a088b": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableInertiaFade",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AdditionalInterpolationNum",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BlendMode",
+				"native": true,
+				"original_type": "via.motion.BlendMode",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BlendRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "WorldRotationBlend",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resource (.mot)",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MotionBankID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MotionID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "JointMaskID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "JointMaskIDMode",
+				"native": true,
+				"original_type": "via.motion.JointMaskIDMode",
+				"size": 1,
+				"type": "S8"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BaseLayerNo",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "WrapMode",
+				"native": true,
+				"original_type": "via.motion.WrapMode",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "MirrorSymmetry",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ShowIntFrame",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableDevelopNode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Frame",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Speed",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "StopUpdate",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AutoStopUpdate",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AutoPrevMotRefClear",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ContinueSnapshotFromTransorm",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "InterpolationMode",
+				"native": true,
+				"original_type": "via.motion.InterpolationMode",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "InterpolationCurve",
+				"native": true,
+				"original_type": "via.motion.InterpolationCurve",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "InterpolationFrame",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v24 (reserved?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Data"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "v25 (reserved?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Data"
+			}
+		],
+		"name": "via.motion.TreeCameraLayer"
+	},
 	"e56de1d9": {
 		"fields": [
 			{
@@ -5491,6 +5821,483 @@
 		],
 		"name": "via.hid.DeviceManager"
 	},
+	"b0192a05": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLower",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLowerID",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLowerLink",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpper",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpperID",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpperLink",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawWithBoundary",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IgnoreZTest",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "RelationMaps",
+				"native": true,
+				"original_type": "via.navigation.RelationMapInfo",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v10_Resource",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.navigation.MapHandle"
+	},
+	"4709c49c": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "BusBasePerfBusId",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.audiorender.dev.DevInfo"
+	},
+	"4658d8de": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resource",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.motion.IkMultiLookAt2.LookAtLayer"
+	},
+	"46583770": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLower",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLowerID",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLowerLink",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpper",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpperID",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpperLink",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawWithBoundary",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IgnoreZTest",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "RelationMaps",
+				"native": true,
+				"original_type": "via.navigation.RelationMapInfo",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "v10_Resource",
+				"native": true,
+				"original_type": "via.resource_handle",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.navigation.SectionManagerHandle"
+	},
+	"3dc801f8": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLower",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLowerID",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawLowerLink",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpper",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpperID",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawUpperLink",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawWithBoundary",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IgnoreZTest",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "RelationMaps",
+				"native": true,
+				"original_type": "via.navigation.RelationMapInfo",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.navigation.MapHandleBase"
+	},
+	"48f0ef7a": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "AddOnType",
+				"native": true,
+				"original_type": "via.network.native.SolAddOnType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FulfillmentState",
+				"native": true,
+				"original_type": "via.network.native.SolFulfillmentState",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "PurchasedTimestamp(?)",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			}
+		],
+		"name": "via.network.native.SolReceipt"
+	},
+	"48ad742e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Pause",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Construct",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Animation",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Name",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TimeScale",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Monitor",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.Scene"
+	},
+	"48845ec7": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Layer(?)",
+				"native": true,
+				"original_type": "via.motion.TreeLayer",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.motion.tree.FighterBlendSolver"
+	},
+	"48a432c1": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Show",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MessageStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ButtonStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.network.core.ShowErrorParam"
+	},
 	"37314f86": {
 		"fields": [
 			{
@@ -6142,6 +6949,174 @@
 		],
 		"name": "via.octree.OctreeItem"
 	},
+	"b576212f": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "TargetType",
+				"native": true,
+				"original_type": "via.landscape.MapbakerBakeTarget",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MeshBakeConfig",
+				"native": true,
+				"original_type": "via.landscape.MeshBakeConfig",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PathBakeConfig",
+				"native": true,
+				"original_type": "via.landscape.PathBakeConfig",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RoadBakeConfig",
+				"native": true,
+				"original_type": "via.landscape.RoadBakeConfig",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "GroundBakeConfig",
+				"native": true,
+				"original_type": "via.landscape.GroundBakeConfig",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HeightIntersectBakeConfig",
+				"native": true,
+				"original_type": "via.landscape.HeightIntersectBakeConfig",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FoliageMapBakeConfig",
+				"native": true,
+				"original_type": "via.landscape.FoliageMapBakeConfig",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PointCloudBakeConfig",
+				"native": true,
+				"original_type": "via.landscape.PointCloudBakeConfig",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SaveTexturePath",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resolution",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RealTimeUpdateFrame",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.landscape.BakeTexture"
+	},
+	"b67210e9": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "MeshLowerPriority",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MeshHigherPriority",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Priority",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Strategy",
+				"native": true,
+				"original_type": "via.render.StreamingTextureRequestStrategy",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.render.StreamingTextureController"
+	},
+	"b3e06a7e": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Shape",
+				"native": true,
+				"original_type": "via.physics.ConvexShape",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FilterInfo",
+				"native": true,
+				"original_type": "via.physics.FilterInfo",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.physics.ShapeClosestQuery"
+	},
 	"15d3b4ec": {
 		"fields": [
 			{
@@ -6337,6 +7312,215 @@
 			}
 		],
 		"name": "via.physics.MeshShape"
+	},
+	"d5f8501c": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "VibrationResource",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "LeftLoopFlag",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "RightLoopFlag",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DualLoopFlag",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LeftPlayPosition",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RightPlayPosition",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DualPlayPosition",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "MixingByAmplitudeSum",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.hid.VibrationManagerNSW"
+	},
+	"4abac068": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "VibrationResource",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.hid.VibrationManager"
+	},
+	"4a26743": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "FOV",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NearClipPlane",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FarClipPlane",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "VerticalEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AspectRatio(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LookAtDistance(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "CameraType(?)",
+				"native": true,
+				"original_type": "via.CameraType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DebugCamera",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.Camera"
+	},
+	"4a21be91": {
+		"fields": [
+			{
+				"align": 16,
+				"array": false,
+				"name": "WorldMatrix",
+				"native": true,
+				"original_type": "via.mat4",
+				"size": 64,
+				"type": "Mat4"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "RoomId",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableDiffraction",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableDiffractionOnBoundaryEdges",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.simplewwise.GeometryResourceCoordinator"
 	},
 	"f25e837": {
 		"fields": [
@@ -29421,6 +30605,972 @@
 		],
 		"name": "chainsaw.NavigationRestrictManagerBehavior"
 	},
+	"b2e044ce": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerComponent",
+				"native": true,
+				"original_type": "via.Component",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HandleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.behaviortree.TransitionEventArg"
+	},
+	"b33cb8d9": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "PadDecideReverse(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IgnoreLimit(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LimitTime(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "TargetPos",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Device",
+				"native": true,
+				"original_type": "via.hid.GamePadDevice",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.autoplay.ActionArg"
+	},
+	"b319f694": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OutlineThickness",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HideOutlineTickness",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HideOutlineBlendRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FarOutlineReductionRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "FadeoutEnable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FadeoutSec",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FadeoutSpeed",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DisableOutlineRendering",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.render.layer.OutlineRendering"
+	},
+	"e5b67119": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerComponent",
+				"native": true,
+				"original_type": "via.Component",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HandleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "EventType(?)",
+				"native": true,
+				"original_type": "via.behaviortree.SelectorCallerArg.EventType",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.behaviortree.SelectorCallerArg"
+	},
+	"f856a4e1": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerComponent",
+				"native": true,
+				"original_type": "via.Component",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HandleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.behaviortree.SelectorArg"
+	},
+	"7e3436df": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerComponent",
+				"native": true,
+				"original_type": "via.Component",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HandleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TransitionID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.behaviortree.SelectorConditionArg"
+	},
+	"523786b1": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerComponent",
+				"native": true,
+				"original_type": "via.Component",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HandleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TransitionID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.behaviortree.ConditionArg"
+	},
+	"a17ac3d6": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerComponent",
+				"native": true,
+				"original_type": "via.Component",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HandleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.behaviortree.ContentArg"
+	},
+	"4b6f8b8f": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerComponent",
+				"native": true,
+				"original_type": "via.Component",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OwnerGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HandleID",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "v3_DoneAction",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.behaviortree.ActionArg"
+	},
+	"a09b106a": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "MaxDeltaTime(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MaxFrameTime(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ResetDeltaTimeThreshold(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FrameTimeResetThreshold(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "GlobalSpeed(?)",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Active(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "FixedFrameRate(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "FastForward(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PowerNap(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ParallelModuleUpdate(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DependencyModuleUpdate(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "HeartbeatEnabled(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.Application"
+	},
+	"a078d541": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "MapAttributeResourceHandle",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.navigation.MapAttributeHandle"
+	},
+	"9f87dc17": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PropertyType",
+				"native": true,
+				"original_type": "via.timeline.PropertyType",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.timeline.SetPropertyArgs"
+	},
+	"9ea0e153": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "SimulateAnamorphic",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HighlightThreshold",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HighlightScaler",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UniformHighlight",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "StreakGenerationLevel",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "StreakDistance",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "StreakIntensity",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "StreakAngle",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "GlareBlendRatio",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LensMask",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "StretchLensMask",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.render.PolynomialLens"
+	},
+	"9e158a15": {
+		"fields": [
+			{
+				"align": 16,
+				"array": false,
+				"name": "Pos",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			}
+		],
+		"name": "via.geometry.Vertex"
+	},
+	"9bf46e16": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TextureSize",
+				"native": true,
+				"original_type": "via.render.VolumetricFogControl.TextureSize",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ShadowEnabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ShadowQuality",
+				"native": true,
+				"original_type": "via.render.VolumetricFogControl.ShadowQuality",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AmbientLightEnabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AmbientLightRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EmissionEnabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FogCullingDistance",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DepthDecodingParam",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "VolumetricFogSoftness",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PrevFrameBlendFactor",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Rejection",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RejectSensitivity",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RejectSensitivityFactor",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LeakBias",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "IntegrationType",
+				"native": true,
+				"original_type": "via.render.VolumetricFogControl.IntegrationType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "JitterNoise",
+				"native": true,
+				"original_type": "via.render.VolumetricFogControl.JitterNoiseType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NeighboringFroxelWeight",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "RenderOutputSynchronizedCut",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NearFadeParams",
+				"native": true,
+				"original_type": "via.Float2",
+				"size": 8,
+				"type": "Float2"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableVolumetricParticle",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "CompositeOperator",
+				"native": true,
+				"original_type": "via.render.VolumetricParticleOperator",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ContributionMultiplier",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TransmittanceMultiplier",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BlendTransmittance",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseFilter",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FilterParameter",
+				"native": true,
+				"original_type": "via.Float2",
+				"size": 8,
+				"type": "Float2"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableLuminanceConverter",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "LuminanceConverter",
+				"native": true,
+				"original_type": "via.Float3",
+				"size": 12,
+				"type": "Float3"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "InjectContribution",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "InjectContributionRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TransmittanceMaskRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ExtinctionDistance",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "ExtinctionRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.render.VolumetricFogControl"
+	},
 	"13cd09d1": {
 		"fields": [
 			{
@@ -29996,6 +32146,397 @@
 			}
 		],
 		"name": "via.hid.TextInputArg"
+	},
+	"95a2f066": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resource",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.mlsupport.StyleTransferNetwork"
+	},
+	"950dc675": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "CompareOldFrame",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "CompareVerocity",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TargetScale",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SampleCount",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "DirectionalLightGameObject",
+				"native": true,
+				"original_type": "via.GameObjectRef",
+				"size": 16,
+				"type": "GameObjectRef"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "CreateSun",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseSunArea",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SunArea",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RayLimit",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "SunIntensity",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseWorldSpace",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "WorldPosition",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Density",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Decay",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Weight",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Exposure",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DepthLimit",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RayColor",
+				"native": true,
+				"original_type": "via.Color",
+				"size": 4,
+				"type": "Color"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseDebug",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RayDepthLimit",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ComputeShader",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "TextureLoad",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.render.GodRay"
+	},
+	"cace0c31": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "NodeSyncData(?)",
+				"native": true,
+				"original_type": "via.behaviortree.ActivateNodeSyncData",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.puppet.SyncStateMessage"
+	},
+	"93ef7f5f": {
+		"fields": [
+			{
+				"align": 4,
+				"array": true,
+				"name": "Data",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.behaviortree.ActivateNodeSyncData"
+	},
+	"94ad319f": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpscaling(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.render.UpscalingInterface"
+	},
+	"ca1f3cfa": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Draw",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Position",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Rotation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "Scale",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PartsVariationIndex",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.render.MeshInstanceHandle"
+	},
+	"c9ad461d": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "AvoidWeight",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PreferWeight",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ClaimNode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "CheckUnderNode",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InvertWeights",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseWeights",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.octree.PathfindArgs"
+	},
+	"c9a2c302": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Camera",
+				"native": true,
+				"original_type": "via.Camera",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.render.layer.Composite"
 	},
 	"3a3ba7e4": {
 		"fields": [
@@ -52286,6 +54827,152 @@
 		],
 		"name": "chainsaw.Ch1c0z1HeadUpdater_Mercenaries"
 	},
+	"d7474aa1": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "SearchKey",
+				"native": true,
+				"original_type": "via.network.session.SearchKey",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "MemberMax",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "U64"
+			}
+		],
+		"name": "via.network.session.PlayTogetherHostParamPsn"
+	},
+	"d70cba0a": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Experienced",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "AutoUpdateMemory",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "UpdateMode",
+				"native": true,
+				"original_type": "via.areamap.AreaMemory.Mode",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "UpdateTimer",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.areamap.AreaMemory"
+	},
+	"d6588b40": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Log",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.sound.StreamingLQGManager"
+	},
+	"d63eaf1b": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PointSize",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "BakeRangeAABB",
+				"native": true,
+				"original_type": "via.AABB",
+				"size": 32,
+				"type": "AABB"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resolution",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "BakeObjectTag",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DrawAABB",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "State(?)",
+				"native": true,
+				"original_type": "via.landscape.UserAttributeMapBaker.State",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.landscape.UserAttributeMapBaker"
+	},
 	"6921cfe1": {
 		"fields": [
 			{
@@ -58394,6 +61081,379 @@
 			}
 		],
 		"name": "via.relib.light.ReLibLightBehavior"
+	},
+	"c5c86369": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "TestedGameObject",
+				"native": true,
+				"original_type": "via.GameObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TestedAreaRegion",
+				"native": true,
+				"original_type": "via.areamap.AreaRegionObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "TestedPosition",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TestedAreaItem(?)",
+				"native": true,
+				"original_type": "via.areamap.AreaItem",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RegionPtr(?)",
+				"native": true,
+				"original_type": "via.areamap.AreaRegionObject",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Filtered",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugOffset",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NormalizedScore",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "TentativeFilter",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.areamap.AreaTestItem"
+	},
+	"c985093d": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Int",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Float",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Bool",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "Guid",
+				"native": true,
+				"original_type": "via.Guid",
+				"size": 16,
+				"type": "Guid"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "BoolEvent",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PrevDiffFrame",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TestEnum",
+				"native": true,
+				"original_type": "via.motion.CppSampleTracks.Test",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Child",
+				"native": true,
+				"original_type": "via.motion.CppSampleChild",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.motion.CppSampleTracks"
+	},
+	"c85bb014": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ExemptAllLimitation",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "LimitterTbl",
+				"native": true,
+				"original_type": "via.puppet.ReceiveRateLimitter.Limitter",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.puppet.ReceiveRateLimitter"
+	},
+	"c83af1f7": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableUpdate(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableDraw(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.render.PrimitiveComputeShader"
+	},
+	"c7d8e0a": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Algorithm",
+				"native": true,
+				"original_type": "via.render.SSSSSControl.Algorithm",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "NormalAlignment(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "InternalDenoise(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DenoiseStrength",
+				"native": true,
+				"original_type": "via.render.SSSSSControl.DenoiseStrength",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.render.SSSSSControl"
+	},
+	"c7aa15ad": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "JointName",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Axis",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "IsLimitAngle",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AngleMin",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "AngleMax",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Mass",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.motion.IkJacobian.Link"
+	},
+	"c683a956": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Mesh",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Material",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.effect.MeshMaterialEmitter"
+	},
+	"c4ac9ff0": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "EnableAlpha",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PatternNo",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.gui.ColorPreset"
 	},
 	"c107c2c7": {
 		"fields": [
@@ -113498,6 +116558,258 @@
 			}
 		],
 		"name": "via.motion.IkDog"
+	},
+	"d913103": {
+		"crc": "50024d33",
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.Ch2b1z0BodyUpdater"
+	},
+	"dd17012e": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NormalCollision",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FlyCollision",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "WalkChangeFrame",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "chainsaw.Ch0a0z0BodyUpdater"
+	},
+	"172c518b": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NormalCollision",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "FlyCollision",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "WalkChangeFrame",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_MercenariesPrefab",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.Ch6CommonBodyUpdater"
+	},
+	"ec057e27": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_NormalCollisionFilter",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_FlyCollisionFilter",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OldFindState",
+				"native": false,
+				"original_type": "chainsaw.HateTargetInfo.FindStateType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "parasiteUpdater",
+				"native": false,
+				"original_type": "chainsaw.Ch1c0ParasiteUpdaterCommon",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_IsOverWritePressWeightFromAction",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.Ch1c0z0BodyUpdater"
+	},
+	"e98c8167": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.Ch2b8z0BodyUpdater"
+	},
+	"e2ba427f": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_NormalCollisionFilter",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_FlyCollisionFilter",
+				"native": false,
+				"original_type": "via.physics.CollisionFilterResourceHolder",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "OldFindState",
+				"native": false,
+				"original_type": "chainsaw.HateTargetInfo.FindStateType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "parasiteUpdater",
+				"native": false,
+				"original_type": "chainsaw.Ch1c0ParasiteUpdaterCommon",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "_IsOverWritePressWeightFromAction",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.Ch1c0z1BodyUpdater"
+	},
+	"d78fbc08": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "chainsaw.Ch2a3z10BodyUpdater"
 	},
 	"1b4379ed": {
 		"fields": [
@@ -204863,6 +208175,469 @@
 		],
 		"name": "chainsaw.VehicleGuiControlBehavior"
 	},
+	"9b21d718": {
+		"fields": [
+			{
+				"align": 4,
+				"array": true,
+				"name": "DefinedEnterKeys",
+				"native": true,
+				"original_type": "via.hid.KeyboardKey",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "DefinedCancelKeys",
+				"native": true,
+				"original_type": "via.hid.KeyboardKey",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatStartTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RepeatTime",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.hid.Keyboard"
+	},
+	"9ab422c1": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "PlayerUseAreaOnly(?)",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 8,
+				"array": false,
+				"name": "ServerTicks(?)",
+				"native": true,
+				"original_type": "",
+				"size": 8,
+				"type": "S64"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HjmUriStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "HjmUriPathStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MtmUriStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MtmPlatformStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MtmServiceStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MtsUriStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TmrUriStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NkmUriStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "WltUriStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "GssSelUriStr",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "GdkWebServiceEndpoint",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "String"
+			}
+		],
+		"name": "via.rebe.RebeService"
+	},
+	"995df722": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "MountMode",
+				"native": true,
+				"original_type": "via.storage.DLC.MountMode",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.storage.DLC"
+	},
+	"9954770e": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Lightmap",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DebugDraw",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DebugDrawNo",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "via.render.Lightmapper"
+	},
+	"988ef29d": {
+		"fields": [
+			{
+				"align": 8,
+				"array": false,
+				"name": "ReferenceCameraRef",
+				"native": true,
+				"original_type": "via.GameObjectRef",
+				"size": 16,
+				"type": "GameObjectRef"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "KeepPositionOnReset",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "KeepOrientationOnReset",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "RotationType",
+				"native": true,
+				"original_type": "via.vr.CameraRotationType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "KeepPositionTarget",
+				"native": true,
+				"original_type": "via.vr.KeepPositionTarget",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "TrackHead",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UpdateTwice",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DebugDrawRig",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UpdatePoseDuringPause",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.vr.VrCamera"
+	},
+	"971ceb6a": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "AllowReadFromSlowDevice",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.storage.StorageService"
+	},
+	"96b86263": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "JointSettingAsset",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "PriorityLoadTarget",
+				"native": true,
+				"original_type": "via.motion.JointSetting.PriorityLoadTarget",
+				"size": 1,
+				"type": "S8"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "JointTbl",
+				"native": true,
+				"original_type": "via.motion.JointSettingElement",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.motion.JointSetting"
+	},
+	"6fff0fe9": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayState",
+				"native": true,
+				"original_type": "via.motion.PlayState",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Dampen",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DesiredVelocityBias",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "MaxSpeed",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "DesiredVelocity",
+				"native": true,
+				"original_type": "via.vec3",
+				"size": 16,
+				"type": "Vec3"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DesiredRotationBias",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 16,
+				"array": false,
+				"name": "DesiredRotation",
+				"native": true,
+				"original_type": "via.Quaternion",
+				"size": 16,
+				"type": "Quaternion"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PFNNResource",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "JointMapResource",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DebugDrawTrajectory",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DebugDrawNN",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "DebugDrawPhase",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UseSSE",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.motion.DevNNMotion"
+	},
 	"8d8f9b0b": {
 		"fields": [
 			{
@@ -247503,6 +251278,74 @@
 		],
 		"name": "chainsaw.Ch1c0HeadUpdaterCommon"
 	},
+	"d61fc66d": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "EnemyActionDriver",
+				"native": false,
+				"original_type": "chainsaw.EnemyHeadActionDriver",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "_MoveUpdater",
+				"native": false,
+				"original_type": "chainsaw.Ch1c0MoveUpdater",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "GroupInfoHolder",
+				"native": false,
+				"original_type": "chainsaw.Ch1c0GroupInfoHolder",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "noDamageReaction",
+				"native": false,
+				"original_type": "System.Boolean",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NaviDeltaTime",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "B2BDistance",
+				"native": false,
+				"original_type": "System.Single",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "chainsaw.Ch1c0z0HeadUpdater_AO"
+	},
 	"ae5dc7c5": {
 		"fields": [
 			{
@@ -252193,6 +256036,88 @@
 		],
 		"name": "via.simplewwise.SimpleWwiseBehaviorBase"
 	},
+	"6b2a542b": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TriggerId",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NWSessionMemberIdx",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			}
+		],
+		"name": "via.simplewwise.AudioInputCallerBase"
+	},
+	"a61b0ff8": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enabled",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "TriggerId",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "NWSessionMemberIdx",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "channelCount",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "samplingRate",
+				"native": false,
+				"original_type": "System.UInt32",
+				"size": 4,
+				"type": "U32"
+			}
+		],
+		"name": "soundlib.SoundAudioInputCaller"
+	},
 	"9867092e": {
 		"fields": [
 			{
@@ -252390,32 +256315,270 @@
 			{
 				"align": 4,
 				"array": true,
-				"name": "v9",
+				"name": "Layer",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.timeline.TimelineFsm2Layer",
 				"size": 4,
-				"type": "Data"
+				"type": "Object"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v10",
+				"name": "TimelineFsm2Resource",
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "String"
+				"type": "Resource"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v11",
+				"name": "PlayState",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.timeline.PlayState",
 				"size": 4,
-				"type": "Data"
+				"type": "S32"
 			}
 		],
 		"name": "via.timeline.TimelineFsm2"
+	},
+	"af0785a9": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "ResourceHandle",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.render.ShaderTimerManager"
+	},
+	"af0c568b": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "Asset",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.sound.SoundTriggerListAsset"
+	},
+	"adac15f0": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "ActionNo",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "CurrentResourceNo",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "Loop",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PadEnterType",
+				"native": true,
+				"original_type": "via.autoplay.AutoPlay.PadEnterType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "UsedMultiDevice",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "PlayerIndex",
+				"native": true,
+				"original_type": "via.autoplay.PlayerIndex",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "Resources",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "Resource"
+			}
+		],
+		"name": "via.autoplay.AutoPlay"
+	},
+	"ad3d5623": {
+		"fields": [
+			{
+				"align": 4,
+				"array": true,
+				"name": "SplinePoint",
+				"native": true,
+				"original_type": "via.landscape.spline.SplinePoint",
+				"size": 4,
+				"type": "Object"
+			},
+			{
+				"align": 4,
+				"array": true,
+				"name": "SplineSegment",
+				"native": true,
+				"original_type": "via.landscape.spline.SplineSegment",
+				"size": 4,
+				"type": "Object"
+			}
+		],
+		"name": "via.landscape.spline.Spline"
+	},
+	"ac71d90a": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Enable",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Type",
+				"native": true,
+				"original_type": "via.audiorender.FilterType",
+				"size": 4,
+				"type": "S32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Frequency",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Q",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "GainDb",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.audiorender.MTEqualizerUnitParameters"
+	},
+	"ac4408e3": {
+		"fields": [
+			{
+				"align": 4,
+				"array": false,
+				"name": "SpringStrength",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "DamperRate",
+				"native": true,
+				"original_type": "",
+				"size": 4,
+				"type": "F32"
+			}
+		],
+		"name": "via.dynamics.Vehicle.Suspension"
+	},
+	"ac216bb0": {
+		"fields": [
+			{
+				"align": 1,
+				"array": false,
+				"name": "Exist",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "ChangedMap",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			}
+		],
+		"name": "via.navigation.PathQueryReport"
+	},
+	"ab79b6c1": {
+		"fields": [
+			{
+				"align": 2,
+				"array": true,
+				"name": "Data",
+				"native": true,
+				"original_type": "",
+				"size": 2,
+				"type": "U16"
+			},
+			{
+				"align": 4,
+				"array": false,
+				"name": "Resolution",
+				"native": true,
+				"original_type": "via.Uint2",
+				"size": 8,
+				"type": "Uint2"
+			}
+		],
+		"name": "via.landscape.LandformTextureData"
 	},
 	"7461cb56": {
 		"fields": [
@@ -252485,11 +256648,11 @@
 			{
 				"align": 1,
 				"array": false,
-				"name": "unknown",
+				"name": "ToolPuppetMode",
 				"native": true,
 				"original_type": "",
 				"size": 1,
-				"type": "Data"
+				"type": "Bool"
 			},
 			{
 				"align": 4,
@@ -252498,7 +256661,7 @@
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "Data"
+				"type": "RawBytes"
 			},
 			{
 				"align": 1,
@@ -252520,75 +256683,66 @@
 			},
 			{
 				"align": 4,
-				"array": true,
-				"name": "v11_Layer",
+				"array": false,
+				"name": "TargetGameObject",
 				"native": true,
-				"original_type": "via.motion.MotionFsm2Layer",
+				"original_type": "via.GameObject",
 				"size": 4,
 				"type": "Object"
 			},
 			{
-				"align": 4,
-				"array": false,
-				"name": "v12",
-				"native": true,
-				"original_type": "",
-				"size": 4,
-				"type": "Data"
-			},
-			{
 				"align": 8,
 				"array": false,
-				"name": "v13",
+				"name": "TargetGameObjectRef",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.GameObjectRef",
 				"size": 16,
-				"type": "Data"
+				"type": "GameObjectRef"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v14",
+				"name": "UserVariables",
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "String"
+				"type": "Resource"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v15",
+				"name": "MotionBankAsset",
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "String"
+				"type": "Resource"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v16",
+				"name": "MotionVariablesHub",
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "String"
+				"type": "Resource"
 			},
 			{
 				"align": 4,
 				"array": false,
-				"name": "v17",
+				"name": "TargetBankType",
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "Data"
+				"type": "U32"
 			},
 			{
 				"align": 4,
 				"array": true,
-				"name": "v18",
+				"name": "MotionBank",
 				"native": true,
-				"original_type": "",
+				"original_type": "via.motion.MotionBank",
 				"size": 4,
-				"type": "Data"
+				"type": "Object"
 			}
 		],
 		"name": "via.motion.MotionJackFsm2"
@@ -253337,11 +257491,11 @@
 			{
 				"align": 1,
 				"array": false,
-				"name": "unknown",
+				"name": "ToolPuppetMode(?)",
 				"native": true,
 				"original_type": "",
 				"size": 1,
-				"type": "Data"
+				"type": "Bool"
 			},
 			{
 				"align": 4,
@@ -253350,7 +257504,7 @@
 				"native": true,
 				"original_type": "",
 				"size": 4,
-				"type": "Data"
+				"type": "RawBytes"
 			}
 		],
 		"name": "via.behaviortree.ManualBehaviorTree"
