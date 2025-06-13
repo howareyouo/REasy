@@ -11692,22 +11692,22 @@
                 "type": "Resource"
             },
             {
-                "align": 1,
-                "array": false,
-                "name": "CollisionEntryNum(?)",
-                "native": true,
-                "original_type": "",
-                "size": 1,
-                "type": "U32"
-            },
-            {
-                "align": 1,
-                "array": false,
-                "name": "CollisionDispatchNum(?)",
-                "native": true,
-                "original_type": "",
-                "size": 1,
-                "type": "U32"
+				"align": 1,
+				"array": false,
+				"name": "UseDeferredCollision",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
+			},
+			{
+				"align": 1,
+				"array": false,
+				"name": "FrameReset",
+				"native": true,
+				"original_type": "",
+				"size": 1,
+				"type": "Bool"
             }
         ],
         "name": "via.effect.EffectCollisionDispatcher",
