@@ -62296,7 +62296,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Resourc"
+                "type": "Resource"
             },
             {
                 "align": 1,
@@ -104283,7 +104283,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Float"
+                "type": "F32"
             },
             {
                 "align": 1,
@@ -107187,7 +107187,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Float"
+                "type": "F32"
             },
             {
                 "align": 1,
@@ -107796,7 +107796,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Float"
+                "type": "F32"
             },
             {
                 "align": 1,
@@ -235731,7 +235731,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Float"
+                "type": "F32"
             },
             {
                 "align": 1,
@@ -275704,7 +275704,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "DaF32ta"
+                "type": "F32"
             },
             {
                 "align": 4,
