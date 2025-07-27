@@ -16627,7 +16627,7 @@
                 "native": false,
                 "original_type": "System.String",
                 "size": 4,
-                "type": "Resource"
+				"type": "String"
             }
         ],
         "name": "via.effect.script.EffectCustomExternParameter",
