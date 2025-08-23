@@ -7884,9 +7884,9 @@
             {
                 "align": 4,
                 "array": false,
-                "name": "GravityCoord",
+                "name": "GravityCoord(?)",
                 "native": true,
-                "original_type": "via.motion.Chain.GravityCoord(?)",
+                "original_type": "via.motion.Chain.GravityCoord",
                 "size": 4,
                 "type": "S32"
             },
@@ -22181,9 +22181,9 @@
             {
                 "align": 4,
                 "array": false,
-                "name": "Scene",
+                "name": "Scene(?)",
                 "native": true,
-                "original_type": "via.Scene(?)",
+                "original_type": "via.Scene",
                 "size": 4,
                 "type": "Object"
             },
