@@ -1817,7 +1817,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -2525,7 +2525,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -232848,7 +232848,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "chainsaw.collision.ActionSignUserData",
@@ -232872,7 +232872,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "via.physics.Terrain2dUserData",
@@ -232896,7 +232896,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "via.physics.ColliderSetUserData",
@@ -232920,7 +232920,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "chainsaw.collision.TouchUserData",
@@ -232944,7 +232944,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "chainsaw.collision.SuspensionBridgeSensorUserData",
@@ -232968,7 +232968,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233019,7 +233019,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 1,
@@ -233070,7 +233070,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233103,7 +233103,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233136,7 +233136,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233169,7 +233169,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "chainsaw.collision.ParryStartUserData",
@@ -233193,7 +233193,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233226,7 +233226,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233304,7 +233304,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233391,7 +233391,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233478,7 +233478,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233529,7 +233529,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233571,7 +233571,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "chainsaw.collision.HitUserDataRoot",
@@ -233595,7 +233595,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233637,7 +233637,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233697,7 +233697,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233766,7 +233766,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233808,7 +233808,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233841,7 +233841,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             },
             {
                 "align": 4,
@@ -233874,7 +233874,7 @@
                 "native": true,
                 "original_type": "",
                 "size": 4,
-                "type": "Object"
+                "type": "UserData"
             }
         ],
         "name": "via.physics.RequestSetColliderUserData",
