@@ -253361,7 +253361,7 @@
             {
                 "align": 1,
                 "array": false,
-                "name": "Enable",
+                "name": "Enabled",
                 "native": true,
                 "original_type": "",
                 "size": 1,
@@ -254456,7 +254456,7 @@
             {
                 "align": 1,
                 "array": false,
-                "name": "Enable",
+                "name": "Enabled",
                 "native": true,
                 "original_type": "",
                 "size": 1,
@@ -255758,7 +255758,7 @@
             {
                 "align": 1,
                 "array": false,
-                "name": "Enable",
+                "name": "Enabled",
                 "native": true,
                 "original_type": "",
                 "size": 1,
