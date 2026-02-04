@@ -23907,6 +23907,20 @@ natives/stm/_ge/vfx/zone/st17_022_vfx_zone.scn.20
 natives/stm/_ge/vfx/zone/st17_3_2_vfx_zone.scn.20
 natives/stm/_ge/vfx/zone/st17_vfx_zone.scn.20
 natives/stm/_ge/vfx/zone/st91_vfx_zone.scn.20
+natives/stm/_polarstar/gui/prefab/guiextracreditm1.pfb.17
+natives/stm/_polarstar/gui/prefab/guistorebanner.pfb.17
+natives/stm/_polarstar/gui/ui1000_ad/gui/tex_bannernew_iam.tex.30
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_ad.gui.400023
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_banner.mdf2.19
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_banner.mmtr.2102188797
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_bannerline.mmtr.2102188797
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_bannerlineh.mdf2.19
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_bannerlinev.mdf2.19
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_bannershadow.mdf2.19
+natives/stm/_polarstar/gui/ui1000_ad/gui/ui1010_bannershadow.mmtr.2102188797
+natives/stm/_polarstar/gui/ui3000/gui/ui3000_00_m1.gui.400023
+natives/stm/_polarstar/gui/ui3000/tex/ui3000_02_m1_im.tex.30
+natives/stm/_polarstar/gui/ui3000/tex/ui3000_03_m1_im.tex.30
 natives/stm/_vr/sound/sound_asset/snd_containerlist/ri/snd_containerlist_ri_weapon_common_z.wcc.2
 natives/stm/_vr/sound/sound_asset/snd_eventlist/ri/snd_eventlist_ri_weapon_common_z.wel.11
 natives/stm/aimap/c02_1/c02_1_aimap.scn.20
@@ -110164,6 +110178,7 @@ natives/stm/systems/effect/vfx_default_axis_alb.tex.30
 natives/stm/systems/effect/vfx_default_simple.mmtr.2102188797
 natives/stm/systems/effect/vfx_default_uvs.uvs.7
 natives/stm/systems/gui/config.gcf.24
+natives/stm/systems/gui/config.gcf.33685784
 natives/stm/systems/gui/imageplane_1920x1080.gui.400023
 natives/stm/systems/gui/systemdialog.gui.400023
 natives/stm/systems/physics/default.cdef.3
@@ -113941,4 +113956,3 @@ natives/stm/vfx/zone/st17_022_vfx_zone.scn.20
 natives/stm/vfx/zone/st17_3_2_vfx_zone.scn.20
 natives/stm/vfx/zone/st17_vfx_zone.scn.20
 natives/stm/vfx/zone/st91_vfx_zone.scn.20
-natives/stm/systems/gui/config.gcf.33685784
