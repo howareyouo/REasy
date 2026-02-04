@@ -1,4 +1,4 @@
-10/23/2025 Updated by Battlezone
+10/23/2025, 04/02/2026 Updated by Battlezone
 8/13/2025 Updated by Battlezone
 9/21/2023 RE4 List by NSA Cloud, dtlnor
 natives/stm/_anotherorder/animation/ch/cha1/motbank/cha1_npc_cp11.motbank.3
@@ -49757,6 +49757,7 @@ natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui0800.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui0900.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui1001.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui1010.pfb.17
+natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui1010_ad.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui1030.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui1040.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/gui/gui_ui1060.pfb.17
@@ -122877,6 +122878,13 @@ natives/stm/_chainsaw/ui/ui0800/tex/cs_ui0800_cha_12_iam.tex.143221013
 natives/stm/_chainsaw/ui/ui0800/tex/cs_ui0800_etc_01_iam.tex.143221013
 natives/stm/_chainsaw/ui/ui0900/gui/cs_ui0900.gui.540034.x64
 natives/stm/_chainsaw/ui/ui0900/gui/cs_ui0910.gui.540034
+natives/stm/_chainsaw/ui/ui1000/ad/cs_ui1010_ad.gui.540034
+natives/stm/_chainsaw/ui/ui1000/ad/cs_ui1010_banner.mdf2.32
+natives/stm/_chainsaw/ui/ui1000/ad/cs_ui1010_banner.mmtr.221007879
+natives/stm/_chainsaw/ui/ui1000/ad/cs_ui1010_bannerline.mdf2.32
+natives/stm/_chainsaw/ui/ui1000/ad/cs_ui1010_bannershadow.mdf2.32
+natives/stm/_chainsaw/ui/ui1000/ad/cs_ui1010_bannershadow.mmtr.221007879
+natives/stm/_chainsaw/ui/ui1000/ad/tex_bannernew_iam.tex.143221013
 natives/stm/_chainsaw/ui/ui1000/gui/cs_ui1001.gui.540034
 natives/stm/_chainsaw/ui/ui1000/gui/cs_ui1010.gui.540034
 natives/stm/_chainsaw/ui/ui1000/gui/cs_ui1030.gui.540034
@@ -134026,6 +134034,12 @@ natives/stm/_mercenaries/vfx/texture/tex_character/tex_chi3/tex_0015_chi3_facebl
 natives/stm/_mercenaries/vfx/texture/tex_character/tex_chi4/tex_0015_chi4_faceblood_0000_msk4.tex.143221013
 natives/stm/_mercenaries/vfx/texture/tex_character/tex_chi5/tex_0015_chi5_faceblood_0000_msk4.tex.143221013
 natives/stm/_mercenaries/vfx/texture/tex_vectorfield/tex_0015_mc_vectorfield_0000_msk4.tex.143221013
+natives/stm/_polarstar/appsystem/prefab/gui/fujicredit/gui_fujicredit.pfb.17
+natives/stm/_polarstar/gui/ui5100/gui/apple_ui5120.gui.540034
+natives/stm/_polarstar/gui/ui5100/tex/apple_ui5100_03_im.tex.143221013
+natives/stm/_polarstar/gui/ui5100/tex/apple_ui5100_04_im.tex.143221013
+natives/stm/_polarstar/gui/ui5100/tex/apple_ui5100_05_im.tex.143221013
+natives/stm/_polarstar/gui/ui5100/tex/apple_ui5100_06_im.tex.143221013
 natives/stm/_share/appsystem/prefab/device.pfb.17
 natives/stm/_share/appsystem/scene/appresident/appresident.scn.20
 natives/stm/_share/appsystem/scene/appresident/camera.scn.20
