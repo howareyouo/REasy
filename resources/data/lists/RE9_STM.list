@@ -131865,6 +131865,7 @@ natives/stm/gui/ui0000/tex/ui0000.uvs.8
 natives/stm/gui/ui0000/tex/ui0000_iam.tex.250813143.x64
 natives/stm/gui/ui0000/tex/ui0010.uvs.8
 natives/stm/gui/ui0000/tex/ui0010_iam.tex.250813143.x64
+natives/stm/gui/ui0000/ui0000.ift.7
 natives/stm/gui/ui0000/ui0010.ift.7
 natives/stm/gui/ui0000/ui_font00.fslt.5
 natives/stm/gui/ui0000/ui_font01.fslt.5
@@ -140268,6 +140269,8 @@ natives/stm/re_engine_library/vfx_library/mesh/mesh_environment/wig01/mesh_capco
 natives/stm/re_engine_library/vfx_library/mesh/mesh_primitive/plane.mesh.250925211
 natives/stm/re_engine_library/vfx_library/mesh/mesh_primitive/sphere.mesh.250925211
 natives/stm/re_engine_library/vfx_library/shader/shader_basic_standard_alpha.mmtr.251112994
+natives/stm/re_engine_library/vfx_library/shader/sourcetexture/common/basemetallic_albm.tex.250813143
+natives/stm/re_engine_library/vfx_library/shader/sourcetexture/common/normalroughness_nrmr.tex.250813143
 natives/stm/re_engine_library/vfx_library/shader/title_shader/title_02/shader_title02_08_emmisiveliquid00.mmtr.251112994
 natives/stm/re_engine_library/vfx_library/texture/tex_dust/tex_capcom_dust_multiple_0019.uvs.8
 natives/stm/re_engine_library/vfx_library/texture/tex_dust/tex_capcom_dust_multiple_0019_alpg.tex.250813143
@@ -140277,6 +140280,7 @@ natives/stm/re_engine_library/vfx_library/texture/tex_fire/tex_capcom_fire_explo
 natives/stm/re_engine_library/vfx_library/texture/tex_fire/tex_capcom_fire_explosive_0026_alpg.tex.250813143
 natives/stm/re_engine_library/vfx_library/texture/tex_impact/tex_capcom_impact_radiation_0002.uvs.8
 natives/stm/re_engine_library/vfx_library/texture/tex_impact/tex_capcom_impact_radiation_0002_alpg.tex.250813143
+natives/stm/re_engine_library/vfx_library/texture/tex_light/tex_capcom_light_glow_0007.uvs.8
 natives/stm/re_engine_library/vfx_library/texture/tex_light/tex_capcom_light_glow_0007_alpg.tex.250813143
 natives/stm/re_engine_library/vfx_library/texture/tex_smoke/tex_capcom_smoke_00_0003.uvs.8
 natives/stm/re_engine_library/vfx_library/texture/tex_smoke/tex_capcom_smoke_00_0003_alpg.tex.250813143
@@ -178027,6 +178031,7 @@ natives/stm/systems/rendering/bluenoise/scramblingtile_64spp.gpbf.3
 natives/stm/systems/rendering/bluenoise/scramblingtile_8spp.gpbf.3
 natives/stm/systems/rendering/bluenoise/sobol_256spp_256d.gpbf.3
 natives/stm/systems/rendering/bluenoise16x16.tex.250813143
+natives/stm/systems/rendering/bluenoise16x16/ldr_rgb1_35.tex.250813143
 natives/stm/systems/rendering/bluenoise256x256/blue.tex.250813143
 natives/stm/systems/rendering/bluenoise256x256/hdr_rgba_0000.tex.250813143
 natives/stm/systems/rendering/bluenoise256x256/hdr_rgba_0001.tex.250813143
@@ -178293,6 +178298,7 @@ natives/stm/systems/shader/guisystem.sdf.251112994
 natives/stm/systems/shader/hazecompositor.sdf.251112994
 natives/stm/systems/shader/internal.sdf.251112994.stm
 natives/stm/systems/shader/lighting.sdf.251112994
+natives/stm/systems/shader/lightingfornextproject.sdf.251112994
 natives/stm/systems/shader/lightinghigh.sdf.251112994
 natives/stm/systems/shader/lightinghigh2.sdf.251112994
 natives/stm/systems/shader/lightinglegacy.sdf.251112994
