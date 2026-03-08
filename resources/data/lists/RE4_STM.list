@@ -1,6 +1,6 @@
-10/23/2025, 04/02/2026 Updated by Battlezone
-8/13/2025 Updated by Battlezone
-9/21/2023 RE4 List by NSA Cloud, dtlnor
+10/23/2025, 04/02/2026 updated by battlezone
+8/13/2025 updated by battlezone
+9/21/2023 re4 list by nsa cloud, dtlnor
 natives/stm/_anotherorder/animation/ch/cha1/motbank/cha1_npc_cp11.motbank.3
 natives/stm/_anotherorder/animation/ch/cha1/motlist/cha1_ac0200h.motlist.663
 natives/stm/_anotherorder/animation/ch/cha1/motlist/cha1_ac0300h.motlist.663
@@ -11808,6 +11808,7 @@ natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc40_cp11_1_2
 natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc43_cp11_2_2_level_ao.user.2
 natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc44_cp11_2_1_level_ao.user.2
 natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc45_cp11_1_1_level_ao.user.2
+natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc47_cp11_1_1_level_ao.user.2
 natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc50_level_ao.user.2
 natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc51_cp11_3_1_level_ao.user.2
 natives/stm/_anotherorder/sound/resource/container/level/snd_cont_loc55_level_ao.user.2
@@ -50649,6 +50650,7 @@ natives/stm/_chainsaw/appsystem/prefab/gui/unique/itemmodel/charmitemmodel_sm79_
 natives/stm/_chainsaw/appsystem/prefab/gui/unique/itemmodel/charmitemmodel_sm79_529.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/item/lostitem.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/network/networkobject.pfb.17.stm
+natives/stm/_chainsaw/appsystem/prefab/network/networkobject.pfb.17.x64
 natives/stm/_chainsaw/appsystem/prefab/rendering/raytracingstagecontrol.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/rendering/windglobalapplier.pfb.17
 natives/stm/_chainsaw/appsystem/prefab/rendering/windlocalapplier.pfb.17
@@ -52623,6 +52625,7 @@ natives/stm/_chainsaw/appsystem/ui/figure/figure00_140/figuremodel_figure00_140.
 natives/stm/_chainsaw/appsystem/ui/figure/figure00_140/sm84_667_00.mot.613
 natives/stm/_chainsaw/appsystem/ui/figure/figure00_150/chg3_general_0000_idle_loop_vera.mot.613
 natives/stm/_chainsaw/appsystem/ui/figure/figure00_150/figuremodel_figure00_150.pfb.17
+natives/stm/_chainsaw/appsystem/ui/figure/figure00_160/chga00_00.mot.613
 natives/stm/_chainsaw/appsystem/ui/figure/figure00_160/chga00_01.mot.613
 natives/stm/_chainsaw/appsystem/ui/figure/figure00_160/chga_general_0000_idle_loop_vera.mot.613
 natives/stm/_chainsaw/appsystem/ui/figure/figure00_160/figuremodel_figure00_160.pfb.17
@@ -58969,6 +58972,7 @@ natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_641/gm84_641_fla
 natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_642/camera.user.2
 natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_642/cameraalldone.user.2
 natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_646/gm84_646_npc_motfsm.motfsm2.43
+natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_649/camera.user.2
 natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_649/gm84_649_entfence_bank.motbank.3
 natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_649/gm84_649_entfence_list.motlist.663
 natives/stm/_chainsaw/environment/prefab/gimmick/gm8x/gm84/gm84_649/gm84_649_exifence_bank.motbank.3
@@ -64907,6 +64911,7 @@ natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_599/sm20_599_00_r.rmesh.2401
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_600/sm20_600_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_600/sm20_600_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_600/sm20_600_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_600/sm20_600_00_r.rmesh.24013
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_601/sm20_601_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_601/sm20_601_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_601/sm20_601_00_mat.mdf2.32
@@ -64918,6 +64923,7 @@ natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_601/sm20_601_01_r.rmesh.2401
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_602/sm20_602_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_602/sm20_602_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_602/sm20_602_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_602/sm20_602_00_r.rmesh.24013
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_603/sm20_603_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_603/sm20_603_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm2x/sm20/sm20_603/sm20_603_00_mat.mdf2.32
@@ -66813,6 +66819,7 @@ natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_528/sm23_528_00.mesh.2211087
 natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_528/sm23_528_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_528/sm23_528_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_528/sm23_528_00_r.rmesh.24013
+natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_528/sm23_528_00_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_530/sm23_530_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_530/sm23_530_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm2x/sm23/sm23_530/sm23_530_00_mat.mdf2.32
@@ -70293,6 +70300,7 @@ natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_593/sm32_593_01_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_594/sm32_594_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_594/sm32_594_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_594/sm32_594_00_frost_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_594/sm32_594_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_594/sm32_594_00_r.rmesh.24013
 natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_594/sm32_594_01.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm3x/sm32/sm32_594/sm32_594_01_e.mcol.20021
@@ -73168,6 +73176,7 @@ natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_607/sm41_607_00_r.rmesh.2401
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_608/sm41_608_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_608/sm41_608_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_608/sm41_608_00_frost_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_608/sm41_608_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_608/sm41_608_00_r.rmesh.24013
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_609/sm41_609_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_609/sm41_609_00_e.mcol.20021
@@ -73181,6 +73190,7 @@ natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_609/sm41_609_11.mesh.2211087
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_609/sm41_609_11.rbs.34
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_609/sm41_609_11_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_610/sm41_610_00.mesh.221108797
+natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_610/sm41_610_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_613/sm41_613_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_613/sm41_613_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm4x/sm41/sm41_614/sm41_614_00.mesh.221108797
@@ -74583,6 +74593,7 @@ natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_00_r.rmesh.2401
 natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_01.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_01_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_01_frost_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_01_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_01_r.rmesh.24013
 natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_02.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm5x/sm51/sm51_593/sm51_593_02_e.mcol.20021
@@ -76105,6 +76116,7 @@ natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_00_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_01.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_01_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_01_frost_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_01_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_01_r.rmesh.24013
 natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_02.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm5x/sm55/sm55_531/sm55_531_02_e.mcol.20021
@@ -77488,6 +77500,7 @@ natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_614/sm61_614_00.mesh.2211087
 natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_614/sm61_614_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_615/sm61_615_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_615/sm61_615_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_616/sm61_616_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_616/sm61_616_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_616/sm61_616_01.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm6x/sm61/sm61_616/sm61_616_01_mat.mdf2.32
@@ -79722,6 +79735,7 @@ natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_326/sm82_326_02_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_326/sm82_326_03_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_326/sm82_326_04_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_326/sm82_326_05_t.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_326/sm82_326_50_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_326/sm82_326_51_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_326/sm82_326_52_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm82/sm82_327/sm82_327_00_t.mcol.20021
@@ -81379,6 +81393,7 @@ natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_626/rtt_sm84_626_00.rtex.5
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_626/sm84_626_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_626/sm84_626_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_626/sm84_626_00_frost_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_626/sm84_626_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_626/sm84_626_00_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_627/sm84_627_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_627/sm84_627_00_mat.mdf2.32
@@ -81448,6 +81463,7 @@ natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_639/sm84_639_00.mesh.2211087
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_639/sm84_639_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_639/sm84_639_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_639/sm84_639_00_t.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_639/sm84_639_01_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_640/sm84_640_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_640/sm84_640_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_640/sm84_640_00_mat.mdf2.32
@@ -82060,7 +82076,16 @@ natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_806/sm84_806_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_806/sm84_806_00_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_806/sm84_806_01_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_806/sm84_806_01_t.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_00.mesh.221108797
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_00_e.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_01.mesh.221108797
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_01_e.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_01_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_01_t.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_02.mesh.221108797
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_02.rbs.34
+natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_807/sm84_807_02_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_808/sm84_808_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_808/sm84_808_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_808/sm84_808_01.mesh.221108797
@@ -98690,6 +98715,7 @@ natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_a_nrrc.tex.143221
 natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_b_albd.tex.143221013
 natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_b_lymo.tex.143221013
 natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_b_nrrc.tex.143221013
+natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_b_occ.tex.143221013
 natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_c_albd.tex.143221013
 natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_c_lymo.tex.143221013
 natives/stm/_chainsaw/environment/texture/st50_audiencepillarc_c_nrrc.tex.143221013
@@ -99447,6 +99473,7 @@ natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_a_atos.tex.1432
 natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_a_nrrc.tex.143221013
 natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_a_occ.tex.143221013
 natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_b_albd.tex.143221013
+natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_b_albm.tex.143221013
 natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_b_atos.tex.143221013
 natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_b_emi.tex.143221013
 natives/stm/_chainsaw/environment/texture/st51_castlewalkwindowa_b_nrrc.tex.143221013
@@ -107972,6 +107999,7 @@ natives/stm/_chainsaw/mastermaterial/textures/nullatod.tex.143221013
 natives/stm/_chainsaw/mastermaterial/textures/nullbasemetallic.tex.143221013
 natives/stm/_chainsaw/mastermaterial/textures/nullbasemsc_alb.tex.143221013
 natives/stm/_chainsaw/mastermaterial/textures/nullblack_128.tex.143221013
+natives/stm/_chainsaw/mastermaterial/textures/nullblack_256.tex.143221013
 natives/stm/_chainsaw/mastermaterial/textures/nullblack_64.tex.143221013
 natives/stm/_chainsaw/mastermaterial/textures/nullblack_msk4.tex.143221013
 natives/stm/_chainsaw/mastermaterial/textures/nullgray.tex.143221013
@@ -112968,6 +112996,7 @@ natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_546.us
 natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_547.user.2
 natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_548.user.2
 natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_549.user.2
+natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_557.user.2
 natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_559.user.2
 natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_567.user.2
 natives/stm/_chainsaw/sound/resource/container/gimmick/sm8x/snd_cont_sm84_568.user.2
@@ -123128,6 +123157,7 @@ natives/stm/_chainsaw/ui/ui2300/tex/cs_rich_tutorial999_im.tex.143221013
 natives/stm/_chainsaw/ui/ui2300/tex/cs_rich_tutorial_moviertt.rtex.5
 natives/stm/_chainsaw/ui/ui2400/gui/cs_ui2400_sm84_591.gui.540034
 natives/stm/_chainsaw/ui/ui2400/gui/cs_ui2400_sm84_592.gui.540034
+natives/stm/_chainsaw/ui/ui2400/gui/cs_ui2400_sm84_608.gui.540034
 natives/stm/_chainsaw/ui/ui2400/gui/cs_ui2400_sm84_608_01.gui.540034
 natives/stm/_chainsaw/ui/ui2400/gui/cs_ui2400_sm84_706.gui.540034
 natives/stm/_chainsaw/ui/ui2400/gui/cs_ui2400_sm84_719.gui.540034
@@ -128839,6 +128869,7 @@ natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st46/tex_st46_100/tex_0015_st46_
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st46/tex_st46_100/tex_0015_st46_100_rtt_00.rtex.5
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st46/tex_st46_100/tex_0015_st46_100_rtt_01.rtex.5
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st46/tex_st46_100/tex_0015_st46_100_rtt_02.rtex.5
+natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st50/tex_st50_401/tex_0015_st50_401_cloud_00_msk1.tex.143221013
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st50/tex_st50_401/tex_0015_st50_401_cloud_02_msk1.tex.143221013
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st50/tex_st50_401/tex_0015_st50_401_cloud_03_msk1.tex.143221013
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st50/tex_st50_401/tex_0015_st50_401_cloud_10_rt.rtex.5
@@ -128854,6 +128885,7 @@ natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_100_nami_0000.uvs.7
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_100_nami_0000_msk1.tex.143221013
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_100_nami_0000_rt.rtex.5
+natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_100_nami_0001_msk1.tex.143221013
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_100_nami_0002_msk1.tex.143221013
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_100_nami_0003_msk2.tex.143221013
 natives/stm/_chainsaw/vfx/texture/tex_stage/tex_st60/tex_st60_000/tex_0015_st60_100_nami_0004_msk1.tex.143221013
@@ -143729,6 +143761,7 @@ natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_
 natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_liquid_splash00_22.mesh.221108797
 natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_liquid_splash00_23.mesh.221108797
 natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_liquid_splash00_24.mesh.221108797
+natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_liquid_splash00_25.mesh.221108797
 natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_liquid_splash00_26.mesh.221108797
 natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_liquid_splash00_26_low.mesh.221108797
 natives/stm/re_engine_library/vfx_library/mesh/mesh_liquid/splash00/mesh_capcom_liquid_splash00_27.mesh.221108797
@@ -143933,6 +143966,7 @@ natives/stm/re_engine_library/vfx_library/texture/tex_electrical/tex_capcom_elec
 natives/stm/re_engine_library/vfx_library/texture/tex_electrical/tex_capcom_electrical_00_0009_alpg.tex.143221013
 natives/stm/re_engine_library/vfx_library/texture/tex_electrical/tex_capcom_electrical_00_0011.uvs.7
 natives/stm/re_engine_library/vfx_library/texture/tex_electrical/tex_capcom_electrical_00_0011_alpg.tex.143221013
+natives/stm/re_engine_library/vfx_library/texture/tex_electrical/tex_capcom_electrical_02_0000.uvs.7
 natives/stm/re_engine_library/vfx_library/texture/tex_electrical/tex_capcom_electrical_02_0000_msk4.tex.143221013
 natives/stm/re_engine_library/vfx_library/texture/tex_electrical/tex_capcom_electrical_02_0002_msk4.tex.143221013
 natives/stm/re_engine_library/vfx_library/texture/tex_explosion/tex_capcom_explosion_flame_0000.uvs.7
@@ -160866,6 +160900,7 @@ natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_a_nrrc.
 natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_b_albd.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_b_lymo.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_b_nrrc.tex.143221013
+natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_b_occ.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_c_albd.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_c_lymo.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st50_audiencepillarc_c_nrrc.tex.143221013
@@ -161614,6 +161649,7 @@ natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_a_ato
 natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_a_nrrc.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_a_occ.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_b_albd.tex.143221013
+natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_b_albm.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_b_atos.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_b_emi.tex.143221013
 natives/stm/streaming/_chainsaw/environment/texture/st51_castlewalkwindowa_b_nrrc.tex.143221013
@@ -164002,15 +164038,69 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.ptbr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.ru
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_se.spck.1.x64
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.de
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.en
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.fr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.it
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.ja
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.ptbr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.ru
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_se.spck.1.x64
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.de
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.en
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.fr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.it
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.ja
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.ptbr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.ru
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_bgm.spck.1.x64
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.de
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.en
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.fr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.it
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.ja
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.ptbr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.ru
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_bgm.spck.1.x64
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.de
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.en
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.fr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.it
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.ja
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.ptbr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.ru
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_bgm.spck.1.x64
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.de
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.en
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.fr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.it
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.ja
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.ptbr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.ru
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_bgm.spck.1.x64
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.de
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.en
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.fr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.it
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.ja
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.ptbr
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.ru
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse900_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse910_se.spck.1.x64
@@ -166619,6 +166709,8 @@ natives/stm/systems/develop/splinemesh.sdf.221007879
 natives/stm/systems/develop/volumetrictest.sdf.221007879
 natives/stm/systems/dynamics/default.def.6
 natives/stm/systems/effect/chijiiwa_pat128_msk1.tex.143221013
+natives/stm/systems/effect/chijiiwa_pat256_msk1.tex.143221013
+natives/stm/systems/effect/chijiiwa_pat512_msk1.tex.143221013
 natives/stm/systems/effect/defaultparticlerefract.mmtr.221007879
 natives/stm/systems/effect/defaultprimitivemastermaterial.mmtr.221007879
 natives/stm/systems/effect/defaultprimitivemesh.mmtr.221007879
@@ -166691,13 +166783,19 @@ natives/stm/systems/rendering/materialeditor/st0000/sm00018.pfb.17
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfx_devtest_00.mdf2.32
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_00.mesh.221108797
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_alb.tex.143221013
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_albm.tex.143221013
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_nrm.tex.143221013
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_nrmr.tex.143221013
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_alb.tex.143221013
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_albm.tex.143221013
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_nrm.tex.143221013
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_nrmr.tex.143221013
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_rgh.tex.143221013
 natives/stm/systems/rendering/materialeditor/st0000/sm00024.pfb.17
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_00.mdf2.32
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_00.mesh.221108797
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_alb.tex.143221013
+natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_albm.tex.143221013
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_met.tex.143221013
 natives/stm/systems/rendering/materialeditor/st0000/st0000_00_00.lprb.6
 natives/stm/systems/rendering/materialeditor/st0000/st0000_00_00.prb.9
