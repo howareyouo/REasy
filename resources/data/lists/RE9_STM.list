@@ -35789,6 +35789,7 @@ natives/stm/environment/sm/sm1x/sm12/sm12_006/sm12_006_00.sdftex.501229472
 natives/stm/environment/sm/sm1x/sm12/sm12_006/sm12_006_00_e.mcol.29030
 natives/stm/environment/sm/sm1x/sm12/sm12_006/sm12_006_00_rainwall.mdf2.51
 natives/stm/environment/sm/sm1x/sm12/sm12_006/sm12_006_01_rainwall.mdf2.51
+natives/stm/environment/sm/sm1x/sm12/sm12_006/sm12_006_03.mdf2.51
 natives/stm/environment/sm/sm1x/sm12/sm12_006/sm12_006_03_rainwall.mdf2.51
 natives/stm/environment/sm/sm1x/sm12/sm12_007/sm12_007_00.mdf2.51
 natives/stm/environment/sm/sm1x/sm12/sm12_007/sm12_007_00.mesh.250925211
@@ -140081,10 +140082,12 @@ natives/stm/materialshader/textures/fakeglasscubemap.tex.250813143
 natives/stm/materialshader/textures/noise3d_00_msk1.tex.250813143
 natives/stm/materialshader/textures/noise3d_01_msk3.tex.250813143
 natives/stm/materialshader/textures/noise_000_00_msk2.tex.250813143
+natives/stm/materialshader/textures/noisemap_00_msk1.tex.250813143
 natives/stm/materialshader/textures/noisemap_02_msk1.tex.250813143
 natives/stm/materialshader/textures/noisemap_03_msk1.tex.250813143
 natives/stm/materialshader/textures/nullanisoflow.tex.250813143
 natives/stm/materialshader/textures/nullbasemetallic.tex.250813143
+natives/stm/materialshader/textures/nullblack_1024.tex.250813143
 natives/stm/materialshader/textures/nullblack_128.tex.250813143
 natives/stm/materialshader/textures/nullblack_64.tex.250813143
 natives/stm/materialshader/textures/nullblack_msk4.tex.250813143
@@ -177351,6 +177354,7 @@ natives/stm/streaming/materialshader/textures/eyetextures/iris_type3_alb.tex.250
 natives/stm/streaming/materialshader/textures/eyetextures/vein_master.tex.250813143
 natives/stm/streaming/materialshader/textures/eyetextures/vein_nrm.tex.250813143
 natives/stm/streaming/materialshader/textures/fakeglass_alba.tex.250813143
+natives/stm/streaming/materialshader/textures/noisemap_00_msk1.tex.250813143
 natives/stm/streaming/materialshader/textures/noisemap_02_msk1.tex.250813143
 natives/stm/streaming/materialshader/textures/noisemap_03_msk1.tex.250813143
 natives/stm/streaming/materialshader/textures/record_base/blood_nrra.tex.250813143
@@ -177908,8 +177912,12 @@ natives/stm/streaming/sound/wwise/system_sfx.spck.1.x64
 natives/stm/streaming/sound/wwise/wp3549_sfx.spck.1.x64
 natives/stm/streaming/sound/wwise/wp6533_sfx.spck.1.x64
 natives/stm/streaming/systems/rendering/eyeball/eye_nmr.tex.250813143
+natives/stm/streaming/systems/rendering/eyematerials/fullsizeiris/iris_type1_alb.tex.250813143
 natives/stm/streaming/systems/rendering/eyematerials/fullsizeiris/iris_type1_disp.tex.250813143
+natives/stm/streaming/systems/rendering/eyematerials/fullsizeiris/iris_type1_nrm.tex.250813143
+natives/stm/streaming/systems/rendering/eyematerials/fullsizeiris/iris_type2_alb.tex.250813143
 natives/stm/streaming/systems/rendering/eyematerials/fullsizeiris/iris_type2_disp.tex.250813143
+natives/stm/streaming/systems/rendering/eyematerials/fullsizeiris/iris_type2_nrm.tex.250813143
 natives/stm/streaming/systems/rendering/eyematerials/iris_sick_alb.tex.250813143
 natives/stm/streaming/systems/rendering/eyematerials/iris_type1_alb.tex.250813143
 natives/stm/streaming/systems/rendering/eyematerials/iris_type1_disp.tex.250813143
@@ -177969,6 +177977,8 @@ natives/stm/systems/develop/splinemesh.sdf.251112994
 natives/stm/systems/develop/volumetrictest.sdf.251112994
 natives/stm/systems/dynamics/default.def.6
 natives/stm/systems/effect/chijiiwa_pat128_msk1.tex.250813143
+natives/stm/systems/effect/chijiiwa_pat256_msk1.tex.250813143
+natives/stm/systems/effect/chijiiwa_pat512_msk1.tex.250813143
 natives/stm/systems/effect/defaultparticlerefract.mmtr.251112994
 natives/stm/systems/effect/defaultprimitivemastermaterial.mmtr.251112994
 natives/stm/systems/effect/defaultprimitivemesh.mmtr.251112994
@@ -178230,15 +178240,19 @@ natives/stm/systems/rendering/bluenoise256x256/hdr_rgba_0124.tex.250813143
 natives/stm/systems/rendering/bluenoise256x256/hdr_rgba_0125.tex.250813143
 natives/stm/systems/rendering/bluenoise256x256/hdr_rgba_0126.tex.250813143
 natives/stm/systems/rendering/bluenoise256x256/hdr_rgba_0127.tex.250813143
+natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_128spp.tex.250813143
 natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_16spp.tex.250813143
 natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_1spp.tex.250813143
+natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_256spp.tex.250813143
 natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_2spp.tex.250813143
 natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_32spp.tex.250813143
 natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_4spp.tex.250813143
 natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_64spp.tex.250813143
 natives/stm/systems/rendering/bluenoisesig/scrambling_ranking_128x128_2d_8spp.tex.250813143
+natives/stm/systems/rendering/cloud_base_3d_mip1_msk2.tex.250813143
 natives/stm/systems/rendering/cloud_base_3d_mip2_msk2.tex.250813143
 natives/stm/systems/rendering/cloud_base_3d_msk2.tex.250813143
+natives/stm/systems/rendering/cloud_base_rd_mip1_msk2.tex.250813143
 natives/stm/systems/rendering/cloud_base_rd_mip2_msk2.tex.250813143
 natives/stm/systems/rendering/cloud_base_rd_msk2.tex.250813143
 natives/stm/systems/rendering/cloud_detail_3d_msk1.tex.250813143
@@ -178256,8 +178270,12 @@ natives/stm/systems/rendering/eyeball/eye_vns.tex.250813143
 natives/stm/systems/rendering/eyeball/eyeball.mesh.250925211
 natives/stm/systems/rendering/eyeball/eyeballmaterial.mmtr.251112994
 natives/stm/systems/rendering/eyeball/eyecaustics.tex.250813143
+natives/stm/systems/rendering/eyematerials/fullsizeiris/iris_type1_alb.tex.250813143
 natives/stm/systems/rendering/eyematerials/fullsizeiris/iris_type1_disp.tex.250813143
+natives/stm/systems/rendering/eyematerials/fullsizeiris/iris_type1_nrm.tex.250813143
+natives/stm/systems/rendering/eyematerials/fullsizeiris/iris_type2_alb.tex.250813143
 natives/stm/systems/rendering/eyematerials/fullsizeiris/iris_type2_disp.tex.250813143
+natives/stm/systems/rendering/eyematerials/fullsizeiris/iris_type2_nrm.tex.250813143
 natives/stm/systems/rendering/eyematerials/iris_sick_alb.tex.250813143
 natives/stm/systems/rendering/eyematerials/iris_type1_alb.tex.250813143
 natives/stm/systems/rendering/eyematerials/iris_type1_disp.tex.250813143
@@ -181600,6 +181618,7 @@ natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_001_01.mesh.250925211
 natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_002_00.mesh.250925211
 natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_003_00.mesh.250925211
 natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_004_00.mesh.250925211
+natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_005_00.mesh.250925211
 natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_scroll_000_00.mdf2.51
 natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_scroll_000_00.mesh.250925211
 natives/stm/vfx/mesh/mesh_liquid/drop/20_liquid_drop_scroll_000_01.mdf2.51
@@ -183091,6 +183110,7 @@ natives/stm/vfx/texture/tex_other/20_other_ch1_01_watermask_00_msk4.tex.25081314
 natives/stm/vfx/texture/tex_other/20_other_ch3_03_waterstream_001_00_nrm.tex.250813143
 natives/stm/vfx/texture/tex_other/20_other_ch3_04_blooddrop_00_msk1.tex.250813143
 natives/stm/vfx/texture/tex_other/20_other_ch3_04_blooddrop_00_nrm.tex.250813143
+natives/stm/vfx/texture/tex_other/20_other_ch3_04_blooddrop_01_msk1.tex.250813143
 natives/stm/vfx/texture/tex_other/20_other_ch3_04_blooddrop_01_nrm.tex.250813143
 natives/stm/vfx/texture/tex_other/20_other_ch3_04_blooddrop_02_nrmr.tex.250813143
 natives/stm/vfx/texture/tex_other/20_other_ch3_04_waterstream_000_00_alb.tex.250813143
@@ -183330,6 +183350,7 @@ natives/stm/vfx/uvsequence/uvs_vector/20_vector_water_001_00.uvs.8
 natives/stm/vfx/uvsequence/uvs_vector/lib_20_vector_radial_000_00.uvs.8
 natives/stm/vfx/uvsequence/uvs_vector/lib_20_vector_radial_001_00.uvs.8
 natives/stm/vfx/uvsequence/uvs_vector/lib_20_vector_vortex_000_00.uvs.8
+natives/stm/vfx/uvsequence/uvs_vector/lib_20_vector_water_007_00.uvs.8
 natives/stm/vfx/uvsequence/uvs_vector/lib_20_vector_water_010_00.uvs.8
 natives/stm/vfx/volumetricfog/volumetricfog_000_00.pfb.18
 natives/stm/vfx/volumetricfog/volumetricfog_000_01.pfb.18
