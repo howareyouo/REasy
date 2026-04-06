@@ -265,6 +265,7 @@ natives/stm/_ge/character/ch/animation/ch31_0000/motlist/ch31_0000damage.motlist
 natives/stm/_ge/character/ch/animation/ch31_0000/motlist/ch31_0000general.motlist.486
 natives/stm/_ge/character/ch/animation/ch31_0000/motlist/ch31_0000motiontree.motlist.486
 natives/stm/_ge/character/ch/ch01/1200/1200/ch01_1200.chain.39
+natives/stm/_ge/character/ch/ch01/1200/1200/ch01_1200.fbxskel.3
 natives/stm/_ge/character/ch/ch01/1200/1201/ch01_1200_boa_alba.tex.30
 natives/stm/_ge/character/ch/ch01/1200/1201/ch01_1200_boa_nrmr.tex.30
 natives/stm/_ge/character/ch/ch01/1200/1201/ch01_1200_hoodie_albd.tex.30
@@ -757,6 +758,7 @@ natives/stm/_ge/character/ch/ch09/reward/sm08_035_rewards_eyes.mdf2.19
 natives/stm/_ge/character/ch/ch09/reward/sm08_035_rewards_face.mdf2.19
 natives/stm/_ge/character/ch/ch09/reward/sm08_035_rewards_hair.mdf2.19
 natives/stm/_ge/character/ch/ch20/0000/0000/ch20_0000.chain.39
+natives/stm/_ge/character/ch/ch20/0000/0000/ch20_0000.fbxskel.3
 natives/stm/_ge/character/ch/ch20/0000/0000/ch20_0000.gpuc.62
 natives/stm/_ge/character/ch/ch20/0000/0000/ch20_0000_body.mdf2.19
 natives/stm/_ge/character/ch/ch20/0000/0000/ch20_0000_body.mesh.2101050001
@@ -816,6 +818,7 @@ natives/stm/_ge/character/ch/ch20/1000/1020/ch20_1020_canine_teeth_atoc.tex.30
 natives/stm/_ge/character/ch/ch20/1000/1020/ch20_1020_canine_teeth_nrmr.tex.30
 natives/stm/_ge/character/ch/ch20/1000/1020/ch20_1020_eyecover_nrmr.tex.30
 natives/stm/_ge/character/ch/ch20/2000/2000/ch20_2000.chain.39
+natives/stm/_ge/character/ch/ch20/2000/2000/ch20_2000.fbxskel.3
 natives/stm/_ge/character/ch/ch20/2000/2000/ch20_2000.gpuc.62
 natives/stm/_ge/character/ch/ch20/2000/2000/ch20_2000_body.mdf2.19
 natives/stm/_ge/character/ch/ch20/2000/2000/ch20_2000_body.mesh.2101050001
@@ -996,6 +999,7 @@ natives/stm/_ge/character/ch/ch30/1000/1000/ch30_1000_teeth_albd.tex.30
 natives/stm/_ge/character/ch/ch30/1000/1000/ch30_1000_teeth_atoc.tex.30
 natives/stm/_ge/character/ch/ch30/1000/1000/ch30_1000_teeth_nrmr.tex.30
 natives/stm/_ge/character/ch/ch30/3000/3000/ch30_3000.chain.39
+natives/stm/_ge/character/ch/ch30/3000/3000/ch30_3000.fbxskel.3
 natives/stm/_ge/character/ch/ch30/3000/3000/ch30_3000_armor_albd.tex.30
 natives/stm/_ge/character/ch/ch30/3000/3000/ch30_3000_armor_atoc.tex.30
 natives/stm/_ge/character/ch/ch30/3000/3000/ch30_3000_armor_nrmr.tex.30
@@ -4557,6 +4561,7 @@ natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monito
 natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monitor_00r.rmesh.22009
 natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monitor_01.mdf2.19
 natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monitor_01.mesh.2101050001
+natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monitor_02.mdf2.19
 natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monitor_02.mesh.2101050001
 natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monitor_02_sand.mdf2.19
 natives/stm/_ge/environment/props/resource/sm8x/sm80_455_monitor/sm80_455_monitor_02_tvpic01.mdf2.19
@@ -4603,6 +4608,7 @@ natives/stm/_ge/environment/props/resource/sm8x/sm80_463_evdoor/sm80_463_evdoor_
 natives/stm/_ge/environment/props/resource/sm8x/sm80_463_evdoor/sm80_463_evdoor_00.rbs.32
 natives/stm/_ge/environment/props/resource/sm8x/sm80_463_evdoor/sm80_463_evdoor_00c.mcol.10019
 natives/stm/_ge/environment/props/resource/sm8x/sm80_463_evdoor/sm80_463_evdoor_00e.mcol.10019
+natives/stm/_ge/environment/props/resource/sm8x/sm80_463_evdoor/sm80_463_evdoor_00t.mcol.10019
 natives/stm/_ge/environment/props/resource/sm8x/sm80_463_evdoor/sm80_463_evdoor_01c.mcol.10019
 natives/stm/_ge/environment/props/resource/sm8x/sm80_463_evdoor/sm80_463_evdoor_01t.mcol.10019
 natives/stm/_ge/environment/props/resource/sm8x/sm80_464_ev/sm80_464_ev_00.mdf2.19
@@ -17287,10 +17293,12 @@ natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ar
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.de
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.en
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.es
+natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.es419
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.fr
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.it
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ja
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ko
+natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.pl
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ptbr
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.ru
 natives/stm/_ge/gui/startflow/tex/startflow_500_im.tex.30.th
@@ -23875,6 +23883,7 @@ natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_bubble_0002.uvs.7
 natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_bubble_0002_alpg.tex.30
 natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_drop_0000.uvs.7
 natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_drop_0000_alpg.tex.30
+natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_foam_0008.uvs.7
 natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_foam_0008_alpg.tex.30
 natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_foam_0009.uvs.7
 natives/stm/_ge/vfx/texture/tex_water/tex_0005_water_foam_0009_alpg.tex.30
@@ -32926,11 +32935,13 @@ natives/stm/environment/props/prefab/dynamic/sm8x/sm82_021_commode/open/fsm_open
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_022_keybox/event/fsm_open.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_023_desk/open/fsm_open.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_024_locker/open/fsm_open.fsmv2.40
+natives/stm/environment/props/prefab/dynamic/sm8x/sm82_025_wooddrawer/open/fsm_open.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_025_wooddrawer/open/fsm_openandnarative.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_025_wooddrawer/open/interactbasic.user.2
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_027_systemkitchen/open/fsm_open.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_028_wooddrawer/open/fsm_open.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_029_systemkitchenshort/open/fsm_open.fsmv2.40
+natives/stm/environment/props/prefab/dynamic/sm8x/sm82_030_systemkitchen/open/fsm_open.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_030_systemkitchen/openlock/fsm_openlock.fsmv2.40
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_030_systemkitchen/openlock/interactbasic_1.user.2
 natives/stm/environment/props/prefab/dynamic/sm8x/sm82_031_wooddrawersink/open/fsm_open.fsmv2.40
@@ -34232,8 +34243,10 @@ natives/stm/environment/props/prefab/template/propsenemywaitinterval_propsconfig
 natives/stm/environment/props/prefab/template/propsholdinteractgimmick_interacttext.user.2
 natives/stm/environment/props/prefab/template/propsinputstick_inputdata.user.2
 natives/stm/environment/props/prefab/template/propspuzzleinputuserdata.user.2
+natives/stm/environment/props/resource/pictures/picture_babymonitor1.tex.30
 natives/stm/environment/props/resource/pictures/picture_babymonitor2.tex.30
 natives/stm/environment/props/resource/pictures/picture_notepc1.tex.30
+natives/stm/environment/props/resource/pictures/picture_notepc2.tex.30
 natives/stm/environment/props/resource/pictures/picture_smartphone00.tex.30
 natives/stm/environment/props/resource/pictures/picture_smartphone01.tex.30
 natives/stm/environment/props/resource/pictures/picture_smartphone02.tex.30
@@ -45767,6 +45780,7 @@ natives/stm/environment/props/resource/sm8x/sm80_206_4wd/sm80_206_4wd_00.mesh.21
 natives/stm/environment/props/resource/sm8x/sm80_206_4wd/sm80_206_4wd_00e.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_206_4wd/sm80_206_4wd_00r.rmesh.22009
 natives/stm/environment/props/resource/sm8x/sm80_206_4wd/sm80_206_4wd_00t.mcol.10019
+natives/stm/environment/props/resource/sm8x/sm80_206_4wd/sm80_206_4wd_01e.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_206_4wd/sm80_206_4wd_01t.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_211_4noblepedestal/sm80_211_4noblepedestal_00.mdf2.19
 natives/stm/environment/props/resource/sm8x/sm80_211_4noblepedestal/sm80_211_4noblepedestal_00.mesh.2101050001
@@ -46114,7 +46128,11 @@ natives/stm/environment/props/resource/sm8x/sm80_296_blind/sm80_296_blind_00.mes
 natives/stm/environment/props/resource/sm8x/sm80_296_blind/sm80_296_blind_00e.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_296_blind/sm80_296_blind_00r.rmesh.22009
 natives/stm/environment/props/resource/sm8x/sm80_296_blind/sm80_296_blind_00t.mcol.10019
+natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_00.mdf2.19
+natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_00.mesh.2101050001
+natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_00e.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_00r.rmesh.22009
+natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_00t.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_01.mdf2.19
 natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_01.mesh.2101050001
 natives/stm/environment/props/resource/sm8x/sm80_297_tram/sm80_297_tram_01e.mcol.10019
@@ -46393,6 +46411,7 @@ natives/stm/environment/props/resource/sm8x/sm80_366_lift/sm80_366_lift_00r.rmes
 natives/stm/environment/props/resource/sm8x/sm80_366_lift/sm80_366_lift_00t.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_366_lift/sm80_366_lift_01.mdf2.19
 natives/stm/environment/props/resource/sm8x/sm80_366_lift/sm80_366_lift_01.mesh.2101050001
+natives/stm/environment/props/resource/sm8x/sm80_366_lift/sm80_366_lift_01t.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm80_367_rail/sm80_367_rail_00.mdf2.19
 natives/stm/environment/props/resource/sm8x/sm80_367_rail/sm80_367_rail_00.mesh.2101050001
 natives/stm/environment/props/resource/sm8x/sm80_367_rail/sm80_367_rail_00e.mcol.10019
@@ -48853,6 +48872,7 @@ natives/stm/environment/props/resource/sm8x/sm84_174_irondoor/sm84_174_irondoor_
 natives/stm/environment/props/resource/sm8x/sm84_175_entrancedoor/sm84_175_entrancedoor_00.mdf2.19
 natives/stm/environment/props/resource/sm8x/sm84_175_entrancedoor/sm84_175_entrancedoor_00.mesh.2101050001
 natives/stm/environment/props/resource/sm8x/sm84_175_entrancedoor/sm84_175_entrancedoor_00.rbs.32
+natives/stm/environment/props/resource/sm8x/sm84_175_entrancedoor/sm84_175_entrancedoor_00e.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm84_175_entrancedoor/sm84_175_entrancedoor_01e.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm84_175_entrancedoor/sm84_175_entrancedoor_02e.mcol.10019
 natives/stm/environment/props/resource/sm8x/sm84_176_menu/sm84_176_menu_00.mdf2.19
@@ -66289,7 +66309,9 @@ natives/stm/environment/textures/sm91_017_domimemo_a_nrrc.tex.30
 natives/stm/environment/textures/sm91_018_ghostmemo_a_albd.tex.30
 natives/stm/environment/textures/sm91_018_ghostmemo_a_nrrc.tex.30
 natives/stm/environment/textures/sm91_019_domipic_a_albd.tex.30
+natives/stm/environment/textures/sm91_024_familyphoto_a_albd.tex.30
 natives/stm/environment/textures/sm91_024_familyphoto_b_albd.tex.30
+natives/stm/environment/textures/sm91_025_familyphoto_a_albd.tex.30
 natives/stm/environment/textures/sm91_025_familyphoto_b_albd.tex.30
 natives/stm/environment/textures/sm91_026_prologuenarrativea_b_albd.tex.30
 natives/stm/environment/textures/sm91_027_prologuenarrativeb_a_albd.tex.30
@@ -66304,6 +66326,7 @@ natives/stm/environment/textures/sm91_039_familyphoto_a_nrrc.tex.30
 natives/stm/environment/textures/sm91_040_childrenclothes_a_albd.tex.30
 natives/stm/environment/textures/sm91_040_childrenclothes_a_nrrc.tex.30
 natives/stm/environment/textures/sm91_040_childrenclothes_a_occ.tex.30
+natives/stm/environment/textures/sm91_041_familyphoto_a_albd.tex.30
 natives/stm/environment/textures/sm91_041_familyphoto_b_albd.tex.30
 natives/stm/environment/textures/sm91_042_diapers_00_a_atod.tex.30
 natives/stm/environment/textures/sm91_044_babyfood_a_albd.tex.30
@@ -73662,6 +73685,7 @@ natives/stm/gui/bookresourcemanager.scn.20
 natives/stm/gui/bookthumbnail.scn.20
 natives/stm/gui/bookthumbnailinitial.scn.20
 natives/stm/gui/config.gcf.24.x64
+natives/stm/gui/config.gcf.33685784.x64
 natives/stm/gui/figureresource.scn.20
 natives/stm/gui/guiprefabresource.scn.20
 natives/stm/gui/guiprefabresourceinitial.scn.20
@@ -79080,6 +79104,7 @@ natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/c22
 natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/c22e500_00_stagelight.clip.40
 natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/c22e500_01_light.clip.40
 natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/c22e511_00_camera.clip.40
+natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/c22e511_00_light.clip.40
 natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/c22e511_00_stagelight.clip.40
 natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/colorcolect_area02_morning_clip.clip.40
 natives/stm/light/chapter02/area02/area02_time/area02_morning/animation/clip/op_c22e201_00_camera.clip.40
@@ -82532,6 +82557,7 @@ natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_pjblj20/ms_
 natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_ti1meiwew/ms_ti1meiwew_albd.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_ti1meiwew/ms_ti1meiwew_nrrc.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_ti2ifacfw/ms_ti2ifacfw_albd.tex.30
+natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_ti2ifacfw/ms_ti2ifacfw_nrrc.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_tigkfgqew/ms_tigkfgqew_albd.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_tigkfgqew/ms_tigkfgqew_nrrc.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/plaster_damaged_tijmdbro/ms_tijmdbro_albd.tex.30
@@ -82657,6 +82683,7 @@ natives/stm/materiallibrary/megascans/custom/surface/surface_metal_tjzjeaaaw/tjz
 natives/stm/materiallibrary/megascans/custom/surface/surface_metal_tjzjeaaaw/tjzjeaaaw_nrrc.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/surface_metal_tjzmddvew/tjzmddvew_albd.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/surface_metal_tjzmddvew/tjzmddvew_nrrc.tex.30
+natives/stm/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp/ms_sccnbdnp_albd.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp/ms_sccnbdnp_nrrc.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp1/ms_sccnbdnp1_albd.tex.30
 natives/stm/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp1/ms_sccnbdnp1_nrrc.tex.30
@@ -84813,6 +84840,7 @@ natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_311_01
 natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_312.wcc.2
 natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_313.wcc.2
 natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_314.wcc.2
+natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_316.wcc.2
 natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_318.wcc.2
 natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_319.wcc.2
 natives/stm/sound/sound_asset/snd_containerlist/sm/snd_containerlist_sm83_320.wcc.2
@@ -86882,6 +86910,7 @@ natives/stm/sound/wwise/em1000_se_chapter2_2.bnk.2.x64
 natives/stm/sound/wwise/em1000_v.bnk.2.x64.de
 natives/stm/sound/wwise/em1000_v.bnk.2.x64.en
 natives/stm/sound/wwise/em1000_v.bnk.2.x64.es
+natives/stm/sound/wwise/em1000_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em1000_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em1000_v.bnk.2.x64.it
 natives/stm/sound/wwise/em1000_v.bnk.2.x64.ja
@@ -86891,6 +86920,7 @@ natives/stm/sound/wwise/em1000_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.ja
@@ -86900,6 +86930,7 @@ natives/stm/sound/wwise/em1000_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.ja
@@ -86909,6 +86940,7 @@ natives/stm/sound/wwise/em1000_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.de
 natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.en
 natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.es
+natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.es419
 natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.fr
 natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.it
 natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.ja
@@ -86918,6 +86950,7 @@ natives/stm/sound/wwise/em1000_v_dialogue_vd.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.de
 natives/stm/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.en
 natives/stm/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.es
+natives/stm/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.es419
 natives/stm/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.fr
 natives/stm/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.it
 natives/stm/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.ja
@@ -86931,6 +86964,7 @@ natives/stm/sound/wwise/em1020_se.bnk.2.x64
 natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.ja
@@ -86940,6 +86974,7 @@ natives/stm/sound/wwise/em1020_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1020_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1020_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1020_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1020_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1020_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1020_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1020_v_dialogue.pck.3.x64.ja
@@ -86976,6 +87011,7 @@ natives/stm/sound/wwise/em1110_se_c25e210_m.bnk.2.x64
 natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.ja
@@ -86985,6 +87021,7 @@ natives/stm/sound/wwise/em1110_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1110_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1110_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1110_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1110_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1110_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1110_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1110_v_dialogue.pck.3.x64.ja
@@ -86995,6 +87032,7 @@ natives/stm/sound/wwise/em1120_se.bnk.2.x64
 natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.ja
@@ -87004,6 +87042,7 @@ natives/stm/sound/wwise/em1120_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1120_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1120_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1120_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1120_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1120_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1120_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1120_v_dialogue.pck.3.x64.ja
@@ -87019,6 +87058,7 @@ natives/stm/sound/wwise/em1150_se_chapter2_5_m.bnk.2.x64
 natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.ja
@@ -87028,6 +87068,7 @@ natives/stm/sound/wwise/em1150_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1150_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1150_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1150_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1150_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1150_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1150_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1150_v_dialogue.pck.3.x64.ja
@@ -87045,6 +87086,7 @@ natives/stm/sound/wwise/em1230_v.bnk.2.x64
 natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.ja
@@ -87054,6 +87096,7 @@ natives/stm/sound/wwise/em1230_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.ja
@@ -87063,6 +87106,7 @@ natives/stm/sound/wwise/em1230_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em1230_v_human_effort.bnk.2.x64.de
 natives/stm/sound/wwise/em1230_v_human_effort.bnk.2.x64.en
 natives/stm/sound/wwise/em1230_v_human_effort.bnk.2.x64.es
+natives/stm/sound/wwise/em1230_v_human_effort.bnk.2.x64.es419
 natives/stm/sound/wwise/em1230_v_human_effort.bnk.2.x64.fr
 natives/stm/sound/wwise/em1230_v_human_effort.bnk.2.x64.it
 natives/stm/sound/wwise/em1230_v_human_effort.bnk.2.x64.ja
@@ -87095,6 +87139,7 @@ natives/stm/sound/wwise/em1260_se_ge.bnk.2.x64
 natives/stm/sound/wwise/em1260_v.bnk.2.x64.de
 natives/stm/sound/wwise/em1260_v.bnk.2.x64.en
 natives/stm/sound/wwise/em1260_v.bnk.2.x64.es
+natives/stm/sound/wwise/em1260_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em1260_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em1260_v.bnk.2.x64.it
 natives/stm/sound/wwise/em1260_v.bnk.2.x64.ja
@@ -87104,6 +87149,7 @@ natives/stm/sound/wwise/em1260_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.ja
@@ -87113,6 +87159,7 @@ natives/stm/sound/wwise/em1260_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.ja
@@ -87122,6 +87169,7 @@ natives/stm/sound/wwise/em1260_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em1261_v.bnk.2.x64.de
 natives/stm/sound/wwise/em1261_v.bnk.2.x64.en
 natives/stm/sound/wwise/em1261_v.bnk.2.x64.es
+natives/stm/sound/wwise/em1261_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em1261_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em1261_v.bnk.2.x64.it
 natives/stm/sound/wwise/em1261_v.bnk.2.x64.ja
@@ -87131,6 +87179,7 @@ natives/stm/sound/wwise/em1261_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.ja
@@ -87140,6 +87189,7 @@ natives/stm/sound/wwise/em1261_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.ja
@@ -87149,6 +87199,7 @@ natives/stm/sound/wwise/em1261_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em1262_v.bnk.2.x64.de
 natives/stm/sound/wwise/em1262_v.bnk.2.x64.en
 natives/stm/sound/wwise/em1262_v.bnk.2.x64.es
+natives/stm/sound/wwise/em1262_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em1262_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em1262_v.bnk.2.x64.it
 natives/stm/sound/wwise/em1262_v.bnk.2.x64.ja
@@ -87158,6 +87209,7 @@ natives/stm/sound/wwise/em1262_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.ja
@@ -87167,6 +87219,7 @@ natives/stm/sound/wwise/em1262_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1262_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1262_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1262_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1262_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1262_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1262_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1262_v_dialogue.pck.3.x64.ja
@@ -87185,6 +87238,7 @@ natives/stm/sound/wwise/em1290_se.bnk.2.x64
 natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.ja
@@ -87194,6 +87248,7 @@ natives/stm/sound/wwise/em1290_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1290_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1290_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1290_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1290_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1290_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1290_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1290_v_dialogue.pck.3.x64.ja
@@ -87207,6 +87262,7 @@ natives/stm/sound/wwise/em1300_se_chapter2_1_m.bnk.2.x64
 natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.ja
@@ -87216,6 +87272,7 @@ natives/stm/sound/wwise/em1300_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1300_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1300_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1300_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1300_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1300_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1300_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1300_v_dialogue.pck.3.x64.ja
@@ -87230,6 +87287,7 @@ natives/stm/sound/wwise/em1302_v.bnk.2.x64
 natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.ja
@@ -87239,6 +87297,7 @@ natives/stm/sound/wwise/em1302_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.ja
@@ -87248,6 +87307,7 @@ natives/stm/sound/wwise/em1302_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em1302_v_effort.bnk.2.x64.de
 natives/stm/sound/wwise/em1302_v_effort.bnk.2.x64.en
 natives/stm/sound/wwise/em1302_v_effort.bnk.2.x64.es
+natives/stm/sound/wwise/em1302_v_effort.bnk.2.x64.es419
 natives/stm/sound/wwise/em1302_v_effort.bnk.2.x64.fr
 natives/stm/sound/wwise/em1302_v_effort.bnk.2.x64.it
 natives/stm/sound/wwise/em1302_v_effort.bnk.2.x64.ja
@@ -87260,6 +87320,7 @@ natives/stm/sound/wwise/em1310_se.bnk.2.x64
 natives/stm/sound/wwise/em1310_v.bnk.2.x64.de
 natives/stm/sound/wwise/em1310_v.bnk.2.x64.en
 natives/stm/sound/wwise/em1310_v.bnk.2.x64.es
+natives/stm/sound/wwise/em1310_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em1310_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em1310_v.bnk.2.x64.it
 natives/stm/sound/wwise/em1310_v.bnk.2.x64.ja
@@ -87269,6 +87330,7 @@ natives/stm/sound/wwise/em1310_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.ja
@@ -87278,6 +87340,7 @@ natives/stm/sound/wwise/em1310_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1310_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1310_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1310_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1310_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1310_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1310_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1310_v_dialogue.pck.3.x64.ja
@@ -87289,6 +87352,7 @@ natives/stm/sound/wwise/em1320_se.bnk.2.x64
 natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.ja
@@ -87298,6 +87362,7 @@ natives/stm/sound/wwise/em1320_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.ja
@@ -87307,6 +87372,7 @@ natives/stm/sound/wwise/em1320_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em1320_v_effort.bnk.2.x64.de
 natives/stm/sound/wwise/em1320_v_effort.bnk.2.x64.en
 natives/stm/sound/wwise/em1320_v_effort.bnk.2.x64.es
+natives/stm/sound/wwise/em1320_v_effort.bnk.2.x64.es419
 natives/stm/sound/wwise/em1320_v_effort.bnk.2.x64.fr
 natives/stm/sound/wwise/em1320_v_effort.bnk.2.x64.it
 natives/stm/sound/wwise/em1320_v_effort.bnk.2.x64.ja
@@ -87320,6 +87386,7 @@ natives/stm/sound/wwise/em1330_se_c32e150_m.bnk.2.x64
 natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.ja
@@ -87329,6 +87396,7 @@ natives/stm/sound/wwise/em1330_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1330_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1330_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1330_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1330_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1330_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1330_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1330_v_dialogue.pck.3.x64.ja
@@ -87341,6 +87409,7 @@ natives/stm/sound/wwise/em1370_se_chapter2_1_m.bnk.2.x64
 natives/stm/sound/wwise/em1370_v.bnk.2.x64.de
 natives/stm/sound/wwise/em1370_v.bnk.2.x64.en
 natives/stm/sound/wwise/em1370_v.bnk.2.x64.es
+natives/stm/sound/wwise/em1370_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em1370_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em1370_v.bnk.2.x64.it
 natives/stm/sound/wwise/em1370_v.bnk.2.x64.ja
@@ -87350,6 +87419,7 @@ natives/stm/sound/wwise/em1370_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.ja
@@ -87359,6 +87429,7 @@ natives/stm/sound/wwise/em1370_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1370_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em1370_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em1370_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em1370_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em1370_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em1370_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em1370_v_dialogue.pck.3.x64.ja
@@ -87379,6 +87450,7 @@ natives/stm/sound/wwise/em1375_v.bnk.2.x64
 natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.ja
@@ -87388,6 +87460,7 @@ natives/stm/sound/wwise/em1390_dialogue_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1390_dialogue_ge.pck.3.x64.de
 natives/stm/sound/wwise/em1390_dialogue_ge.pck.3.x64.en
 natives/stm/sound/wwise/em1390_dialogue_ge.pck.3.x64.es
+natives/stm/sound/wwise/em1390_dialogue_ge.pck.3.x64.es419
 natives/stm/sound/wwise/em1390_dialogue_ge.pck.3.x64.fr
 natives/stm/sound/wwise/em1390_dialogue_ge.pck.3.x64.it
 natives/stm/sound/wwise/em1390_dialogue_ge.pck.3.x64.ja
@@ -87399,6 +87472,7 @@ natives/stm/sound/wwise/em1390_se_ge.bnk.2.x64
 natives/stm/sound/wwise/em1390_v_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em1390_v_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em1390_v_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em1390_v_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em1390_v_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em1390_v_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em1390_v_ge.bnk.2.x64.ja
@@ -87419,6 +87493,7 @@ natives/stm/sound/wwise/em1600_v_ge.bnk.2.x64
 natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.ja
@@ -87428,6 +87503,7 @@ natives/stm/sound/wwise/em1800_dialogue_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1800_dialogue_ge.pck.3.x64.de
 natives/stm/sound/wwise/em1800_dialogue_ge.pck.3.x64.en
 natives/stm/sound/wwise/em1800_dialogue_ge.pck.3.x64.es
+natives/stm/sound/wwise/em1800_dialogue_ge.pck.3.x64.es419
 natives/stm/sound/wwise/em1800_dialogue_ge.pck.3.x64.fr
 natives/stm/sound/wwise/em1800_dialogue_ge.pck.3.x64.it
 natives/stm/sound/wwise/em1800_dialogue_ge.pck.3.x64.ja
@@ -87438,6 +87514,7 @@ natives/stm/sound/wwise/em1800_se_ge.bnk.2.x64
 natives/stm/sound/wwise/em1800_vo_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em1800_vo_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em1800_vo_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em1800_vo_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em1800_vo_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em1800_vo_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em1800_vo_ge.bnk.2.x64.ja
@@ -87448,6 +87525,7 @@ natives/stm/sound/wwise/em1810_se_ge.bnk.2.x64
 natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.ja
@@ -87457,6 +87535,7 @@ natives/stm/sound/wwise/em1900_dialogue_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em1900_dialogue_ge.pck.3.x64.de
 natives/stm/sound/wwise/em1900_dialogue_ge.pck.3.x64.en
 natives/stm/sound/wwise/em1900_dialogue_ge.pck.3.x64.es
+natives/stm/sound/wwise/em1900_dialogue_ge.pck.3.x64.es419
 natives/stm/sound/wwise/em1900_dialogue_ge.pck.3.x64.fr
 natives/stm/sound/wwise/em1900_dialogue_ge.pck.3.x64.it
 natives/stm/sound/wwise/em1900_dialogue_ge.pck.3.x64.ja
@@ -87467,6 +87546,7 @@ natives/stm/sound/wwise/em1900_se_ge.bnk.2.x64
 natives/stm/sound/wwise/em1900_vo_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em1900_vo_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em1900_vo_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em1900_vo_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em1900_vo_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em1900_vo_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em1900_vo_ge.bnk.2.x64.ja
@@ -87503,6 +87583,7 @@ natives/stm/sound/wwise/em4000_se_chapter1_m.bnk.2.x64
 natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.ja
@@ -87512,6 +87593,7 @@ natives/stm/sound/wwise/em4000_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4000_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4000_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4000_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4000_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4000_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4000_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4000_v_dialogue.pck.3.x64.ja
@@ -87522,6 +87604,7 @@ natives/stm/sound/wwise/em4070_se.bnk.2.x64
 natives/stm/sound/wwise/em4070_v.bnk.2.x64.de
 natives/stm/sound/wwise/em4070_v.bnk.2.x64.en
 natives/stm/sound/wwise/em4070_v.bnk.2.x64.es
+natives/stm/sound/wwise/em4070_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em4070_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em4070_v.bnk.2.x64.it
 natives/stm/sound/wwise/em4070_v.bnk.2.x64.ja
@@ -87531,6 +87614,7 @@ natives/stm/sound/wwise/em4070_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4070_v.pck.3.x64.de
 natives/stm/sound/wwise/em4070_v.pck.3.x64.en
 natives/stm/sound/wwise/em4070_v.pck.3.x64.es
+natives/stm/sound/wwise/em4070_v.pck.3.x64.es419
 natives/stm/sound/wwise/em4070_v.pck.3.x64.fr
 natives/stm/sound/wwise/em4070_v.pck.3.x64.it
 natives/stm/sound/wwise/em4070_v.pck.3.x64.ja
@@ -87540,6 +87624,7 @@ natives/stm/sound/wwise/em4070_v.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.ja
@@ -87549,6 +87634,7 @@ natives/stm/sound/wwise/em4070_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4070_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4070_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4070_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4070_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4070_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4070_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4070_v_dialogue.pck.3.x64.ja
@@ -87560,6 +87646,7 @@ natives/stm/sound/wwise/em4090_se.bnk.2.x64
 natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.ja
@@ -87569,6 +87656,7 @@ natives/stm/sound/wwise/em4090_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4090_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4090_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4090_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4090_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4090_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4090_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4090_v_dialogue.pck.3.x64.ja
@@ -87579,6 +87667,7 @@ natives/stm/sound/wwise/em4100_se.bnk.2.x64
 natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.ja
@@ -87588,6 +87677,7 @@ natives/stm/sound/wwise/em4100_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4100_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4100_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4100_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4100_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4100_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4100_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4100_v_dialogue.pck.3.x64.ja
@@ -87598,6 +87688,7 @@ natives/stm/sound/wwise/em4101_se.bnk.2.x64
 natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.ja
@@ -87607,6 +87698,7 @@ natives/stm/sound/wwise/em4101_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.ja
@@ -87616,6 +87708,7 @@ natives/stm/sound/wwise/em4101_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.ja
@@ -87625,6 +87718,7 @@ natives/stm/sound/wwise/em4102_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4102_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4102_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4102_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4102_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4102_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4102_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4102_v_dialogue.pck.3.x64.ja
@@ -87636,6 +87730,7 @@ natives/stm/sound/wwise/em4103_se_c21e430_m.bnk.2.x64
 natives/stm/sound/wwise/em4103_v.bnk.2.x64.de
 natives/stm/sound/wwise/em4103_v.bnk.2.x64.en
 natives/stm/sound/wwise/em4103_v.bnk.2.x64.es
+natives/stm/sound/wwise/em4103_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em4103_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em4103_v.bnk.2.x64.it
 natives/stm/sound/wwise/em4103_v.bnk.2.x64.ja
@@ -87645,6 +87740,7 @@ natives/stm/sound/wwise/em4103_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.ja
@@ -87654,6 +87750,7 @@ natives/stm/sound/wwise/em4103_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4103_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4103_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4103_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4103_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4103_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4103_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4103_v_dialogue.pck.3.x64.ja
@@ -87664,6 +87761,7 @@ natives/stm/sound/wwise/em4104_se.bnk.2.x64
 natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.ja
@@ -87673,6 +87771,7 @@ natives/stm/sound/wwise/em4104_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4104_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4104_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4104_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4104_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4104_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4104_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4104_v_dialogue.pck.3.x64.ja
@@ -87684,6 +87783,7 @@ natives/stm/sound/wwise/em4105_se_c21e430_m.bnk.2.x64
 natives/stm/sound/wwise/em4105_v.bnk.2.x64.de
 natives/stm/sound/wwise/em4105_v.bnk.2.x64.en
 natives/stm/sound/wwise/em4105_v.bnk.2.x64.es
+natives/stm/sound/wwise/em4105_v.bnk.2.x64.es419
 natives/stm/sound/wwise/em4105_v.bnk.2.x64.fr
 natives/stm/sound/wwise/em4105_v.bnk.2.x64.it
 natives/stm/sound/wwise/em4105_v.bnk.2.x64.ja
@@ -87693,6 +87793,7 @@ natives/stm/sound/wwise/em4105_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.ja
@@ -87702,6 +87803,7 @@ natives/stm/sound/wwise/em4105_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4105_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4105_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4105_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4105_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4105_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4105_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4105_v_dialogue.pck.3.x64.ja
@@ -87712,6 +87814,7 @@ natives/stm/sound/wwise/em4107_se.bnk.2.x64
 natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.ja
@@ -87721,6 +87824,7 @@ natives/stm/sound/wwise/em4107_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4107_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4107_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4107_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4107_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4107_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4107_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4107_v_dialogue.pck.3.x64.ja
@@ -87736,6 +87840,7 @@ natives/stm/sound/wwise/em4110_se_c26e150_m.bnk.2.x64
 natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.ja
@@ -87745,6 +87850,7 @@ natives/stm/sound/wwise/em4110_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4110_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4110_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4110_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4110_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4110_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4110_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4110_v_dialogue.pck.3.x64.ja
@@ -87755,6 +87861,7 @@ natives/stm/sound/wwise/em4120_se.bnk.2.x64
 natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.ja
@@ -87764,6 +87871,7 @@ natives/stm/sound/wwise/em4120_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.ja
@@ -87773,6 +87881,7 @@ natives/stm/sound/wwise/em4120_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.ja
@@ -87782,6 +87891,7 @@ natives/stm/sound/wwise/em4121_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4121_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4121_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4121_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4121_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4121_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4121_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4121_v_dialogue.pck.3.x64.ja
@@ -87792,6 +87902,7 @@ natives/stm/sound/wwise/em4122_se.bnk.2.x64
 natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.ja
@@ -87801,6 +87912,7 @@ natives/stm/sound/wwise/em4122_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.ja
@@ -87810,6 +87922,7 @@ natives/stm/sound/wwise/em4122_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.ja
@@ -87819,6 +87932,7 @@ natives/stm/sound/wwise/em4123_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4123_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4123_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4123_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4123_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4123_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4123_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4123_v_dialogue.pck.3.x64.ja
@@ -87829,6 +87943,7 @@ natives/stm/sound/wwise/em4124_se.bnk.2.x64
 natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.ja
@@ -87838,6 +87953,7 @@ natives/stm/sound/wwise/em4124_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4124_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4124_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4124_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4124_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4124_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4124_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4124_v_dialogue.pck.3.x64.ja
@@ -87848,6 +87964,7 @@ natives/stm/sound/wwise/em4130_se.bnk.2.x64
 natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.ja
@@ -87857,6 +87974,7 @@ natives/stm/sound/wwise/em4130_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.ja
@@ -87866,6 +87984,7 @@ natives/stm/sound/wwise/em4130_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.ja
@@ -87875,6 +87994,7 @@ natives/stm/sound/wwise/em4400_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.ja
@@ -87884,6 +88004,7 @@ natives/stm/sound/wwise/em4400_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.ja
@@ -87893,6 +88014,7 @@ natives/stm/sound/wwise/em4410_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.ja
@@ -87902,6 +88024,7 @@ natives/stm/sound/wwise/em4410_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.ja
@@ -87911,6 +88034,7 @@ natives/stm/sound/wwise/em4420_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.ja
@@ -87920,6 +88044,7 @@ natives/stm/sound/wwise/em4420_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.ja
@@ -87929,6 +88054,7 @@ natives/stm/sound/wwise/em4430_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.ja
@@ -87938,6 +88064,7 @@ natives/stm/sound/wwise/em4430_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.ja
@@ -87947,6 +88074,7 @@ natives/stm/sound/wwise/em4432_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.ja
@@ -87956,6 +88084,7 @@ natives/stm/sound/wwise/em4432_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.ja
@@ -87965,6 +88094,7 @@ natives/stm/sound/wwise/em4437_v_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.ja
@@ -87974,6 +88104,7 @@ natives/stm/sound/wwise/em4437_v_dialogue.pck.3.x64.zhcn
 natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.ja
@@ -87983,6 +88114,7 @@ natives/stm/sound/wwise/em4440_dialogue_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4440_dialogue_ge.pck.3.x64.de
 natives/stm/sound/wwise/em4440_dialogue_ge.pck.3.x64.en
 natives/stm/sound/wwise/em4440_dialogue_ge.pck.3.x64.es
+natives/stm/sound/wwise/em4440_dialogue_ge.pck.3.x64.es419
 natives/stm/sound/wwise/em4440_dialogue_ge.pck.3.x64.fr
 natives/stm/sound/wwise/em4440_dialogue_ge.pck.3.x64.it
 natives/stm/sound/wwise/em4440_dialogue_ge.pck.3.x64.ja
@@ -87993,6 +88125,7 @@ natives/stm/sound/wwise/em4440_mt_ge.bnk.2.x64
 natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.ja
@@ -88002,6 +88135,7 @@ natives/stm/sound/wwise/em4440_vo_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.ja
@@ -88011,6 +88145,7 @@ natives/stm/sound/wwise/em4450_dialogue_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4450_dialogue_ge.pck.3.x64.de
 natives/stm/sound/wwise/em4450_dialogue_ge.pck.3.x64.en
 natives/stm/sound/wwise/em4450_dialogue_ge.pck.3.x64.es
+natives/stm/sound/wwise/em4450_dialogue_ge.pck.3.x64.es419
 natives/stm/sound/wwise/em4450_dialogue_ge.pck.3.x64.fr
 natives/stm/sound/wwise/em4450_dialogue_ge.pck.3.x64.it
 natives/stm/sound/wwise/em4450_dialogue_ge.pck.3.x64.ja
@@ -88021,6 +88156,7 @@ natives/stm/sound/wwise/em4460_se_ge.bnk.2.x64
 natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.ja
@@ -88030,6 +88166,7 @@ natives/stm/sound/wwise/em4460_v_dialogue_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.de
 natives/stm/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.en
 natives/stm/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.es
+natives/stm/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.es419
 natives/stm/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.fr
 natives/stm/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.it
 natives/stm/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.ja
@@ -88061,6 +88198,7 @@ natives/stm/sound/wwise/env_mold_territory_ge.bnk.2.x64
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.ja
@@ -88070,6 +88208,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_1_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.ja
@@ -88079,6 +88218,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.ja
@@ -88088,6 +88228,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_2_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.ja
@@ -88097,6 +88238,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.ja
@@ -88106,6 +88248,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_3_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.ja
@@ -88115,6 +88258,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.ja
@@ -88124,6 +88268,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_4_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.ja
@@ -88133,6 +88278,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.ja
@@ -88142,6 +88288,7 @@ natives/stm/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.zhcn
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge_.bnk.2.x64.de
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge_.bnk.2.x64.en
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge_.bnk.2.x64.es
+natives/stm/sound/wwise/event_dialog_chapter10_5_ge_.bnk.2.x64.es419
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge_.bnk.2.x64.fr
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge_.bnk.2.x64.it
 natives/stm/sound/wwise/event_dialog_chapter10_5_ge_.bnk.2.x64.ja
@@ -88201,6 +88348,7 @@ natives/stm/sound/wwise/lvd_lib_se_c10_3.bnk.2.x64
 natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.de
 natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.en
 natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.es
+natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.es419
 natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.fr
 natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.it
 natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.ja
@@ -88210,6 +88358,7 @@ natives/stm/sound/wwise/lvd_lib_v_c02_3.bnk.2.x64.zhcn
 natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.de
 natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.en
 natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.es
+natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.es419
 natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.fr
 natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.it
 natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.ja
@@ -88219,6 +88368,7 @@ natives/stm/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.zhcn
 natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.de
 natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.en
 natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.es
+natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.es419
 natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.fr
 natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.it
 natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.ja
@@ -88228,6 +88378,7 @@ natives/stm/sound/wwise/lvd_lib_v_c02_6.bnk.2.x64.zhcn
 natives/stm/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.de
 natives/stm/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.en
 natives/stm/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.es
+natives/stm/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.es419
 natives/stm/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.fr
 natives/stm/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.it
 natives/stm/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.ja
@@ -88239,6 +88390,7 @@ natives/stm/sound/wwise/movie_bonus.pck.3.x64
 natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.de
 natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.en
 natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.es
+natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.es419
 natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.fr
 natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.it
 natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.ja
@@ -88248,6 +88400,7 @@ natives/stm/sound/wwise/movie_bonus_dialog.bnk.2.x64.zhcn
 natives/stm/sound/wwise/movie_bonus_dialog.pck.3.x64.de
 natives/stm/sound/wwise/movie_bonus_dialog.pck.3.x64.en
 natives/stm/sound/wwise/movie_bonus_dialog.pck.3.x64.es
+natives/stm/sound/wwise/movie_bonus_dialog.pck.3.x64.es419
 natives/stm/sound/wwise/movie_bonus_dialog.pck.3.x64.fr
 natives/stm/sound/wwise/movie_bonus_dialog.pck.3.x64.it
 natives/stm/sound/wwise/movie_bonus_dialog.pck.3.x64.ja
@@ -88259,6 +88412,7 @@ natives/stm/sound/wwise/movie_chapter1.pck.3.x64
 natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.de
 natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.en
 natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.es
+natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.es419
 natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.fr
 natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.it
 natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.ja
@@ -88268,6 +88422,7 @@ natives/stm/sound/wwise/movie_chapter1_dialog.bnk.2.x64.zhcn
 natives/stm/sound/wwise/movie_chapter1_dialog.pck.3.x64.de
 natives/stm/sound/wwise/movie_chapter1_dialog.pck.3.x64.en
 natives/stm/sound/wwise/movie_chapter1_dialog.pck.3.x64.es
+natives/stm/sound/wwise/movie_chapter1_dialog.pck.3.x64.es419
 natives/stm/sound/wwise/movie_chapter1_dialog.pck.3.x64.fr
 natives/stm/sound/wwise/movie_chapter1_dialog.pck.3.x64.it
 natives/stm/sound/wwise/movie_chapter1_dialog.pck.3.x64.ja
@@ -88281,6 +88436,7 @@ natives/stm/sound/wwise/movie_chapter3.pck.3.x64
 natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.de
 natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.en
 natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.es
+natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.es419
 natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.fr
 natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.it
 natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.ja
@@ -88290,6 +88446,7 @@ natives/stm/sound/wwise/movie_chapter3_dialog.bnk.2.x64.zhcn
 natives/stm/sound/wwise/movie_chapter3_dialog.pck.3.x64.de
 natives/stm/sound/wwise/movie_chapter3_dialog.pck.3.x64.en
 natives/stm/sound/wwise/movie_chapter3_dialog.pck.3.x64.es
+natives/stm/sound/wwise/movie_chapter3_dialog.pck.3.x64.es419
 natives/stm/sound/wwise/movie_chapter3_dialog.pck.3.x64.fr
 natives/stm/sound/wwise/movie_chapter3_dialog.pck.3.x64.it
 natives/stm/sound/wwise/movie_chapter3_dialog.pck.3.x64.ja
@@ -88300,6 +88457,7 @@ natives/stm/sound/wwise/movie_relogo.bnk.2.x64
 natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.ja
@@ -88309,6 +88467,7 @@ natives/stm/sound/wwise/pl1000_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl1000_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/pl1000_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/pl1000_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/pl1000_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/pl1000_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/pl1000_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/pl1000_dialogue.pck.3.x64.ja
@@ -88389,6 +88548,7 @@ natives/stm/sound/wwise/pl1000_tps_se_ge.bnk.2.x64
 natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.de
 natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.en
 natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.es
+natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.it
 natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.ja
@@ -88398,6 +88558,7 @@ natives/stm/sound/wwise/pl1000_tps_v_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl1000_v.bnk.2.x64.de
 natives/stm/sound/wwise/pl1000_v.bnk.2.x64.en
 natives/stm/sound/wwise/pl1000_v.bnk.2.x64.es
+natives/stm/sound/wwise/pl1000_v.bnk.2.x64.es419
 natives/stm/sound/wwise/pl1000_v.bnk.2.x64.fr
 natives/stm/sound/wwise/pl1000_v.bnk.2.x64.it
 natives/stm/sound/wwise/pl1000_v.bnk.2.x64.ja
@@ -88407,6 +88568,7 @@ natives/stm/sound/wwise/pl1000_v.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.de
 natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.en
 natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.es
+natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.es419
 natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.fr
 natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.it
 natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.ja
@@ -88416,6 +88578,7 @@ natives/stm/sound/wwise/pl1000_v_chapter2_1_m.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.de
 natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.en
 natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.es
+natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.es419
 natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.fr
 natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.it
 natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.ja
@@ -88425,6 +88588,7 @@ natives/stm/sound/wwise/pl1000_v_chapter2_2_m.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.de
 natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.en
 natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.es
+natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.es419
 natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.fr
 natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.it
 natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.ja
@@ -88434,6 +88598,7 @@ natives/stm/sound/wwise/pl1000_v_chapter2_3_m.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.de
 natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.en
 natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.es
+natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.es419
 natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.fr
 natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.it
 natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.ja
@@ -88443,6 +88608,7 @@ natives/stm/sound/wwise/pl1000_v_chapter2_4_m.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.de
 natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.en
 natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.es
+natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.es419
 natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.fr
 natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.it
 natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.ja
@@ -88452,6 +88618,7 @@ natives/stm/sound/wwise/pl2000_dialogue.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl2000_dialogue.pck.3.x64.de
 natives/stm/sound/wwise/pl2000_dialogue.pck.3.x64.en
 natives/stm/sound/wwise/pl2000_dialogue.pck.3.x64.es
+natives/stm/sound/wwise/pl2000_dialogue.pck.3.x64.es419
 natives/stm/sound/wwise/pl2000_dialogue.pck.3.x64.fr
 natives/stm/sound/wwise/pl2000_dialogue.pck.3.x64.it
 natives/stm/sound/wwise/pl2000_dialogue.pck.3.x64.ja
@@ -88463,6 +88630,7 @@ natives/stm/sound/wwise/pl2000_se.bnk.2.x64
 natives/stm/sound/wwise/pl2000_v.bnk.2.x64.de
 natives/stm/sound/wwise/pl2000_v.bnk.2.x64.en
 natives/stm/sound/wwise/pl2000_v.bnk.2.x64.es
+natives/stm/sound/wwise/pl2000_v.bnk.2.x64.es419
 natives/stm/sound/wwise/pl2000_v.bnk.2.x64.fr
 natives/stm/sound/wwise/pl2000_v.bnk.2.x64.it
 natives/stm/sound/wwise/pl2000_v.bnk.2.x64.ja
@@ -88473,6 +88641,7 @@ natives/stm/sound/wwise/pl2001_se_ge.bnk.2.x64
 natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.ja
@@ -88482,6 +88651,7 @@ natives/stm/sound/wwise/pl3000_dialogue_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl3000_dialogue_ge.pck.3.x64.de
 natives/stm/sound/wwise/pl3000_dialogue_ge.pck.3.x64.en
 natives/stm/sound/wwise/pl3000_dialogue_ge.pck.3.x64.es
+natives/stm/sound/wwise/pl3000_dialogue_ge.pck.3.x64.es419
 natives/stm/sound/wwise/pl3000_dialogue_ge.pck.3.x64.fr
 natives/stm/sound/wwise/pl3000_dialogue_ge.pck.3.x64.it
 natives/stm/sound/wwise/pl3000_dialogue_ge.pck.3.x64.ja
@@ -88492,6 +88662,7 @@ natives/stm/sound/wwise/pl3000_se_ge.bnk.2.x64
 natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.de
 natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.en
 natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.es
+natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.it
 natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.ja
@@ -88501,6 +88672,7 @@ natives/stm/sound/wwise/pl3000_v_ge.bnk.2.x64.zhcn
 natives/stm/sound/wwise/pl4000_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/pl4000_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/pl4000_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/pl4000_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/pl4000_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/pl4000_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/pl4000_dialogue_ge.bnk.2.x64.ja
@@ -88511,6 +88683,7 @@ natives/stm/sound/wwise/pl4000_se_ge.bnk.2.x64
 natives/stm/sound/wwise/pl4000_v_ge.bnk.2.x64.de
 natives/stm/sound/wwise/pl4000_v_ge.bnk.2.x64.en
 natives/stm/sound/wwise/pl4000_v_ge.bnk.2.x64.es
+natives/stm/sound/wwise/pl4000_v_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/pl4000_v_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/pl4000_v_ge.bnk.2.x64.it
 natives/stm/sound/wwise/pl4000_v_ge.bnk.2.x64.ja
@@ -88523,6 +88696,7 @@ natives/stm/sound/wwise/pl5000_v_dialogue.bnk.2.x64
 natives/stm/sound/wwise/pl6000_dialogue_ge.bnk.2.x64.de
 natives/stm/sound/wwise/pl6000_dialogue_ge.bnk.2.x64.en
 natives/stm/sound/wwise/pl6000_dialogue_ge.bnk.2.x64.es
+natives/stm/sound/wwise/pl6000_dialogue_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/pl6000_dialogue_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/pl6000_dialogue_ge.bnk.2.x64.it
 natives/stm/sound/wwise/pl6000_dialogue_ge.bnk.2.x64.ja
@@ -88533,6 +88707,7 @@ natives/stm/sound/wwise/pl6000_se_ge.bnk.2.x64
 natives/stm/sound/wwise/pl6000_v_ge.bnk.2.x64.de
 natives/stm/sound/wwise/pl6000_v_ge.bnk.2.x64.en
 natives/stm/sound/wwise/pl6000_v_ge.bnk.2.x64.es
+natives/stm/sound/wwise/pl6000_v_ge.bnk.2.x64.es419
 natives/stm/sound/wwise/pl6000_v_ge.bnk.2.x64.fr
 natives/stm/sound/wwise/pl6000_v_ge.bnk.2.x64.it
 natives/stm/sound/wwise/pl6000_v_ge.bnk.2.x64.ja
@@ -90096,6 +90271,8 @@ natives/stm/spawn/enemy/data/c02_6_enemy_vh_workshop/em1240_vh_barn_[a]_02_spawn
 natives/stm/spawn/enemy/data/c02_6_enemy_vh_workshop/em1240_vh_barn_[a]_02_spawnparam.user.2
 natives/stm/spawn/enemy/data/c02_6_enemy_vh_workshop/em1240_vh_village_[b]_01_spawnoption.user.2
 natives/stm/spawn/enemy/data/c02_6_enemy_vh_workshop/em1240_vh_village_[b]_01_spawnparam.user.2
+natives/stm/spawn/enemy/data/c02_6_enemy_vh_workshop/em1240_vh＿village_[c]_02_spawnoption.user.2
+natives/stm/spawn/enemy/data/c02_6_enemy_vh_workshop/em1240_vh＿village_[c]_02_spawnparam.user.2
 natives/stm/spawn/enemy/data/c02_6_enemyset_00/em1270_farm_b_04_spawnoption.user.2
 natives/stm/spawn/enemy/data/c02_6_enemyset_00/em1270_farm_b_04_spawnparam.user.2
 natives/stm/spawn/enemy/data/c02_6_enemyset_00/em1270_farm_b_05_spawnoption.user.2
@@ -107401,7 +107578,9 @@ natives/stm/streaming/environment/textures/sm91_017_domimemo_a_atos.tex.30
 natives/stm/streaming/environment/textures/sm91_017_domimemo_a_nrrc.tex.30
 natives/stm/streaming/environment/textures/sm91_018_ghostmemo_a_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_018_ghostmemo_a_nrrc.tex.30
+natives/stm/streaming/environment/textures/sm91_024_familyphoto_a_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_024_familyphoto_b_albd.tex.30
+natives/stm/streaming/environment/textures/sm91_025_familyphoto_a_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_025_familyphoto_b_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_026_prologuenarrativea_b_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_027_prologuenarrativeb_a_albd.tex.30
@@ -107416,6 +107595,7 @@ natives/stm/streaming/environment/textures/sm91_039_familyphoto_a_nrrc.tex.30
 natives/stm/streaming/environment/textures/sm91_040_childrenclothes_a_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_040_childrenclothes_a_nrrc.tex.30
 natives/stm/streaming/environment/textures/sm91_040_childrenclothes_a_occ.tex.30
+natives/stm/streaming/environment/textures/sm91_041_familyphoto_a_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_041_familyphoto_b_albd.tex.30
 natives/stm/streaming/environment/textures/sm91_042_diapers_00_a_atod.tex.30
 natives/stm/streaming/environment/textures/sm91_044_babyfood_a_albd.tex.30
@@ -108412,6 +108592,7 @@ natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_p
 natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_ti1meiwew/ms_ti1meiwew_albd.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_ti1meiwew/ms_ti1meiwew_nrrc.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_ti2ifacfw/ms_ti2ifacfw_albd.tex.30
+natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_ti2ifacfw/ms_ti2ifacfw_nrrc.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_tigkfgqew/ms_tigkfgqew_albd.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_tigkfgqew/ms_tigkfgqew_nrrc.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/plaster_damaged_tijmdbro/ms_tijmdbro_albd.tex.30
@@ -108537,6 +108718,7 @@ natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_metal_tjz
 natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_metal_tjzjeaaaw/tjzjeaaaw_nrrc.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_metal_tjzmddvew/tjzmddvew_albd.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_metal_tjzmddvew/tjzmddvew_nrrc.tex.30
+natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp/ms_sccnbdnp_albd.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp/ms_sccnbdnp_nrrc.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp1/ms_sccnbdnp1_albd.tex.30
 natives/stm/streaming/materiallibrary/megascans/custom/surface/surface_misc_sccnbdnp1/ms_sccnbdnp1_nrrc.tex.30
@@ -109563,6 +109745,7 @@ natives/stm/streaming/sound/wwise/bgm_vge_rm_resident.pck.3.x64
 natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.ja
@@ -109572,6 +109755,7 @@ natives/stm/streaming/sound/wwise/em1000_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.ja
@@ -109581,6 +109765,7 @@ natives/stm/streaming/sound/wwise/em1000_v_dialogue_vd.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.ja
@@ -109590,6 +109775,7 @@ natives/stm/streaming/sound/wwise/em1020_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.ja
@@ -109599,6 +109785,7 @@ natives/stm/streaming/sound/wwise/em1110_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.ja
@@ -109608,6 +109795,7 @@ natives/stm/streaming/sound/wwise/em1120_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.ja
@@ -109617,6 +109805,7 @@ natives/stm/streaming/sound/wwise/em1150_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1230_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1230_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1230_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1230_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1230_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1230_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1230_v_dialogue.pck.3.x64.ja
@@ -109627,6 +109816,7 @@ natives/stm/streaming/sound/wwise/em1240_v_chapter2_1.pck.3.x64
 natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.ja
@@ -109636,6 +109826,7 @@ natives/stm/streaming/sound/wwise/em1260_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.ja
@@ -109645,6 +109836,7 @@ natives/stm/streaming/sound/wwise/em1261_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.ja
@@ -109654,6 +109846,7 @@ natives/stm/streaming/sound/wwise/em1262_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.ja
@@ -109663,6 +109856,7 @@ natives/stm/streaming/sound/wwise/em1290_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.ja
@@ -109672,6 +109866,7 @@ natives/stm/streaming/sound/wwise/em1300_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.ja
@@ -109681,6 +109876,7 @@ natives/stm/streaming/sound/wwise/em1302_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.ja
@@ -109690,6 +109886,7 @@ natives/stm/streaming/sound/wwise/em1310_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.ja
@@ -109699,6 +109896,7 @@ natives/stm/streaming/sound/wwise/em1320_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.ja
@@ -109708,6 +109906,7 @@ natives/stm/streaming/sound/wwise/em1330_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.ja
@@ -109717,6 +109916,7 @@ natives/stm/streaming/sound/wwise/em1370_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.ja
@@ -109726,6 +109926,7 @@ natives/stm/streaming/sound/wwise/em1390_dialogue_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.ja
@@ -109735,6 +109936,7 @@ natives/stm/streaming/sound/wwise/em1800_dialogue_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.ja
@@ -109744,6 +109946,7 @@ natives/stm/streaming/sound/wwise/em1900_dialogue_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.ja
@@ -109753,6 +109956,7 @@ natives/stm/streaming/sound/wwise/em4000_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.ja
@@ -109762,6 +109966,7 @@ natives/stm/streaming/sound/wwise/em4070_v.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.ja
@@ -109771,6 +109976,7 @@ natives/stm/streaming/sound/wwise/em4070_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.ja
@@ -109780,6 +109986,7 @@ natives/stm/streaming/sound/wwise/em4090_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.ja
@@ -109789,6 +109996,7 @@ natives/stm/streaming/sound/wwise/em4100_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.ja
@@ -109798,6 +110006,7 @@ natives/stm/streaming/sound/wwise/em4101_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.ja
@@ -109807,6 +110016,7 @@ natives/stm/streaming/sound/wwise/em4102_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.ja
@@ -109816,6 +110026,7 @@ natives/stm/streaming/sound/wwise/em4103_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.ja
@@ -109825,6 +110036,7 @@ natives/stm/streaming/sound/wwise/em4104_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.ja
@@ -109834,6 +110046,7 @@ natives/stm/streaming/sound/wwise/em4105_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.ja
@@ -109843,6 +110056,7 @@ natives/stm/streaming/sound/wwise/em4107_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.ja
@@ -109852,6 +110066,7 @@ natives/stm/streaming/sound/wwise/em4110_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.ja
@@ -109861,6 +110076,7 @@ natives/stm/streaming/sound/wwise/em4120_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.ja
@@ -109870,6 +110086,7 @@ natives/stm/streaming/sound/wwise/em4121_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.ja
@@ -109879,6 +110096,7 @@ natives/stm/streaming/sound/wwise/em4122_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.ja
@@ -109888,6 +110106,7 @@ natives/stm/streaming/sound/wwise/em4123_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.ja
@@ -109897,6 +110116,7 @@ natives/stm/streaming/sound/wwise/em4124_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.ja
@@ -109906,6 +110126,7 @@ natives/stm/streaming/sound/wwise/em4130_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.ja
@@ -109915,6 +110136,7 @@ natives/stm/streaming/sound/wwise/em4400_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.ja
@@ -109924,6 +110146,7 @@ natives/stm/streaming/sound/wwise/em4410_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.ja
@@ -109933,6 +110156,7 @@ natives/stm/streaming/sound/wwise/em4420_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.ja
@@ -109942,6 +110166,7 @@ natives/stm/streaming/sound/wwise/em4430_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.ja
@@ -109951,6 +110176,7 @@ natives/stm/streaming/sound/wwise/em4432_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.ja
@@ -109960,6 +110186,7 @@ natives/stm/streaming/sound/wwise/em4437_v_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.ja
@@ -109969,6 +110196,7 @@ natives/stm/streaming/sound/wwise/em4440_dialogue_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.ja
@@ -109978,6 +110206,7 @@ natives/stm/streaming/sound/wwise/em4450_dialogue_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.ja
@@ -109987,6 +110216,7 @@ natives/stm/streaming/sound/wwise/em4460_v_dialogue_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.ja
@@ -109996,6 +110226,7 @@ natives/stm/streaming/sound/wwise/event_dialog_chapter10_1_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.ja
@@ -110005,6 +110236,7 @@ natives/stm/streaming/sound/wwise/event_dialog_chapter10_2_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.ja
@@ -110014,6 +110246,7 @@ natives/stm/streaming/sound/wwise/event_dialog_chapter10_3_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.ja
@@ -110023,6 +110256,7 @@ natives/stm/streaming/sound/wwise/event_dialog_chapter10_4_ge.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/event_dialog_chapter10_5_ge.pck.3.x64.ja
@@ -110038,6 +110272,7 @@ natives/stm/streaming/sound/wwise/lvd_lib_se_c02_6.pck.3.x64
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.de
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.en
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.es
+natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.it
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.ja
@@ -110047,6 +110282,7 @@ natives/stm/streaming/sound/wwise/lvd_lib_v_c02_3.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.de
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.en
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.es
+natives/stm/streaming/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.it
 natives/stm/streaming/sound/wwise/lvd_lib_v_c02_6.pck.3.x64.ja
@@ -110057,6 +110293,7 @@ natives/stm/streaming/sound/wwise/movie_bonus.pck.3.x64
 natives/stm/streaming/sound/wwise/movie_bonus_dialog.pck.3.x64.de
 natives/stm/streaming/sound/wwise/movie_bonus_dialog.pck.3.x64.en
 natives/stm/streaming/sound/wwise/movie_bonus_dialog.pck.3.x64.es
+natives/stm/streaming/sound/wwise/movie_bonus_dialog.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/movie_bonus_dialog.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/movie_bonus_dialog.pck.3.x64.it
 natives/stm/streaming/sound/wwise/movie_bonus_dialog.pck.3.x64.ja
@@ -110067,6 +110304,7 @@ natives/stm/streaming/sound/wwise/movie_chapter1.pck.3.x64
 natives/stm/streaming/sound/wwise/movie_chapter1_dialog.pck.3.x64.de
 natives/stm/streaming/sound/wwise/movie_chapter1_dialog.pck.3.x64.en
 natives/stm/streaming/sound/wwise/movie_chapter1_dialog.pck.3.x64.es
+natives/stm/streaming/sound/wwise/movie_chapter1_dialog.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/movie_chapter1_dialog.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/movie_chapter1_dialog.pck.3.x64.it
 natives/stm/streaming/sound/wwise/movie_chapter1_dialog.pck.3.x64.ja
@@ -110078,6 +110316,7 @@ natives/stm/streaming/sound/wwise/movie_chapter3.pck.3.x64
 natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.de
 natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.en
 natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.es
+natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.it
 natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.ja
@@ -110087,6 +110326,7 @@ natives/stm/streaming/sound/wwise/movie_chapter3_dialog.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/pl1000_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/pl1000_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/pl1000_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/pl1000_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/pl1000_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/pl1000_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/pl1000_dialogue.pck.3.x64.ja
@@ -110097,6 +110337,7 @@ natives/stm/streaming/sound/wwise/pl1000_se_stream.pck.3.x64
 natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.de
 natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.en
 natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.es
+natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.it
 natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.ja
@@ -110106,6 +110347,7 @@ natives/stm/streaming/sound/wwise/pl2000_dialogue.pck.3.x64.zhcn
 natives/stm/streaming/sound/wwise/pl3000_dialogue_ge.pck.3.x64.de
 natives/stm/streaming/sound/wwise/pl3000_dialogue_ge.pck.3.x64.en
 natives/stm/streaming/sound/wwise/pl3000_dialogue_ge.pck.3.x64.es
+natives/stm/streaming/sound/wwise/pl3000_dialogue_ge.pck.3.x64.es419
 natives/stm/streaming/sound/wwise/pl3000_dialogue_ge.pck.3.x64.fr
 natives/stm/streaming/sound/wwise/pl3000_dialogue_ge.pck.3.x64.it
 natives/stm/streaming/sound/wwise/pl3000_dialogue_ge.pck.3.x64.ja
@@ -110158,6 +110400,8 @@ natives/stm/systems/develop/shadereditor/sphere.mesh.2101050001
 natives/stm/systems/develop/shape.sdf.2102188797
 natives/stm/systems/dynamics/default.def.6
 natives/stm/systems/effect/chijiiwa_pat128_msk1.tex.30
+natives/stm/systems/effect/chijiiwa_pat256_msk1.tex.30
+natives/stm/systems/effect/chijiiwa_pat512_msk1.tex.30
 natives/stm/systems/effect/defaultparticlerefract.mmtr.2102188797
 natives/stm/systems/effect/defaultprimitivemastermaterial.mmtr.2102188797
 natives/stm/systems/effect/defaultprimitivemesh.mmtr.2102188797
@@ -110228,13 +110472,19 @@ natives/stm/systems/rendering/materialeditor/st0000/sm00018.pfb.17
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfx_devtest_00.mdf2.19
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_00.mesh.2101050001
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_alb.tex.30
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_albm.tex.30
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_nrm.tex.30
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_a_nrmr.tex.30
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_alb.tex.30
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_albm.tex.30
 natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_nrm.tex.30
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_nrmr.tex.30
+natives/stm/systems/rendering/materialeditor/st0000/sm00018_vfxdevtest_b_rgh.tex.30
 natives/stm/systems/rendering/materialeditor/st0000/sm00024.pfb.17
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_00.mdf2.19
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_00.mesh.2101050001
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_alb.tex.30
+natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_albm.tex.30
 natives/stm/systems/rendering/materialeditor/st0000/sm00024_vfxlooktable_met.tex.30
 natives/stm/systems/rendering/materialeditor/st0000/st0000_00_00.lprb.6
 natives/stm/systems/rendering/materialeditor/st0000/st0000_00_00.prb.9
@@ -112111,6 +112361,7 @@ natives/stm/vfx/mesh/mesh_other/sm84_028_cookware_00/sm84_028_soup_00.mesh.21010
 natives/stm/vfx/mesh/mesh_other/sm84_028_cookware_00/sm84_028_soup_00_msk4.tex.30
 natives/stm/vfx/mesh/mesh_other/sm84_068_cockware_00/sm84_068_ciorbadelegume_00.mdf2.19
 natives/stm/vfx/mesh/mesh_other/sm84_068_cockware_00/sm84_068_ingredients_00.mdf2.19
+natives/stm/vfx/mesh/mesh_other/sm84_068_cockware_00/sm84_068_ingredients_00_00.mesh.2101050001
 natives/stm/vfx/mesh/mesh_other/sm84_068_cockware_00/sm84_068_ingredients_01_00.mesh.2101050001
 natives/stm/vfx/mesh/mesh_other/sm84_068_cockware_00/sm84_068_ingredients_01_00.mot.458
 natives/stm/vfx/mesh/mesh_other/sm84_068_cockware_00/sm84_068_ingredients_02_00.mesh.2101050001
@@ -112155,6 +112406,7 @@ natives/stm/vfx/mesh/mesh_props/sm80_304/mesh_0005_sm80_304_water00.mdf2.19
 natives/stm/vfx/mesh/mesh_props/sm80_304/mesh_0005_sm80_304_water00_alba.tex.30
 natives/stm/vfx/mesh/mesh_props/sm80_304/mesh_0005_sm80_304_water_00_00_alb.tex.30
 natives/stm/vfx/mesh/mesh_props/sm80_304/mesh_0005_sm80_304_water_00_00_nrm.tex.30
+natives/stm/vfx/mesh/mesh_props/sm80_304/mesh_0005_sm80_304_water_00_01_nrm.tex.30
 natives/stm/vfx/mesh/mesh_props/sm80_304/shader_0005_sm80_304_water00.mmtr.2102188797
 natives/stm/vfx/mesh/mesh_props/sm80_306/mesh_0005_sm80_306_water_00_00.mesh.2101050001
 natives/stm/vfx/mesh/mesh_props/sm80_306/mesh_0005_sm80_306_water_00_01.mesh.2101050001
@@ -112235,6 +112487,7 @@ natives/stm/vfx/mesh/mesh_water/st13_shallowwater/mesh_0005_water_st13_shallowwa
 natives/stm/vfx/mesh/mesh_water/st13_shallowwater/mesh_0005_water_st13_shallowwater_05_msk2 .tex.30
 natives/stm/vfx/mesh/mesh_water/st13_shallowwater/mesh_0005_water_st13_shallowwater_05_msk4.tex.30
 natives/stm/vfx/mesh/mesh_water/st14_shallowwater/mesh_0005_water_st14_shallowwater_00_00.mdf2.19
+natives/stm/vfx/mesh/mesh_water/st14_shallowwater/mesh_0005_water_st14_understream_00_msk2.tex.30
 natives/stm/vfx/mesh/mesh_water/st14_shallowwater/mesh_0005_water_st14_understream_00_msk4.tex.30
 natives/stm/vfx/mesh/mesh_water/st14_shallowwater/mesh_0005_water_st14_understream_00_nrm.tex.30
 natives/stm/vfx/mesh/mesh_water/st15_shallowwater/mesh_0005_water_st15_shallowwater_00_00.mdf2.19
@@ -112260,6 +112513,7 @@ natives/stm/vfx/mesh/mesh_water/wave00/mesh_0005_wave_01_nrm.tex.30
 natives/stm/vfx/mesh/mesh_water/wave00/mesh_0005_wave_bump_00.mesh.2101050001
 natives/stm/vfx/mesh/mesh_water/wave00/mesh_0005_wave_ripple_00.mesh.2101050001
 natives/stm/vfx/mesh/mesh_water/wave00/mesh_0005_wave_ripple_01.mesh.2101050001
+natives/stm/vfx/mesh/mesh_water/wave00/mesh_0005_wave_ripple_02.mesh.2101050001
 natives/stm/vfx/mesh/mesh_water/wave01/mesh_0005_water_wave.mdf2.19
 natives/stm/vfx/mesh/mesh_water/wave01/mesh_0005_wave_lean_fast_l_00.mesh.2101050001
 natives/stm/vfx/mesh/mesh_water/wave01/mesh_0005_wave_lean_fast_r_00.mesh.2101050001
@@ -113592,6 +113846,7 @@ natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0002.uvs.7
 natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0002_alpg.tex.30
 natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0003.uvs.7
 natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0003_alpg.tex.30
+natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0005.uvs.7
 natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0005_alpg.tex.30
 natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0006.uvs.7
 natives/stm/vfx/texture/tex_electrical/tex_0005_electrical_00_0006_alpg.tex.30
@@ -113888,6 +114143,7 @@ natives/stm/vfx/texture/tex_textureunit/tex_0005_textureunit_01_0000_alpg.tex.30
 natives/stm/vfx/texture/tex_textureunit/tex_0005_textureunit_01_0003.uvs.7
 natives/stm/vfx/texture/tex_textureunit/tex_0005_textureunit_01_0003_msk4.tex.30
 natives/stm/vfx/texture/tex_textureunit/tex_0005_textureunit_02_0000_alpg.tex.30
+natives/stm/vfx/texture/tex_textureunit/tex_0005_textureunit_02_0000_msk1.tex.30
 natives/stm/vfx/texture/tex_textureunit/tex_0005_textureunit_02_0001_msk1.tex.30
 natives/stm/vfx/texture/tex_vector/tex_0005_vector_distortion_lens_0000.uvs.7
 natives/stm/vfx/texture/tex_vector/tex_0005_vector_distortion_lens_0000_msk4.tex.30
