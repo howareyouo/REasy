@@ -1,6 +1,3 @@
-10/23/2025, 04/02/2026 updated by battlezone
-8/13/2025 updated by battlezone
-9/21/2023 re4 list by nsa cloud, dtlnor
 natives/stm/_anotherorder/animation/ch/cha1/motbank/cha1_npc_cp11.motbank.3
 natives/stm/_anotherorder/animation/ch/cha1/motlist/cha1_ac0200h.motlist.663
 natives/stm/_anotherorder/animation/ch/cha1/motlist/cha1_ac0300h.motlist.663
@@ -163923,6 +163920,7 @@ natives/stm/streaming/_chainsaw/mastermaterial/textures/env_wetfloor/tex_ptn/wet
 natives/stm/streaming/_chainsaw/mastermaterial/textures/fakeglass_alba.tex.143221013
 natives/stm/streaming/_chainsaw/mastermaterial/textures/frostmask_nrrc.tex.143221013
 natives/stm/streaming/_chainsaw/mastermaterial/textures/noisemap_03_msk1.tex.143221013
+natives/stm/streaming/_chainsaw/mastermaterial/textures/nullstitch.tex.143221013
 natives/stm/streaming/_chainsaw/mastermaterial/textures/nullwhitearray.tex.143221013
 natives/stm/streaming/_chainsaw/mastermaterial/textures/rainmask1_nrrc.tex.143221013
 natives/stm/streaming/_chainsaw/mastermaterial/textures/rainmask2_nrrc.tex.143221013
@@ -163973,6 +163971,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_bgm_resident.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.ja
@@ -163982,6 +163981,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cha3_voice_emo.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.ja
@@ -163991,6 +163991,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cha7_voice_emo.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.ja
@@ -164000,6 +164001,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_emo.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_jack.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_jack.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_jack.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_jack.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_jack.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_jack.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cha8_voice_jack.spck.1.x64.ja
@@ -164010,6 +164012,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse000_dialogue.spck.1.x64.ja
@@ -164021,6 +164024,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse010_dialogue.spck.1.x64.ja
@@ -164033,6 +164037,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse030_dialogue.spck.1.x64.ja
@@ -164045,6 +164050,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse040_dialogue.spck.1.x64.ja
@@ -164056,6 +164062,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_dialogue.spck.1.x64.ja
@@ -164066,6 +164073,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse100_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse120_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse120_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse120_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse120_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse120_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse120_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse120_dialogue.spck.1.x64.ja
@@ -164077,6 +164085,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse130_dialogue.spck.1.x64.ja
@@ -164088,6 +164097,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse140_dialogue.spck.1.x64.ja
@@ -164100,6 +164110,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse145_dialogue.spck.1.x64.ja
@@ -164111,6 +164122,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_dialogue.spck.1.x64.ja
@@ -164121,6 +164133,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse150_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse200_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse200_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse200_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse200_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse200_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse200_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse200_dialogue.spck.1.x64.ja
@@ -164132,6 +164145,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_dialogue.spck.1.x64.ja
@@ -164142,6 +164156,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse210_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_dialogue.spck.1.x64.ja
@@ -164152,6 +164167,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse213_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse215_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse215_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse215_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse215_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse215_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse215_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse215_dialogue.spck.1.x64.ja
@@ -164163,6 +164179,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse220_dialogue.spck.1.x64.ja
@@ -164174,6 +164191,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse225_dialogue.spck.1.x64.ja
@@ -164185,6 +164203,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse240_dialogue.spck.1.x64.ja
@@ -164196,6 +164215,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse250_dialogue.spck.1.x64.ja
@@ -164207,6 +164227,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse300_dialogue.spck.1.x64.ja
@@ -164219,6 +164240,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse302_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse305_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse305_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse305_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse305_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse305_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse305_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse305_dialogue.spck.1.x64.ja
@@ -164230,6 +164252,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_dialogue.spck.1.x64.ja
@@ -164240,6 +164263,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse310_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse315_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse315_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse315_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse315_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse315_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse315_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse315_dialogue.spck.1.x64.ja
@@ -164251,6 +164275,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse320_dialogue.spck.1.x64.ja
@@ -164262,6 +164287,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse335_dialogue.spck.1.x64.ja
@@ -164273,6 +164299,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse340_dialogue.spck.1.x64.ja
@@ -164284,6 +164311,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse345_dialogue.spck.1.x64.ja
@@ -164295,6 +164323,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse350_dialogue.spck.1.x64.ja
@@ -164306,6 +164335,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse353_dialogue.spck.1.x64.ja
@@ -164317,6 +164347,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse355_dialogue.spck.1.x64.ja
@@ -164328,6 +164359,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_dialogue.spck.1.x64.ja
@@ -164338,6 +164370,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse356_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse357_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse357_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse357_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse357_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse357_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse357_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse357_dialogue.spck.1.x64.ja
@@ -164349,6 +164382,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse365_dialogue.spck.1.x64.ja
@@ -164360,6 +164394,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_dialogue.spck.1.x64.ja
@@ -164370,6 +164405,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse375_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse400_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse400_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse400_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse400_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse400_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse400_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse400_dialogue.spck.1.x64.ja
@@ -164381,6 +164417,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse410_dialogue.spck.1.x64.ja
@@ -164392,6 +164429,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse420_dialogue.spck.1.x64.ja
@@ -164403,6 +164441,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse435_dialogue.spck.1.x64.ja
@@ -164414,6 +164453,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse440_dialogue.spck.1.x64.ja
@@ -164425,6 +164465,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_dialogue.spck.1.x64.ja
@@ -164435,6 +164476,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse450_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse455_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse455_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse455_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse455_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse455_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse455_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse455_dialogue.spck.1.x64.ja
@@ -164446,6 +164488,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_dialogue.spck.1.x64.ja
@@ -164456,6 +164499,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse460_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse500_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse500_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse500_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse500_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse500_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse500_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse500_dialogue.spck.1.x64.ja
@@ -164467,6 +164511,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse510_dialogue.spck.1.x64.ja
@@ -164478,6 +164523,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse520_dialogue.spck.1.x64.ja
@@ -164489,6 +164535,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_dialogue.spck.1.x64.ja
@@ -164499,6 +164546,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse530_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_dialogue.spck.1.x64.ja
@@ -164509,6 +164557,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse540_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse545_dialogue.spck.1.x64.ja
@@ -164520,6 +164569,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse550_dialogue.spck.1.x64.ja
@@ -164531,6 +164581,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse570_dialogue.spck.1.x64.ja
@@ -164542,6 +164593,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse590_dialogue.spck.1.x64.ja
@@ -164553,6 +164605,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse599_dialogue.spck.1.x64.ja
@@ -164566,6 +164619,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse920_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.ja
@@ -164575,6 +164629,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl00_dialogue.spck.1.x64.z
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl02_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl02_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl02_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl02_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl02_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl02_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_fl02_dialogue.spck.1.x64.ja
@@ -164585,6 +164640,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse930_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_dialogue.spck.1.x64.ja
@@ -164595,6 +164651,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse940_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse941_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse941_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse941_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse941_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse941_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse941_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse941_dialogue.spck.1.x64.ja
@@ -164606,6 +164663,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse942_dialogue.spck.1.x64.ja
@@ -164617,6 +164675,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse943_dialogue.spck.1.x64.ja
@@ -164628,6 +164687,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_dialogue.spck.1.x64.ja
@@ -164638,6 +164698,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_cse944_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_dialogue_voice.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_dialogue_voice.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_dialogue_voice.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_dialogue_voice.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_dialogue_voice.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_dialogue_voice.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_dialogue_voice.spck.1.x64.ja
@@ -164650,6 +164711,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_vo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_vo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_vo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_vo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_vo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_vo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ao_loc55_level_vo.spck.1.x64.ja
@@ -164682,6 +164744,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.ja
@@ -164691,6 +164754,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.ja
@@ -164700,6 +164764,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_cha0_voice_emo.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.ja
@@ -164709,6 +164774,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_cha1_voice_emo.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.ja
@@ -164718,6 +164784,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_cha3_voice_emo.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha7_voice_emo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha7_voice_emo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha7_voice_emo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_cha7_voice_emo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha7_voice_emo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha7_voice_emo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_cha7_voice_emo.spck.1.x64.ja
@@ -164775,6 +164842,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_dialogue.spck.1.x64.ja
@@ -164785,6 +164853,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa003_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa007_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa007_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa007_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa007_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa007_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa007_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa007_dialogue.spck.1.x64.ja
@@ -164799,6 +164868,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa011_dialogue.spck.1.x64.ja
@@ -164810,6 +164880,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa012_dialogue.spck.1.x64.ja
@@ -164821,6 +164892,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_dialogue.spck.1.x64.ja
@@ -164831,6 +164903,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa013_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa015_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa015_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa015_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa015_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa015_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa015_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa015_dialogue.spck.1.x64.ja
@@ -164842,6 +164915,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa016_dialogue.spck.1.x64.ja
@@ -164853,6 +164927,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_dialogue.spck.1.x64.ja
@@ -164863,6 +164938,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa017_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa018_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa018_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa018_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa018_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa018_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa018_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa018_dialogue.spck.1.x64.ja
@@ -164874,6 +164950,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa019_dialogue.spck.1.x64.ja
@@ -164885,6 +164962,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa020_dialogue.spck.1.x64.ja
@@ -164896,6 +164974,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa022_dialogue.spck.1.x64.ja
@@ -164908,6 +164987,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_dialogue.spck.1.x64.ja
@@ -164918,6 +164998,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa024_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa025_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa025_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa025_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa025_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa025_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa025_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa025_dialogue.spck.1.x64.ja
@@ -164929,6 +165010,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa026_dialogue.spck.1.x64.ja
@@ -164940,6 +165022,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa027_dialogue.spck.1.x64.ja
@@ -164951,6 +165034,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_dialogue.spck.1.x64.ja
@@ -164961,6 +165045,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa028_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_dialogue.spck.1.x64.ja
@@ -164971,6 +165056,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa029_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa030_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa030_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa030_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa030_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa030_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa030_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa030_dialogue.spck.1.x64.ja
@@ -164982,6 +165068,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa031_dialogue.spck.1.x64.ja
@@ -164993,6 +165080,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa032_dialogue.spck.1.x64.ja
@@ -165004,6 +165092,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa034_dialogue.spck.1.x64.ja
@@ -165015,6 +165104,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa036_dialogue.spck.1.x64.ja
@@ -165026,6 +165116,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa037_dialogue.spck.1.x64.ja
@@ -165037,6 +165128,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa038_dialogue.spck.1.x64.ja
@@ -165048,6 +165140,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa039_dialogue.spck.1.x64.ja
@@ -165059,6 +165152,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa041_dialogue.spck.1.x64.ja
@@ -165071,6 +165165,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_dialogue.spck.1.x64.ja
@@ -165081,6 +165176,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa044_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa045_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa045_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa045_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa045_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa045_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa045_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa045_dialogue.spck.1.x64.ja
@@ -165092,6 +165188,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_dialogue.spck.1.x64.ja
@@ -165102,6 +165199,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa046_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa047_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa047_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa047_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa047_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa047_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa047_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa047_dialogue.spck.1.x64.ja
@@ -165113,6 +165211,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa048_dialogue.spck.1.x64.ja
@@ -165124,6 +165223,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_dialogue.spck.1.x64.ja
@@ -165134,6 +165234,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl00_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl01_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl01_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl01_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl01_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl01_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl01_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa049_fl01_dialogue.spck.1.x64.ja
@@ -165145,6 +165246,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa051_dialogue.spck.1.x64.ja
@@ -165156,6 +165258,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_dialogue.spck.1.x64.ja
@@ -165166,6 +165269,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa054_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_dialogue.spck.1.x64.ja
@@ -165176,6 +165280,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa055_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa056_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa056_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa056_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa056_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa056_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa056_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa056_dialogue.spck.1.x64.ja
@@ -165187,6 +165292,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa060_dialogue.spck.1.x64.ja
@@ -165198,6 +165304,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa061_dialogue.spck.1.x64.ja
@@ -165209,6 +165316,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa062_dialogue.spck.1.x64.ja
@@ -165220,6 +165328,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa063_dialogue.spck.1.x64.ja
@@ -165231,6 +165340,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa064_dialogue.spck.1.x64.ja
@@ -165242,6 +165352,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa066_dialogue.spck.1.x64.ja
@@ -165253,6 +165364,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa067_dialogue.spck.1.x64.ja
@@ -165264,6 +165376,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa068_dialogue.spck.1.x64.ja
@@ -165275,6 +165388,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa069_dialogue.spck.1.x64.ja
@@ -165286,6 +165400,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa071_dialogue.spck.1.x64.ja
@@ -165297,6 +165412,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_dialogue.spck.1.x64.ja
@@ -165307,6 +165423,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa073_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa074_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa074_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa074_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa074_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa074_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa074_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa074_dialogue.spck.1.x64.ja
@@ -165318,6 +165435,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_dialogue.spck.1.x64.ja
@@ -165328,6 +165446,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa075_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_dialogue.spck.1.x64.ja
@@ -165338,6 +165457,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa076_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_dialogue.spck.1.x64.ja
@@ -165348,6 +165468,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa077_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_dialogue.spck.1.x64.ja
@@ -165358,6 +165479,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa082_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa086_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa086_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa086_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa086_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa086_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa086_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa086_dialogue.spck.1.x64.ja
@@ -165370,6 +165492,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_dialogue.spck.1.x64.ja
@@ -165380,6 +165503,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa092_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa093_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa093_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa093_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa093_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa093_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa093_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa093_dialogue.spck.1.x64.ja
@@ -165392,6 +165516,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa105_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.ja
@@ -165401,6 +165526,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa110_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.ja
@@ -165410,6 +165536,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa111_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa113_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa113_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa113_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa113_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa113_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa113_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa113_dialogue.spck.1.x64.ja
@@ -165421,6 +165548,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_dialogue.spck.1.x64.ja
@@ -165431,6 +165559,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa114_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_dialogue.spck.1.x64.ja
@@ -165441,6 +165570,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa117_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa118_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa118_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa118_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa118_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa118_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa118_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa118_dialogue.spck.1.x64.ja
@@ -165453,6 +165583,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa120_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_dialogue.spck.1.x64.ja
@@ -165463,6 +165594,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa125_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_dialogue.spck.1.x64.ja
@@ -165473,6 +165605,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa126_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_dialogue.spck.1.x64.ja
@@ -165483,6 +165616,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa127_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_dialogue.spck.1.x64.ja
@@ -165493,6 +165627,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa128_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_dialogue.spck.1.x64.ja
@@ -165503,6 +165638,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa136_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_dialogue.spck.1.x64.ja
@@ -165513,6 +165649,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa137_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa138_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa138_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa138_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa138_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa138_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa138_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa138_dialogue.spck.1.x64.ja
@@ -165524,6 +165661,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_dialogue.spck.1.x64.ja
@@ -165534,6 +165672,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa139_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_dialogue.spck.1.x64.ja
@@ -165544,6 +165683,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa140_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_dialogue.spck.1.x64.ja
@@ -165554,6 +165694,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa142_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa143_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa143_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa143_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa143_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa143_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa143_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa143_dialogue.spck.1.x64.ja
@@ -165565,6 +165706,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_dialogue.spck.1.x64.ja
@@ -165575,6 +165717,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa147_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.ja
@@ -165584,6 +165727,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa149_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa150_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa150_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa150_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa150_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa150_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa150_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa150_dialogue.spck.1.x64.ja
@@ -165595,6 +165739,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa153_dialogue.spck.1.x64.ja
@@ -165606,6 +165751,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa154_dialogue.spck.1.x64.ja
@@ -165617,6 +165763,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_dialogue.spck.1.x64.ja
@@ -165627,6 +165774,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa155_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa156_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa156_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa156_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa156_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa156_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa156_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa156_dialogue.spck.1.x64.ja
@@ -165640,6 +165788,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa158_dialogue.spck.1.x64.ja
@@ -165651,6 +165800,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_dialogue.spck.1.x64.ja
@@ -165661,6 +165811,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csa159_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_dialogue.spck.1.x64.ja
@@ -165671,6 +165822,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb100_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb101_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb101_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb101_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb101_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb101_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb101_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb101_dialogue.spck.1.x64.ja
@@ -165683,6 +165835,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb103_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_dialogue.spck.1.x64.ja
@@ -165693,6 +165846,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb104_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_dialogue.spck.1.x64.ja
@@ -165703,6 +165857,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb106_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_dialogue.spck.1.x64.ja
@@ -165713,6 +165868,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb107_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_dialogue.spck.1.x64.ja
@@ -165723,6 +165879,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb111_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb112_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb112_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb112_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb112_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb112_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb112_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb112_dialogue.spck.1.x64.ja
@@ -165735,6 +165892,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb114_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_dialogue.spck.1.x64.ja
@@ -165745,6 +165903,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb115_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_dialogue.spck.1.x64.ja
@@ -165755,6 +165914,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb116_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.ja
@@ -165764,6 +165924,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb117_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_dialogue.spck.1.x64.ja
@@ -165774,6 +165935,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb118_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb119_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb119_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb119_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb119_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb119_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb119_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb119_dialogue.spck.1.x64.ja
@@ -165788,6 +165950,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb127_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.ja
@@ -165797,6 +165960,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb128_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.ja
@@ -165806,6 +165970,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb129_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.ja
@@ -165815,6 +165980,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb130_dialogue.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb131_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb131_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb131_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb131_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb131_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb131_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb131_dialogue.spck.1.x64.ja
@@ -165827,6 +165993,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb133_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_dialogue.spck.1.x64.ja
@@ -165837,6 +166004,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb134_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_dialogue.spck.1.x64.ja
@@ -165847,6 +166015,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_csb135_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.ja
@@ -165856,6 +166025,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice.spck.1.x64.zhcn
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice_1st.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice_1st.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice_1st.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice_1st.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice_1st.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice_1st.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_dialogue_voice_1st.spck.1.x64.ja
@@ -165866,6 +166036,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_bgm.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva000_dialogue.spck.1.x64.ja
@@ -165877,6 +166048,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/ch_mva201_se.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva202_dialogue.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva202_dialogue.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva202_dialogue.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/ch_mva202_dialogue.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva202_dialogue.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva202_dialogue.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/ch_mva202_dialogue.spck.1.x64.ja
@@ -165897,6 +166069,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1_vo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1_vo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1_vo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1_vo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1_vo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1_vo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi1_vo.spck.1.x64.ja
@@ -165907,6 +166080,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2_vo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2_vo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2_vo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2_vo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2_vo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2_vo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi2_vo.spck.1.x64.ja
@@ -165917,6 +166091,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3_vo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3_vo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3_vo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3_vo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3_vo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3_vo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi3_vo.spck.1.x64.ja
@@ -165927,6 +166102,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4_vo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4_vo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4_vo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4_vo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4_vo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4_vo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi4_vo.spck.1.x64.ja
@@ -165937,6 +166113,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5_vo.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5_vo.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5_vo.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5_vo.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5_vo.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5_vo.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/mc_chi5_vo.spck.1.x64.ja
@@ -165947,6 +166124,7 @@ natives/stm/streaming/_chainsaw/sound/wwise/mc_chk0_voice.spck.1.x64
 natives/stm/streaming/_chainsaw/sound/wwise/mc_dialogue_voice.spck.1.x64.de
 natives/stm/streaming/_chainsaw/sound/wwise/mc_dialogue_voice.spck.1.x64.en
 natives/stm/streaming/_chainsaw/sound/wwise/mc_dialogue_voice.spck.1.x64.es
+natives/stm/streaming/_chainsaw/sound/wwise/mc_dialogue_voice.spck.1.x64.es419
 natives/stm/streaming/_chainsaw/sound/wwise/mc_dialogue_voice.spck.1.x64.fr
 natives/stm/streaming/_chainsaw/sound/wwise/mc_dialogue_voice.spck.1.x64.it
 natives/stm/streaming/_chainsaw/sound/wwise/mc_dialogue_voice.spck.1.x64.ja
