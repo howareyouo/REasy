@@ -98674,6 +98674,7 @@ natives/stm/systems/develop/ecotope/common/perlinnoise.tex.251111100
 natives/stm/systems/develop/ecotope/v00/_v00.mmtr.251112995
 natives/stm/systems/develop/ecotope/v00/samplenoise.tex.251111100
 natives/stm/systems/develop/ecotope/v20/_v20.mmtr.251112995
+natives/stm/systems/develop/ecotope/v30/_v30_template.mmtr.251112995
 natives/stm/systems/develop/ecotopemapbaker.sdf.251112995
 natives/stm/systems/develop/geometrybrush.sdf.251112995
 natives/stm/systems/develop/ground/defaultheightmap.tex.251111100
@@ -98724,11 +98725,23 @@ natives/stm/systems/effect/vfx_default_uvs.uvs.8
 natives/stm/systems/gui/config.gcf.29
 natives/stm/systems/gui/imageplane_1920x1080.gui.910043
 natives/stm/systems/gui/systemdialog.gui.910043
+natives/stm/systems/materialshader/develop/ecotope/v00/_v00.mmtr.251112995
+natives/stm/systems/materialshader/develop/ecotope/v20/_v20.mmtr.251112995
+natives/stm/systems/materialshader/develop/sdfgenerator/sdfgeneratordefaultshader_speedtree.mmtr.251112995
+natives/stm/systems/materialshader/effect/defaultparticlerefract.mmtr.251112995
+natives/stm/systems/materialshader/effect/defaultprimitivemastermaterial.mmtr.251112995
+natives/stm/systems/materialshader/effect/defaultprimitivemesh.mmtr.251112995
+natives/stm/systems/materialshader/effect/defaultprimitivemesh_pbr.mmtr.251112995
+natives/stm/systems/materialshader/effect/defaultvfxsectionshader.mmtr.251112995
 natives/stm/systems/materialshader/effect/vfx_default_simple.mmtr.251112995
 natives/stm/systems/materialshader/rendering/defaultshader.mmtr.251112995
+natives/stm/systems/materialshader/rendering/defaultshader_sss.mmtr.251112995
+natives/stm/systems/materialshader/rendering/eyeball/eyeballmaterial.mmtr.251112995
 natives/stm/systems/materialshader/rendering/eyeshader/eyeballshader_lite.mmtr.251112995
 natives/stm/systems/materialshader/rendering/eyeshader/eyeballshader_master.mmtr.251112995
 natives/stm/systems/materialshader/rendering/eyeshader/eyeshellshader_master.mmtr.251112995
+natives/stm/systems/materialshader/rendering/eyeshader/test_eyeballshader.mmtr.251112995
+natives/stm/systems/materialshader/rendering/materialeditor/st0000/env_default.mmtr.251112995
 natives/stm/systems/physics/default.cdef.7
 natives/stm/systems/rendering/ambientbrdf.tex.251111100
 natives/stm/systems/rendering/areatex.tex.251111100
@@ -98904,6 +98917,7 @@ natives/stm/systems/rendering/cube.rtex.6
 natives/stm/systems/rendering/default.rtmr.7
 natives/stm/systems/rendering/default_hdrlut.tex.251111100
 natives/stm/systems/rendering/defaultshader.mmtr.251112995
+natives/stm/systems/rendering/defaultshader_sss.mmtr.251112995
 natives/stm/systems/rendering/empty.gpbf.3
 natives/stm/systems/rendering/eyeball/eye_alb.tex.251111100
 natives/stm/systems/rendering/eyeball/eye_nmr.tex.251111100
@@ -99012,6 +99026,8 @@ natives/stm/systems/shader/eyeball.sdf.251112995
 natives/stm/systems/shader/fakelensflare.vsdf.251113002
 natives/stm/systems/shader/ffx_cacao.sdf.251112995
 natives/stm/systems/shader/ffx_sssr.sdf.251112995
+natives/stm/systems/shader/fluid/fluid3d/fluid.sdf.251112995
+natives/stm/systems/shader/fluid/fluid3d/renderer.sdf.251112995
 natives/stm/systems/shader/fluid/waterstream.sdf.251112995
 natives/stm/systems/shader/fog.sdf.251112995
 natives/stm/systems/shader/fsr/ffx_fsr2.sdf.251112995
@@ -99027,6 +99043,7 @@ natives/stm/systems/shader/guisystem.sdf.251112995
 natives/stm/systems/shader/hazecompositor.sdf.251112995
 natives/stm/systems/shader/internal.sdf.251112995.stm
 natives/stm/systems/shader/lighting.sdf.251112995
+natives/stm/systems/shader/lightingfornextproject.sdf.251112995
 natives/stm/systems/shader/lightinghigh.sdf.251112995
 natives/stm/systems/shader/lightinghigh2.sdf.251112995
 natives/stm/systems/shader/lightinglegacy.sdf.251112995
@@ -99044,6 +99061,7 @@ natives/stm/systems/shader/meshvertexpaint.sdf.251112995
 natives/stm/systems/shader/meshwrapper.sdf.251112995
 natives/stm/systems/shader/mlsupport/mlsupport.sdf.251112995
 natives/stm/systems/shader/motion.sdf.251112995
+natives/stm/systems/shader/nfx/coprocess/coprocess.vsdf.251113002
 natives/stm/systems/shader/nodebillboard.vsdf.251113002
 natives/stm/systems/shader/outline.sdf.251112995
 natives/stm/systems/shader/pointgi.sdf.251112995
@@ -99081,6 +99099,8 @@ natives/stm/systems/shader/primitivevfx_ribbonlighting.vsdf.251113002
 natives/stm/systems/shader/primitivevfx_ribbonstochastictransparent.vsdf.251113002
 natives/stm/systems/shader/primitivevfx_ribbontexelopdeferredlighting.vsdf.251113002
 natives/stm/systems/shader/primitivevfx_ribbontexunitdeferredlighting.vsdf.251113002
+natives/stm/systems/shader/primitivevfxcombiners/primitivevfxdebugstereo.vsdf.251113002
+natives/stm/systems/shader/primitivevfxcombiners/primitivevfxdebugstereofsr.vsdf.251113002
 natives/stm/systems/shader/primitivevfxcombiners/primitivevfxstereo_billboard2d.vsdf.251113002
 natives/stm/systems/shader/primitivevfxcombiners/primitivevfxstereo_billboard3d.vsdf.251113002
 natives/stm/systems/shader/primitivevfxcombiners/primitivevfxstereo_billboard3dalphadissolve.vsdf.251113002
@@ -99136,6 +99156,7 @@ natives/stm/systems/shader/primitivevfxcombiners/primitivevfxstereofsr_ribbonsto
 natives/stm/systems/shader/primitivevfxcombiners/primitivevfxstereofsr_ribbontexelopdeferredlighting.vsdf.251113002
 natives/stm/systems/shader/primitivevfxcombiners/primitivevfxstereofsr_ribbontexunitdeferredlighting.vsdf.251113002
 natives/stm/systems/shader/primitivevfxdebug.vsdf.251113002
+natives/stm/systems/shader/primitivevfxstate.vsdf.251113002
 natives/stm/systems/shader/rasterizer/swrasterizer.sdf.251112995
 natives/stm/systems/shader/raytracelensflare/raytracelensflare.sdf.251112995
 natives/stm/systems/shader/raytracingdenoiservfx/raytracingfiltervfx.sdf.251112995
@@ -99221,6 +99242,8 @@ natives/stm/systems/shader/vfx/skinningvfx.vsdf.251113002
 natives/stm/systems/shader/vfx/util/utilityshaders.sdf.251112995
 natives/stm/systems/shader/vfx/vfxfluidparticleemitter.sdf.251112995
 natives/stm/systems/shader/vfx/vfxincludes.vsdf.251113002
+natives/stm/systems/shader/vfx/vfxincludesdebug.vsdf.251113002
+natives/stm/systems/shader/vfx/vfxstates.vsdf.251113002
 natives/stm/systems/shader/vfx/vortexel/geometry/vortexelgeometry.sdf.251112995
 natives/stm/systems/shader/vfx/vortexel/itemtree/vortexelitemtree.sdf.251112995
 natives/stm/systems/shader/vfx/vortexel/physics/vortexelphysics.sdf.251112995
