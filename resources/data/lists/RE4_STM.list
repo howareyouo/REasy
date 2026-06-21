@@ -16540,6 +16540,7 @@ natives/stm/_chainsaw/animation/sm/sm84/sm84_767/sm84_767_0000_down.mot.613
 natives/stm/_chainsaw/animation/sm/sm84/sm84_770/sm84_770_0000_open.mot.613
 natives/stm/_chainsaw/animation/sm/sm84/sm84_777/sm84_777_0000_open.mot.613
 natives/stm/_chainsaw/animation/sm/sm84/sm84_779/sm84_779_0000_fall.mot.613
+natives/stm/_chainsaw/animation/sm/sm84/sm84_790/sm84_790_0000_open.mot.613
 natives/stm/_chainsaw/animation/sm/sm84/sm84_790/sm84_790_0001_open_hand.mot.613
 natives/stm/_chainsaw/animation/sm/sm84/sm84_790/sm84_790_0002_open_beast.mot.613
 natives/stm/_chainsaw/animation/sm/sm84/sm84_791/sm84_791_0000_set.mot.613
@@ -46133,6 +46134,7 @@ natives/stm/_chainsaw/appsystem/character/ch1f8z0/ch1f800.jmap.19
 natives/stm/_chainsaw/appsystem/character/ch1f8z0/ch1f800_head.jmap.19
 natives/stm/_chainsaw/appsystem/character/ch1f8z0/ch1f8z0_body.pfb.17
 natives/stm/_chainsaw/appsystem/character/ch1f8z0/ch1f8z0_head.pfb.17
+natives/stm/_chainsaw/appsystem/character/ch1f8z0/ch1f8z0dummyskeleton.skeleton.5
 natives/stm/_chainsaw/appsystem/character/ch1f8z0/collider/ch1f800_00.rcol.25
 natives/stm/_chainsaw/appsystem/character/ch1f8z0/collider/ch1f800_00_foot.rbs.34
 natives/stm/_chainsaw/appsystem/character/ch1f8z0/collider/ch1f800_00_footl.rbs.34
@@ -62783,6 +62785,7 @@ natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_536/sm01_536_00.mesh.2211087
 natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_536/sm01_536_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_537/sm01_537_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_537/sm01_537_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_544/sm01_544_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_548/sm01_548_01.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_548/sm01_548_01_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm0x/sm01/sm01_561/sm01_561_00.mesh.221108797
@@ -77690,6 +77693,8 @@ natives/stm/_chainsaw/environment/sm/sm7x/sm72/sm72_505/sm72_505_00.mesh.2211087
 natives/stm/_chainsaw/environment/sm/sm7x/sm72/sm72_505/sm72_505_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm7x/sm72/sm72_506/sm72_506_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm7x/sm72/sm72_506/sm72_506_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm7x/sm73/sm73_308/sm73_308_00.mesh.221108797
+natives/stm/_chainsaw/environment/sm/sm7x/sm73/sm73_308/sm73_308_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm7x/sm73/sm73_309/sm73_309_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm7x/sm73/sm73_309/sm73_309_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm7x/sm73/sm73_500/sm73_500_00.mesh.221108797
@@ -78718,6 +78723,10 @@ natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_532/sm80_532_01_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_532/sm80_532_02_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_532/sm80_532_02_r.rmesh.24013
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_532/sm80_532_02_t.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_534/sm80_534_00.mesh.221108797
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_534/sm80_534_00_e.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_534/sm80_534_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_534/sm80_534_00_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_537/sm80_537_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_537/sm80_537_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_537/sm80_537_00_mat.mdf2.32
@@ -78966,6 +78975,10 @@ natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_582/sm80_582_01.mesh.2211087
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_582/sm80_582_01_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_582/sm80_582_01_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_582/sm80_582_01_t.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_584/sm80_584_00.mesh.221108797
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_584/sm80_584_00_e.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_584/sm80_584_00_mat.mdf2.32
+natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_584/sm80_584_00_t.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_585/sm80_585_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_585/sm80_585_00_e.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm8x/sm80/sm80_585/sm80_585_00_mat.mdf2.32
@@ -82591,6 +82604,7 @@ natives/stm/_chainsaw/environment/sm/sm8x/sm84/sm84_913/sm84_913_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm85/sm85_500/sm85_500_00.mesh.221108797
 natives/stm/_chainsaw/environment/sm/sm8x/sm85/sm85_500/sm85_500_00_mat.mdf2.32
 natives/stm/_chainsaw/environment/sm/sm8x/sm85/sm85_500/sm85_500_00_t.mcol.20021
+natives/stm/_chainsaw/environment/sm/sm8x/sm85/sm85_500/sm85_500_foliage.fol.3
 natives/stm/_chainsaw/environment/sm/sm8x/sm85/sm85_501/sm85_501_foliage.fol.3
 natives/stm/_chainsaw/environment/sm/sm8x/sm85/sm85_501/sm85_501_foliage_effectdefault.mcol.20021
 natives/stm/_chainsaw/environment/sm/sm9x/sm90/sm90_543/sm90_543_00.mesh.221108797
@@ -126779,6 +126793,7 @@ natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_100/efd_0015_
 natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_101/efd_0015_st61_101_0000.efx.3539837
 natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_102/efd_0015_st61_102_0000.efx.3539837
 natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_104/efd_0015_st61_104_0000.efx.3539837
+natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_104/efd_0015_st61_104_2000.efx.3539837
 natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_104/efd_0015_st61_104_2001.efx.3539837
 natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_104/efd_0015_st61_104_2100.efx.3539837
 natives/stm/_chainsaw/vfx/effecteditor/efd_stage/efd_st61/efd_st61_105/efd_0015_st61_105_0000.efx.3539837
